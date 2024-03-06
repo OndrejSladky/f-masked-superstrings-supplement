@@ -38,32 +38,32 @@ df.fmsi_stats <- df.fmsi_stats0 %>%
 
 # second for ProPhex -----------------------------------------------------------
 
-df.prophasm_memtime <- read_tsv("prophasm_memtime.kamenac.tsv") %>%
-    mutate(S_time_s = `user(s)`+`sys(s)`) %>%
-    mutate(S_mem_kb = `max_RAM(kb)`) %>%
-    select(genome, rate, S_alg, k, d, S_time_s, S_mem_kb)
-#print(df.prophasm_memtime)
-df.prophex_memtime <- read_tsv("prophex_memtime.kamenac.tsv") %>%
-    mutate(I_time_s = `user(s)`+`sys(s)`) %>%
-    mutate(I_mem_kb = `max_RAM(kb)`) %>%
-    select(genome, rate, S_alg, k, d, I_time_s, I_mem_kb)
-df.prophex_query_memtime <- read_tsv("prophex_query_memtime.kamenac.tsv") %>%
-    mutate(Q_time_s = `user(s)`+`sys(s)`) %>%
-    mutate(Q_mem_kb = `max_RAM(kb)`) %>%
-    select(genome, rate, S_alg, k, d, Q_time_s, Q_mem_kb, qType)
- # obsolete: for MULTITHREADED computation, use (`user(s)`+`sys(s)`) / (as.numeric(sub("%", "",percent_CPU,fixed=TRUE))/100)
+# df.prophasm_memtime <- read_tsv("prophasm_memtime.kamenac.tsv") %>%
+#     mutate(S_time_s = `user(s)`+`sys(s)`) %>%
+#     mutate(S_mem_kb = `max_RAM(kb)`) %>%
+#     select(genome, rate, S_alg, k, d, S_time_s, S_mem_kb)
+# #print(df.prophasm_memtime)
+# df.prophex_memtime <- read_tsv("prophex_memtime.kamenac.tsv") %>%
+#     mutate(I_time_s = `user(s)`+`sys(s)`) %>%
+#     mutate(I_mem_kb = `max_RAM(kb)`) %>%
+#     select(genome, rate, S_alg, k, d, I_time_s, I_mem_kb)
+# df.prophex_query_memtime <- read_tsv("prophex_query_memtime.kamenac.tsv") %>%
+#     mutate(Q_time_s = `user(s)`+`sys(s)`) %>%
+#     mutate(Q_mem_kb = `max_RAM(kb)`) %>%
+#     select(genome, rate, S_alg, k, d, Q_time_s, Q_mem_kb, qType)
+#  # obsolete: for MULTITHREADED computation, use (`user(s)`+`sys(s)`) / (as.numeric(sub("%", "",percent_CPU,fixed=TRUE))/100)
 
-df.prophex_stats0 <- df.size_stats %>%
-    filter(I_alg == "prophex") %>%
-    full_join(df.prophasm_memtime) %>%
-    full_join(df.prophex_memtime) %>%
-    full_join(df.prophex_query_memtime)
+# df.prophex_stats0 <- df.size_stats %>%
+#     filter(I_alg == "prophex") %>%
+#     full_join(df.prophasm_memtime) %>%
+#     full_join(df.prophex_memtime) %>%
+#     full_join(df.prophex_query_memtime)
     
-df.prophex_stats <- df.prophex_stats0 %>%
-    mutate(SI_time_s = S_time_s + I_time_s) %>%
-    mutate(SI_mem_kb = apply( df.prophex_stats0[c('S_mem_kb', 'I_mem_kb')], 1, max )) %>%
-    arrange(genome, rate, k, S_alg, d, qType) 
-show(df.prophex_stats)
+# df.prophex_stats <- df.prophex_stats0 %>%
+#     mutate(SI_time_s = S_time_s + I_time_s) %>%
+#     mutate(SI_mem_kb = apply( df.prophex_stats0[c('S_mem_kb', 'I_mem_kb')], 1, max )) %>%
+#     arrange(genome, rate, k, S_alg, d, qType) 
+# show(df.prophex_stats)
 
 # new second for BWA -----------------------------------------------------------
 
