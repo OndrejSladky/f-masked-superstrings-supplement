@@ -29,7 +29,6 @@ escherichia_coli.k32	0.01	sbwt	none	15	0	975841	1000000	7679216	sbwt.escherichia
 escherichia_coli.k32	0.01	sbwt	none	15	1	975841	1000000	4612528	sbwt.escherichia_coli.k32.S_none.k_15.d_1	0.86	33760	0	13.92	312768
 escherichia_coli.k32	0.01	sbwt	none	15	1	975841	1000000	4612528	sbwt.escherichia_coli.k32.S_none.k_15.d_1	0.84	33760	Neg	13.92	312768
 escherichia_coli.k32	0.01	sbwt	none	15	1	975841	1000000	4612528	sbwt.escherichia_coli.k32.S_none.k_15.d_1	1	33760	Pos	13.92	312768
-escherichia_coli.k32	0.01	na	prophasm	15	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.01	bwa	prophasm	17	na	1241932	1000000	74097868	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	4.58	157472	0	13.82	216800
 escherichia_coli.k32	0.01	bwa	prophasm	17	na	1241932	1000000	74097868	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	4.5	157472	Neg	13.82	216800
 escherichia_coli.k32	0.01	bwa	prophasm	17	na	1241932	1000000	74097868	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	6.3500000000000005	157472	Pos	13.82	216800
@@ -60,7 +59,6 @@ escherichia_coli.k32	0.01	sbwt	none	17	0	1241932	1000000	12349072	sbwt.escherich
 escherichia_coli.k32	0.01	sbwt	none	17	1	1241932	1000000	7017968	sbwt.escherichia_coli.k32.S_none.k_17.d_1	0.96	35872	0	20.61	459068
 escherichia_coli.k32	0.01	sbwt	none	17	1	1241932	1000000	7017968	sbwt.escherichia_coli.k32.S_none.k_17.d_1	0.9400000000000001	35872	Neg	20.61	459068
 escherichia_coli.k32	0.01	sbwt	none	17	1	1241932	1000000	7017968	sbwt.escherichia_coli.k32.S_none.k_17.d_1	1.17	35872	Pos	20.61	459068
-escherichia_coli.k32	0.01	na	prophasm	17	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.01	bwa	prophasm	19	na	1323083	1000000	83748809	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	5.92	171544	0	16.03	278500
 escherichia_coli.k32	0.01	bwa	prophasm	19	na	1323083	1000000	83748809	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	5.300000000000001	171544	Neg	16.03	278500
 escherichia_coli.k32	0.01	bwa	prophasm	19	na	1323083	1000000	83748809	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	6.72	171544	Pos	16.03	278500
@@ -91,7 +89,6 @@ escherichia_coli.k32	0.01	sbwt	none	19	0	1323083	1000000	16410864	sbwt.escherich
 escherichia_coli.k32	0.01	sbwt	none	19	1	1323083	1000000	9078720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	1.3	37984	0	25.3	497980
 escherichia_coli.k32	0.01	sbwt	none	19	1	1323083	1000000	9078720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	0.98	37984	Neg	25.3	497980
 escherichia_coli.k32	0.01	sbwt	none	19	1	1323083	1000000	9078720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	1.3	37984	Pos	25.3	497980
-escherichia_coli.k32	0.01	na	prophasm	19	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.01	bwa	prophasm	21	na	1379290	1000000	92230990	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	6.95	182780	0	19.78	155724
 escherichia_coli.k32	0.01	bwa	prophasm	21	na	1379290	1000000	92230990	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	6.63	182780	Neg	19.78	155724
 escherichia_coli.k32	0.01	bwa	prophasm	21	na	1379290	1000000	92230990	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	7.39	182780	Pos	19.78	155724
@@ -122,7 +119,6 @@ escherichia_coli.k32	0.01	sbwt	none	21	0	1379290	1000000	20570944	sbwt.escherich
 escherichia_coli.k32	0.01	sbwt	none	21	1	1379290	1000000	11182864	sbwt.escherichia_coli.k32.S_none.k_21.d_1	1.1	40096	0	29.76	548112
 escherichia_coli.k32	0.01	sbwt	none	21	1	1379290	1000000	11182864	sbwt.escherichia_coli.k32.S_none.k_21.d_1	1.02	40096	Neg	29.76	548112
 escherichia_coli.k32	0.01	sbwt	none	21	1	1379290	1000000	11182864	sbwt.escherichia_coli.k32.S_none.k_21.d_1	1.47	40096	Pos	29.76	548112
-escherichia_coli.k32	0.01	na	prophasm	21	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.01	bwa	prophasm	23	na	1430736	1000000	100763590	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	7.82	193724	0	23.150000000000002	162980
 escherichia_coli.k32	0.01	bwa	prophasm	23	na	1430736	1000000	100763590	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	7.03	193724	Neg	23.150000000000002	162980
 escherichia_coli.k32	0.01	bwa	prophasm	23	na	1430736	1000000	100763590	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	10.83	193724	Pos	23.150000000000002	162980
@@ -153,7 +149,6 @@ escherichia_coli.k32	0.01	sbwt	none	23	0	1430736	1000000	24945824	sbwt.escherich
 escherichia_coli.k32	0.01	sbwt	none	23	1	1430736	1000000	13389208	sbwt.escherichia_coli.k32.S_none.k_23.d_1	1.6500000000000001	42140	0	41.68	618760
 escherichia_coli.k32	0.01	sbwt	none	23	1	1430736	1000000	13389208	sbwt.escherichia_coli.k32.S_none.k_23.d_1	1.16	42140	Neg	41.68	618760
 escherichia_coli.k32	0.01	sbwt	none	23	1	1430736	1000000	13389208	sbwt.escherichia_coli.k32.S_none.k_23.d_1	1.61	42140	Pos	41.68	618760
-escherichia_coli.k32	0.01	na	prophasm	23	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.01	bwa	prophasm	31	na	1622989	1000000	137111400	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	13.19	238252	0	43.599999999999994	191348
 escherichia_coli.k32	0.01	bwa	prophasm	31	na	1622989	1000000	137111400	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	12.16	238252	Neg	43.599999999999994	191348
 escherichia_coli.k32	0.01	bwa	prophasm	31	na	1622989	1000000	137111400	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	12.879999999999999	238252	Pos	43.599999999999994	191348
@@ -184,7 +179,6 @@ escherichia_coli.k32	0.01	sbwt	none	31	0	1622989	1000000	44664008	sbwt.escherich
 escherichia_coli.k32	0.01	sbwt	none	31	1	1622989	1000000	23342672	sbwt.escherichia_coli.k32.S_none.k_31.d_1	1.92	51832	0	56.72	1000828
 escherichia_coli.k32	0.01	sbwt	none	31	1	1622989	1000000	23342672	sbwt.escherichia_coli.k32.S_none.k_31.d_1	1.46	51832	Neg	56.72	1000828
 escherichia_coli.k32	0.01	sbwt	none	31	1	1622989	1000000	23342672	sbwt.escherichia_coli.k32.S_none.k_31.d_1	2.83	51832	Pos	56.72	1000828
-escherichia_coli.k32	0.01	na	prophasm	31	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	15	na	9758419	1000000	480676357	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	9.58	1018464	0	129.77	898864
 escherichia_coli.k32	0.1	bwa	prophasm	15	na	9758419	1000000	480676357	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	8.39	1018464	Neg	129.77	898864
 escherichia_coli.k32	0.1	bwa	prophasm	15	na	9758419	1000000	480676357	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	13.030000000000001	1018464	Pos	129.77	898864
@@ -215,7 +209,6 @@ escherichia_coli.k32	0.1	sbwt	none	15	0	9758419	1000000	42821304	sbwt.escherichi
 escherichia_coli.k32	0.1	sbwt	none	15	1	9758419	1000000	24858984	sbwt.escherichia_coli.k32.S_none.k_15.d_1	1.42	53476	0	145.44	2351492
 escherichia_coli.k32	0.1	sbwt	none	15	1	9758419	1000000	24858984	sbwt.escherichia_coli.k32.S_none.k_15.d_1	1.23	53476	Neg	145.44	2351492
 escherichia_coli.k32	0.1	sbwt	none	15	1	9758419	1000000	24858984	sbwt.escherichia_coli.k32.S_none.k_15.d_1	1.55	53476	Pos	145.44	2351492
-escherichia_coli.k32	0.1	na	prophasm	15	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	17	na	12419323	1000000	690026732	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	11.809999999999999	1403128	0	199.04000000000002	1219428
 escherichia_coli.k32	0.1	bwa	prophasm	17	na	12419323	1000000	690026732	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	10.73	1403128	Neg	199.04000000000002	1219428
 escherichia_coli.k32	0.1	bwa	prophasm	17	na	12419323	1000000	690026732	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	13.549999999999999	1403128	Pos	199.04000000000002	1219428
@@ -246,7 +239,6 @@ escherichia_coli.k32	0.1	sbwt	none	17	0	12419323	1000000	80613744	sbwt.escherich
 escherichia_coli.k32	0.1	sbwt	none	17	1	12419323	1000000	44938184	sbwt.escherichia_coli.k32.S_none.k_17.d_1	2.2	73192	0	226	3672420
 escherichia_coli.k32	0.1	sbwt	none	17	1	12419323	1000000	44938184	sbwt.escherichia_coli.k32.S_none.k_17.d_1	1.76	73192	Neg	226	3672420
 escherichia_coli.k32	0.1	sbwt	none	17	1	12419323	1000000	44938184	sbwt.escherichia_coli.k32.S_none.k_17.d_1	2.65	73192	Pos	226	3672420
-escherichia_coli.k32	0.1	na	prophasm	17	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	19	na	13230839	1000000	784010697	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	13.21	1540576	0	238.13	1319220
 escherichia_coli.k32	0.1	bwa	prophasm	19	na	13230839	1000000	784010697	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	12.93	1540576	Neg	238.13	1319220
 escherichia_coli.k32	0.1	bwa	prophasm	19	na	13230839	1000000	784010697	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	13.72	1540576	Pos	238.13	1319220
@@ -277,7 +269,6 @@ escherichia_coli.k32	0.1	sbwt	none	19	0	13230839	1000000	115851496	sbwt.escheric
 escherichia_coli.k32	0.1	sbwt	none	19	1	13230839	1000000	63470720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	2.79	91380	0	282.52	4205972
 escherichia_coli.k32	0.1	sbwt	none	19	1	13230839	1000000	63470720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	2.06	91380	Neg	282.52	4205972
 escherichia_coli.k32	0.1	sbwt	none	19	1	13230839	1000000	63470720	sbwt.escherichia_coli.k32.S_none.k_19.d_1	3.11	91380	Pos	282.52	4205972
-escherichia_coli.k32	0.1	na	prophasm	19	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	21	na	13792900	1000000	862544521	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	14.34	1643408	0	274.53999999999996	1388688
 escherichia_coli.k32	0.1	bwa	prophasm	21	na	13792900	1000000	862544521	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	14.940000000000001	1643408	Neg	274.53999999999996	1388688
 escherichia_coli.k32	0.1	bwa	prophasm	21	na	13792900	1000000	862544521	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	14.969999999999999	1643408	Pos	274.53999999999996	1388688
@@ -308,7 +299,6 @@ escherichia_coli.k32	0.1	sbwt	none	21	0	13792900	1000000	152050152	sbwt.escheric
 escherichia_coli.k32	0.1	sbwt	none	21	1	13792900	1000000	82484328	sbwt.escherichia_coli.k32.S_none.k_21.d_1	3.94	109788	0	340.65999999999997	4838784
 escherichia_coli.k32	0.1	sbwt	none	21	1	13792900	1000000	82484328	sbwt.escherichia_coli.k32.S_none.k_21.d_1	2.1999999999999997	109788	Neg	340.65999999999997	4838784
 escherichia_coli.k32	0.1	sbwt	none	21	1	13792900	1000000	82484328	sbwt.escherichia_coli.k32.S_none.k_21.d_1	3.7	109788	Pos	340.65999999999997	4838784
-escherichia_coli.k32	0.1	na	prophasm	21	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	23	na	14307368	1000000	941026124	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	16.43	1742772	0	309.21000000000004	1453588
 escherichia_coli.k32	0.1	bwa	prophasm	23	na	14307368	1000000	941026124	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	16.93	1742772	Neg	309.21000000000004	1453588
 escherichia_coli.k32	0.1	bwa	prophasm	23	na	14307368	1000000	941026124	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	15.459999999999999	1742772	Pos	309.21000000000004	1453588
@@ -339,7 +329,6 @@ escherichia_coli.k32	0.1	sbwt	none	23	0	14307368	1000000	190085008	sbwt.escheric
 escherichia_coli.k32	0.1	sbwt	none	23	1	14307368	1000000	102424296	sbwt.escherichia_coli.k32.S_none.k_23.d_1	3.56	129240	0	394.03000000000003	6503568
 escherichia_coli.k32	0.1	sbwt	none	23	1	14307368	1000000	102424296	sbwt.escherichia_coli.k32.S_none.k_23.d_1	2.3	129240	Neg	394.03000000000003	6503568
 escherichia_coli.k32	0.1	sbwt	none	23	1	14307368	1000000	102424296	sbwt.escherichia_coli.k32.S_none.k_23.d_1	4.359999999999999	129428	Pos	394.03000000000003	6503568
-escherichia_coli.k32	0.1	na	prophasm	23	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	0.1	bwa	prophasm	31	na	16229893	1000000	1275439227	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	18.939999999999998	2148320	0	483.01	1705984
 escherichia_coli.k32	0.1	bwa	prophasm	31	na	16229893	1000000	1275439227	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	22.55	2148320	Neg	483.01	1705984
 escherichia_coli.k32	0.1	bwa	prophasm	31	na	16229893	1000000	1275439227	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	17.16	2148320	Pos	483.01	1705984
@@ -370,7 +359,6 @@ escherichia_coli.k32	0.1	sbwt	none	31	0	16229893	1000000	360846728	sbwt.escheric
 escherichia_coli.k32	0.1	sbwt	none	31	1	16229893	1000000	192059144	sbwt.escherichia_coli.k32.S_none.k_31.d_1	5.27	216964	0	632.1	8793040
 escherichia_coli.k32	0.1	sbwt	none	31	1	16229893	1000000	192059144	sbwt.escherichia_coli.k32.S_none.k_31.d_1	2.63	216964	Neg	632.1	8793040
 escherichia_coli.k32	0.1	sbwt	none	31	1	16229893	1000000	192059144	sbwt.escherichia_coli.k32.S_none.k_31.d_1	7.09	216964	Pos	632.1	8793040
-escherichia_coli.k32	0.1	na	prophasm	31	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	15	na	97584193	1000000	624389403	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	13.49	1115132	0	396.3	3865552
 escherichia_coli.k32	1	bwa	prophasm	15	na	97584193	1000000	624389403	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	8.34	1115132	Neg	396.3	3865552
 escherichia_coli.k32	1	bwa	prophasm	15	na	97584193	1000000	624389403	bwa.escherichia_coli.k32.S_prophasm.k_15.d_na	13.219999999999999	1115132	Pos	396.3	3865552
@@ -401,7 +389,6 @@ escherichia_coli.k32	1	sbwt	none	15	0	97584193	1000000	129199264	sbwt.escherichi
 escherichia_coli.k32	1	sbwt	none	15	1	97584193	1000000	82792144	sbwt.escherichia_coli.k32.S_none.k_15.d_1	2.7800000000000002	110052	0	65.89	1890084
 escherichia_coli.k32	1	sbwt	none	15	1	97584193	1000000	82792144	sbwt.escherichia_coli.k32.S_none.k_15.d_1	2.21	110052	Neg	65.89	1890084
 escherichia_coli.k32	1	sbwt	none	15	1	97584193	1000000	82792144	sbwt.escherichia_coli.k32.S_none.k_15.d_1	2.69	110052	Pos	65.89	1890084
-escherichia_coli.k32	1	na	prophasm	15	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	17	na	124193235	1000000	454641781	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	10.69	674264	0	390.09000000000003	5577272
 escherichia_coli.k32	1	bwa	prophasm	17	na	124193235	1000000	454641781	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	7.340000000000001	674264	Neg	390.09000000000003	5577272
 escherichia_coli.k32	1	bwa	prophasm	17	na	124193235	1000000	454641781	bwa.escherichia_coli.k32.S_prophasm.k_17.d_na	10.1	674264	Pos	390.09000000000003	5577272
@@ -432,7 +419,6 @@ escherichia_coli.k32	1	sbwt	none	17	0	124193235	1000000	164266288	sbwt.escherich
 escherichia_coli.k32	1	sbwt	none	17	1	124193235	1000000	98374664	sbwt.escherichia_coli.k32.S_none.k_17.d_1	3.5799999999999996	125348	0	78.28	1814280
 escherichia_coli.k32	1	sbwt	none	17	1	124193235	1000000	98374664	sbwt.escherichia_coli.k32.S_none.k_17.d_1	2.4499999999999997	125348	Neg	78.28	1814280
 escherichia_coli.k32	1	sbwt	none	17	1	124193235	1000000	98374664	sbwt.escherichia_coli.k32.S_none.k_17.d_1	3.26	125348	Pos	78.28	1814280
-escherichia_coli.k32	1	na	prophasm	17	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	19	na	132308392	1000000	397434824	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	9.09	528008	0	376.27	5767780
 escherichia_coli.k32	1	bwa	prophasm	19	na	132308392	1000000	397434824	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	8.19	528008	Neg	376.27	5767780
 escherichia_coli.k32	1	bwa	prophasm	19	na	132308392	1000000	397434824	bwa.escherichia_coli.k32.S_prophasm.k_19.d_na	9.04	528008	Pos	376.27	5767780
@@ -463,7 +449,6 @@ escherichia_coli.k32	1	sbwt	none	19	0	132308392	1000000	175007656	sbwt.escherich
 escherichia_coli.k32	1	sbwt	none	19	1	132308392	1000000	103891824	sbwt.escherichia_coli.k32.S_none.k_19.d_1	3.84	130756	0	84.03999999999999	1763016
 escherichia_coli.k32	1	sbwt	none	19	1	132308392	1000000	103891824	sbwt.escherichia_coli.k32.S_none.k_19.d_1	2.6199999999999997	130756	Neg	84.03999999999999	1763016
 escherichia_coli.k32	1	sbwt	none	19	1	132308392	1000000	103891824	sbwt.escherichia_coli.k32.S_none.k_19.d_1	4.16	130852	Pos	84.03999999999999	1763016
-escherichia_coli.k32	1	na	prophasm	19	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	21	na	137929009	1000000	389471918	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	9.33	491948	0	377.63	5943424
 escherichia_coli.k32	1	bwa	prophasm	21	na	137929009	1000000	389471918	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	9.63	491948	Neg	377.63	5943424
 escherichia_coli.k32	1	bwa	prophasm	21	na	137929009	1000000	389471918	bwa.escherichia_coli.k32.S_prophasm.k_21.d_na	9.4	491948	Pos	377.63	5943424
@@ -494,7 +479,6 @@ escherichia_coli.k32	1	sbwt	none	21	0	137929009	1000000	182457568	sbwt.escherich
 escherichia_coli.k32	1	sbwt	none	21	1	137929009	1000000	108214368	sbwt.escherichia_coli.k32.S_none.k_21.d_1	4.54	135080	0	89.86999999999999	1717972
 escherichia_coli.k32	1	sbwt	none	21	1	137929009	1000000	108214368	sbwt.escherichia_coli.k32.S_none.k_21.d_1	3.26	135080	Neg	89.86999999999999	1717972
 escherichia_coli.k32	1	sbwt	none	21	1	137929009	1000000	108214368	sbwt.escherichia_coli.k32.S_none.k_21.d_1	3.96	135080	Pos	89.86999999999999	1717972
-escherichia_coli.k32	1	na	prophasm	21	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	23	na	143073681	1000000	414061610	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	9.52	520716	0	387.71000000000004	6104196
 escherichia_coli.k32	1	bwa	prophasm	23	na	143073681	1000000	414061610	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	10.94	520716	Neg	387.71000000000004	6104196
 escherichia_coli.k32	1	bwa	prophasm	23	na	143073681	1000000	414061610	bwa.escherichia_coli.k32.S_prophasm.k_23.d_na	9.61	520716	Pos	387.71000000000004	6104196
@@ -525,7 +509,6 @@ escherichia_coli.k32	1	sbwt	none	23	0	143073681	1000000	189280136	sbwt.escherich
 escherichia_coli.k32	1	sbwt	none	23	1	143073681	1000000	112380264	sbwt.escherichia_coli.k32.S_none.k_23.d_1	4.27	139152	0	98.02000000000001	1672892
 escherichia_coli.k32	1	sbwt	none	23	1	143073681	1000000	112380264	sbwt.escherichia_coli.k32.S_none.k_23.d_1	2.56	139152	Neg	98.02000000000001	1672892
 escherichia_coli.k32	1	sbwt	none	23	1	143073681	1000000	112380264	sbwt.escherichia_coli.k32.S_none.k_23.d_1	5.47	139152	Pos	98.02000000000001	1672892
-escherichia_coli.k32	1	na	prophasm	23	na	na	na	na	na	na	na	na	na	na
 escherichia_coli.k32	1	bwa	prophasm	31	na	162298937	1000000	466238457	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	10.57	552012	0	431.04999999999995	6704988
 escherichia_coli.k32	1	bwa	prophasm	31	na	162298937	1000000	466238457	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	15.450000000000001	552012	Neg	431.04999999999995	6704988
 escherichia_coli.k32	1	bwa	prophasm	31	na	162298937	1000000	466238457	bwa.escherichia_coli.k32.S_prophasm.k_31.d_na	10.4	552012	Pos	431.04999999999995	6704988
@@ -556,7 +539,6 @@ escherichia_coli.k32	1	sbwt	none	31	0	162298937	1000000	214801752	sbwt.escherich
 escherichia_coli.k32	1	sbwt	none	31	1	162298937	1000000	134554960	sbwt.escherichia_coli.k32.S_none.k_31.d_1	6.2700000000000005	160812	0	147.6	2712832
 escherichia_coli.k32	1	sbwt	none	31	1	162298937	1000000	134554960	sbwt.escherichia_coli.k32.S_none.k_31.d_1	2.5599999999999996	160692	Neg	147.6	2712832
 escherichia_coli.k32	1	sbwt	none	31	1	162298937	1000000	134554960	sbwt.escherichia_coli.k32.S_none.k_31.d_1	6.05	160812	Pos	147.6	2712832
-escherichia_coli.k32	1	na	prophasm	31	na	na	na	na	na	na	na	na	na	na
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	15	na	48164	1000000	2564071	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	2.6799999999999997	7788	0	0.26	25104
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	15	na	48164	1000000	2564071	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	2.71	7788	Neg	0.26	25104
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	15	na	48164	1000000	2564071	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	2.21	7788	Pos	0.26	25104
@@ -587,9 +569,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	15	0	48164	1000000	1497800	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.01	sbwt	none	15	1	48164	1000000	1286608	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.67	30356	0	1.9500000000000002	61492
 sars-cov-2_pangenome_k32	0.01	sbwt	none	15	1	48164	1000000	1286608	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.62	30356	Neg	1.9500000000000002	61492
 sars-cov-2_pangenome_k32	0.01	sbwt	none	15	1	48164	1000000	1286608	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.91	30356	Pos	1.9500000000000002	61492
-sars-cov-2_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.13	27932	0	0.30000000000000004	25104
-sars-cov-2_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.12	27932	Neg	0.30000000000000004	25104
-sars-cov-2_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.12	15336	Pos	0.30000000000000004	25104
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	17	na	56590	1000000	3215880	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.23	9108	0	0.37	25352
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	17	na	56590	1000000	3215880	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.2399999999999998	9108	Neg	0.37	25352
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	17	na	56590	1000000	3215880	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	2.38	9108	Pos	0.37	25352
@@ -620,9 +599,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	17	0	56590	1000000	1703048	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.01	sbwt	none	17	1	56590	1000000	1393088	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.76	30620	0	2.09	62368
 sars-cov-2_pangenome_k32	0.01	sbwt	none	17	1	56590	1000000	1393088	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.66	30620	Neg	2.09	62368
 sars-cov-2_pangenome_k32	0.01	sbwt	none	17	1	56590	1000000	1393088	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.04	30620	Pos	2.09	62368
-sars-cov-2_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.13	24104	0	0.4	25352
-sars-cov-2_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.12	24104	Neg	0.4	25352
-sars-cov-2_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.15	17668	Pos	0.4	25352
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	19	na	64491	1000000	3900980	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	3.68	10164	0	0.45	25632
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	19	na	64491	1000000	3900980	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	3.68	10164	Neg	0.45	25632
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	19	na	64491	1000000	3900980	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	2.5	10164	Pos	0.45	25632
@@ -653,9 +629,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	19	0	64491	1000000	1934880	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.01	sbwt	none	19	1	64491	1000000	1513264	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.84	30620	0	2.24	73708
 sars-cov-2_pangenome_k32	0.01	sbwt	none	19	1	64491	1000000	1513264	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.71	30620	Neg	2.24	73708
 sars-cov-2_pangenome_k32	0.01	sbwt	none	19	1	64491	1000000	1513264	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.17	30620	Pos	2.24	73708
-sars-cov-2_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.14	29176	0	0.52	25632
-sars-cov-2_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.13	29176	Neg	0.52	25632
-sars-cov-2_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.19	23220	Pos	0.52	25632
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	21	na	72364	1000000	4642404	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.02	11416	0	0.56	25880
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	21	na	72364	1000000	4642404	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.2299999999999995	11416	Neg	0.56	25880
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	21	na	72364	1000000	4642404	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	2.5799999999999996	11416	Pos	0.56	25880
@@ -686,9 +659,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	21	0	72364	1000000	2198344	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.01	sbwt	none	21	1	72364	1000000	1649672	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	0.9400000000000001	30944	0	2.5	75660
 sars-cov-2_pangenome_k32	0.01	sbwt	none	21	1	72364	1000000	1649672	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	0.72	30944	Neg	2.5	75660
 sars-cov-2_pangenome_k32	0.01	sbwt	none	21	1	72364	1000000	1649672	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.31	30944	Pos	2.5	75660
-sars-cov-2_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.16	30928	0	0.62	25880
-sars-cov-2_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.14	26260	Neg	0.62	25880
-sars-cov-2_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.22	25416	Pos	0.62	25880
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	23	na	80289	1000000	5442075	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	4.43	12736	0	0.62	26144
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	23	na	80289	1000000	5442075	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	4.99	12736	Neg	0.62	26144
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	23	na	80289	1000000	5442075	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	2.6999999999999997	12736	Pos	0.62	26144
@@ -719,9 +689,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	23	0	80289	1000000	2492920	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.01	sbwt	none	23	1	80289	1000000	1801624	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.02	30864	0	2.65	80812
 sars-cov-2_pangenome_k32	0.01	sbwt	none	23	1	80289	1000000	1801624	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	0.75	30864	Neg	2.65	80812
 sars-cov-2_pangenome_k32	0.01	sbwt	none	23	1	80289	1000000	1801624	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.45	30864	Pos	2.65	80812
-sars-cov-2_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.16	28852	0	0.76	26144
-sars-cov-2_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.14	28852	Neg	0.76	26144
-sars-cov-2_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.25	25928	Pos	0.76	26144
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	31	na	112839	1000000	9263830	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	6.1499999999999995	18548	0	1.1600000000000001	43020
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	31	na	112839	1000000	9263830	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	7.5	18476	Neg	1.1600000000000001	43020
 sars-cov-2_pangenome_k32	0.01	bwa	prophasm	31	na	112839	1000000	9263830	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	3.16	18476	Pos	1.1600000000000001	43020
@@ -752,9 +719,6 @@ sars-cov-2_pangenome_k32	0.01	sbwt	none	31	0	112839	1000000	3972544	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.01	sbwt	none	31	1	112839	1000000	2570352	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.45	31656	0	4.22	127640
 sars-cov-2_pangenome_k32	0.01	sbwt	none	31	1	112839	1000000	2570352	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	0.83	31656	Neg	4.22	127640
 sars-cov-2_pangenome_k32	0.01	sbwt	none	31	1	112839	1000000	2570352	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.0799999999999996	31656	Pos	4.22	127640
-sars-cov-2_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.19	36960	0	1.52	43412
-sars-cov-2_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.16	34180	Neg	1.52	43412
-sars-cov-2_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.38	36960	Pos	1.52	43412
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	15	na	481645	1000000	23878472	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	2.74	54628	0	3.0500000000000003	78988
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	15	na	481645	1000000	23878472	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	2.9699999999999998	54628	Neg	3.0500000000000003	78988
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	15	na	481645	1000000	23878472	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.1599999999999997	54628	Pos	3.0500000000000003	78988
@@ -785,9 +749,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	15	0	481645	1000000	4148088	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.1	sbwt	none	15	1	481645	1000000	2765272	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.88	31920	0	6.58	203548
 sars-cov-2_pangenome_k32	0.1	sbwt	none	15	1	481645	1000000	2765272	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.77	31920	Neg	6.58	203548
 sars-cov-2_pangenome_k32	0.1	sbwt	none	15	1	481645	1000000	2765272	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.01	31920	Pos	6.58	203548
-sars-cov-2_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.33999999999999997	67504	0	3.7	79148
-sars-cov-2_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.30000000000000004	67084	Neg	3.7	79148
-sars-cov-2_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.5	67504	Pos	3.7	79148
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	17	na	565904	1000000	30030825	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.24	65776	0	4.58	101124
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	17	na	565904	1000000	30030825	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.61	65776	Neg	4.58	101124
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	17	na	565904	1000000	30030825	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.9499999999999997	65776	Pos	4.58	101124
@@ -818,9 +779,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	17	0	565904	1000000	5721008	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.1	sbwt	none	17	1	565904	1000000	3609384	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.02	32712	0	11.82	224192
 sars-cov-2_pangenome_k32	0.1	sbwt	none	17	1	565904	1000000	3609384	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.81	32712	Neg	11.82	224192
 sars-cov-2_pangenome_k32	0.1	sbwt	none	17	1	565904	1000000	3609384	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.17	32712	Pos	11.82	224192
-sars-cov-2_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.52	80516	0	4.69	85252
-sars-cov-2_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.32999999999999996	80516	Neg	4.69	85252
-sars-cov-2_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.5900000000000001	80516	Pos	4.69	85252
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	19	na	644915	1000000	36378550	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	3.75	76648	0	6.74	124104
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	19	na	644915	1000000	36378550	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.25	76648	Neg	6.74	124104
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	19	na	644915	1000000	36378550	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.27	76648	Pos	6.74	124104
@@ -851,9 +809,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	19	0	644915	1000000	7487968	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.1	sbwt	none	19	1	644915	1000000	4557424	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.1700000000000002	33496	0	12.9	285748
 sars-cov-2_pangenome_k32	0.1	sbwt	none	19	1	644915	1000000	4557424	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.86	33496	Neg	12.9	285748
 sars-cov-2_pangenome_k32	0.1	sbwt	none	19	1	644915	1000000	4557424	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.35	33496	Pos	12.9	285748
-sars-cov-2_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.48	83932	0	7.19	91016
-sars-cov-2_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.38	86120	Neg	7.19	91016
-sars-cov-2_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.79	85132	Pos	7.19	91016
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	21	na	723649	1000000	43272041	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.32	87740	0	7.8500000000000005	149184
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	21	na	723649	1000000	43272041	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.84	87740	Neg	7.8500000000000005	149184
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	21	na	723649	1000000	43272041	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.43	87740	Pos	7.8500000000000005	149184
@@ -884,9 +839,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	21	0	723649	1000000	9472792	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.1	sbwt	none	21	1	723649	1000000	5619584	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.29	34552	0	17.5	313756
 sars-cov-2_pangenome_k32	0.1	sbwt	none	21	1	723649	1000000	5619584	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	0.89	34552	Neg	17.5	313756
 sars-cov-2_pangenome_k32	0.1	sbwt	none	21	1	723649	1000000	5619584	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.53	34552	Pos	17.5	313756
-sars-cov-2_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	0.48	98704	0	7.8500000000000005	96868
-sars-cov-2_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	0.39	98704	Neg	7.8500000000000005	96868
-sars-cov-2_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	0.78	98704	Pos	7.8500000000000005	96868
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	23	na	802898	1000000	50670166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.67	99284	0	8.61	176600
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	23	na	802898	1000000	50670166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.55	99284	Neg	8.61	176600
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	23	na	802898	1000000	50670166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.87	99284	Pos	8.61	176600
@@ -917,9 +869,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	23	0	802898	1000000	11673904	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.1	sbwt	none	23	1	802898	1000000	6795224	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.44	35872	0	22.59	349500
 sars-cov-2_pangenome_k32	0.1	sbwt	none	23	1	802898	1000000	6795224	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	0.91	35872	Neg	22.59	349500
 sars-cov-2_pangenome_k32	0.1	sbwt	none	23	1	802898	1000000	6795224	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.72	35872	Pos	22.59	349500
-sars-cov-2_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	0.5900000000000001	104488	0	9.58	102940
-sars-cov-2_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	0.46	104488	Neg	9.58	102940
-sars-cov-2_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	1.01	104488	Pos	9.58	102940
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	31	na	1128390	1000000	85858073	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.45	150760	0	20.88	129484
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	31	na	1128390	1000000	85858073	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.93	150764	Neg	20.88	129484
 sars-cov-2_pangenome_k32	0.1	bwa	prophasm	31	na	1128390	1000000	85858073	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	9.549999999999999	150760	Pos	20.88	129484
@@ -950,9 +899,6 @@ sars-cov-2_pangenome_k32	0.1	sbwt	none	31	0	1128390	1000000	22729848	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.1	sbwt	none	31	1	1128390	1000000	12675968	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.39	41612	0	42.42	619744
 sars-cov-2_pangenome_k32	0.1	sbwt	none	31	1	1128390	1000000	12675968	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.1	41612	Neg	42.42	619744
 sars-cov-2_pangenome_k32	0.1	sbwt	none	31	1	1128390	1000000	12675968	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.56	41612	Pos	42.42	619744
-sars-cov-2_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	0.83	159740	0	19.810000000000002	129400
-sars-cov-2_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	0.62	153228	Neg	19.810000000000002	129400
-sars-cov-2_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	1.75	159764	Pos	19.810000000000002	129400
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	15	na	963291	1000000	42454182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	4.43	95052	0	7.029999999999999	119988
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	15	na	963291	1000000	42454182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.3699999999999997	94868	Neg	7.029999999999999	119988
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	15	na	963291	1000000	42454182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.4399999999999995	95052	Pos	7.029999999999999	119988
@@ -983,9 +929,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	15	0	963291	1000000	6208056	sbwt.sars-cov
 sars-cov-2_pangenome_k32	0.2	sbwt	none	15	1	963291	1000000	4010696	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.9600000000000001	32968	0	12.72	292092
 sars-cov-2_pangenome_k32	0.2	sbwt	none	15	1	963291	1000000	4010696	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.81	32968	Neg	12.72	292092
 sars-cov-2_pangenome_k32	0.2	sbwt	none	15	1	963291	1000000	4010696	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.05	32968	Pos	12.72	292092
-sars-cov-2_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	0.6299999999999999	99776	0	7.449999999999999	102140
-sars-cov-2_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	0.45999999999999996	100748	Neg	7.449999999999999	102140
-sars-cov-2_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	1.03	99776	Pos	7.449999999999999	102140
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	17	na	1131808	1000000	53732015	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.08	115024	0	11.34	160120
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	17	na	1131808	1000000	53732015	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.99	114856	Neg	11.34	160120
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	17	na	1131808	1000000	53732015	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.85	115024	Pos	11.34	160120
@@ -1016,9 +959,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	17	0	1131808	1000000	8906968	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.2	sbwt	none	17	1	1131808	1000000	5516920	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.11	34552	0	17.78	337168
 sars-cov-2_pangenome_k32	0.2	sbwt	none	17	1	1131808	1000000	5516920	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.87	34552	Neg	17.78	337168
 sars-cov-2_pangenome_k32	0.2	sbwt	none	17	1	1131808	1000000	5516920	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.23	34552	Pos	17.78	337168
-sars-cov-2_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	0.73	117692	0	12.280000000000001	113052
-sars-cov-2_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	0.54	117692	Neg	12.280000000000001	113052
-sars-cov-2_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	1.1300000000000001	117692	Pos	12.280000000000001	113052
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	19	na	1289831	1000000	65129871	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	5.409999999999999	134080	0	15.49	218776
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	19	na	1289831	1000000	65129871	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.95	134080	Neg	15.49	218776
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	19	na	1289831	1000000	65129871	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.33	134080	Pos	15.49	218776
@@ -1049,9 +989,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	19	0	1289831	1000000	11934920	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.2	sbwt	none	19	1	1289831	1000000	7210920	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.29	36136	0	23.03	461076
 sars-cov-2_pangenome_k32	0.2	sbwt	none	19	1	1289831	1000000	7210920	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.9	36136	Neg	23.03	461076
 sars-cov-2_pangenome_k32	0.2	sbwt	none	19	1	1289831	1000000	7210920	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.43	36136	Pos	23.03	461076
-sars-cov-2_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	0.8800000000000001	142676	0	16.78	114780
-sars-cov-2_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	0.59	134896	Neg	16.78	114780
-sars-cov-2_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	1.32	136420	Pos	16.78	114780
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	21	na	1447299	1000000	77491005	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	5.92	153840	0	17.05	263380
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	21	na	1447299	1000000	77491005	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	5.609999999999999	153840	Neg	17.05	263380
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	21	na	1447299	1000000	77491005	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.010000000000001	153840	Pos	17.05	263380
@@ -1082,9 +1019,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	21	0	1447299	1000000	15338008	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.2	sbwt	none	21	1	1447299	1000000	9105640	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.46	37984	0	28.96	510232
 sars-cov-2_pangenome_k32	0.2	sbwt	none	21	1	1447299	1000000	9105640	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	0.93	37984	Neg	28.96	510232
 sars-cov-2_pangenome_k32	0.2	sbwt	none	21	1	1447299	1000000	9105640	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.67	37984	Pos	28.96	510232
-sars-cov-2_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	1	158176	0	16.56	129996
-sars-cov-2_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	0.65	153144	Neg	16.56	129996
-sars-cov-2_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	1.29	152800	Pos	16.56	129996
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	23	na	1605796	1000000	90749032	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.19	174380	0	24.46	146268
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	23	na	1605796	1000000	90749032	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	6.640000000000001	174380	Neg	24.46	146268
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	23	na	1605796	1000000	90749032	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.7	174380	Pos	24.46	146268
@@ -1115,9 +1049,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	23	0	1605796	1000000	19113304	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.2	sbwt	none	23	1	1605796	1000000	11206072	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.69	40096	0	35.9	652076
 sars-cov-2_pangenome_k32	0.2	sbwt	none	23	1	1605796	1000000	11206072	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.03	40096	Neg	35.9	652076
 sars-cov-2_pangenome_k32	0.2	sbwt	none	23	1	1605796	1000000	11206072	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.94	40096	Pos	35.9	652076
-sars-cov-2_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	1.29	171484	0	22.62	145332
-sars-cov-2_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	0.72	171484	Neg	22.62	145332
-sars-cov-2_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	1.7999999999999998	171484	Pos	22.62	145332
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	31	na	2256781	1000000	153653311	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.36	265748	0	47.379999999999995	211204
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	31	na	2256781	1000000	153653311	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.94	265748	Neg	47.379999999999995	211204
 sars-cov-2_pangenome_k32	0.2	bwa	prophasm	31	na	2256781	1000000	153653311	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	9.979999999999999	265748	Pos	47.379999999999995	211204
@@ -1148,9 +1079,6 @@ sars-cov-2_pangenome_k32	0.2	sbwt	none	31	0	2256781	1000000	38064688	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.2	sbwt	none	31	1	2256781	1000000	21709192	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.99	50316	0	90.45	1115396
 sars-cov-2_pangenome_k32	0.2	sbwt	none	31	1	2256781	1000000	21709192	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.17	50316	Neg	90.45	1115396
 sars-cov-2_pangenome_k32	0.2	sbwt	none	31	1	2256781	1000000	21709192	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	3.41	50316	Pos	90.45	1115396
-sars-cov-2_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	1.33	260108	0	46.36999999999999	211108
-sars-cov-2_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	1.03	256776	Neg	46.36999999999999	211108
-sars-cov-2_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	2.2800000000000002	260108	Pos	46.36999999999999	211108
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	15	na	1444936	1000000	56084010	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.37	123848	0	12.57	157984
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	15	na	1444936	1000000	56084010	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.49	123696	Neg	12.57	157984
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	15	na	1444936	1000000	56084010	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.83	123848	Pos	12.57	157984
@@ -1181,9 +1109,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	15	0	1444936	1000000	7732616	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.3	sbwt	none	15	1	1444936	1000000	5031136	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.17	34024	0	17.78	360736
 sars-cov-2_pangenome_k32	0.3	sbwt	none	15	1	1444936	1000000	5031136	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.84	34024	Neg	17.78	360736
 sars-cov-2_pangenome_k32	0.3	sbwt	none	15	1	1444936	1000000	5031136	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.11	34024	Pos	17.78	360736
-sars-cov-2_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	0.85	125192	0	12.879999999999999	108828
-sars-cov-2_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	0.5900000000000001	125192	Neg	12.879999999999999	108828
-sars-cov-2_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	1.08	125192	Pos	12.879999999999999	108828
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	17	na	1697712	1000000	71181144	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	5.5600000000000005	150348	0	17.71	211216
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	17	na	1697712	1000000	71181144	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.199999999999999	150348	Neg	17.71	211216
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	17	na	1697712	1000000	71181144	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.59	150348	Pos	17.71	211216
@@ -1214,9 +1139,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	17	0	1697712	1000000	11245752	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.3	sbwt	none	17	1	1697712	1000000	7089840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.18	36136	0	24.75	537920
 sars-cov-2_pangenome_k32	0.3	sbwt	none	17	1	1697712	1000000	7089840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.89	36136	Neg	24.75	537920
 sars-cov-2_pangenome_k32	0.3	sbwt	none	17	1	1697712	1000000	7089840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.25	36136	Pos	24.75	537920
-sars-cov-2_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	0.9400000000000001	153080	0	16.049999999999997	130284
-sars-cov-2_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	0.6699999999999999	148972	Neg	16.049999999999997	130284
-sars-cov-2_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	1.32	148972	Pos	16.049999999999997	130284
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	19	na	1934747	1000000	86333659	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.42	175448	0	19.61	150288
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	19	na	1934747	1000000	86333659	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.409999999999999	175448	Neg	19.61	150288
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	19	na	1934747	1000000	86333659	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	7.579999999999999	175448	Pos	19.61	150288
@@ -1247,9 +1169,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	19	0	1934747	1000000	15177592	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.3	sbwt	none	19	1	1934747	1000000	9404912	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.62	38248	0	36.089999999999996	638812
 sars-cov-2_pangenome_k32	0.3	sbwt	none	19	1	1934747	1000000	9404912	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.93	38248	Neg	36.089999999999996	638812
 sars-cov-2_pangenome_k32	0.3	sbwt	none	19	1	1934747	1000000	9404912	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.46	38248	Pos	36.089999999999996	638812
-sars-cov-2_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	1.2400000000000002	171636	0	19.77	150084
-sars-cov-2_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	0.7300000000000001	175184	Neg	19.77	150084
-sars-cov-2_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	1.71	171636	Pos	19.77	150084
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	21	na	2170949	1000000	102586313	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.84	201424	0	30.490000000000002	169968
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	21	na	2170949	1000000	102586313	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.92	201424	Neg	30.490000000000002	169968
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	21	na	2170949	1000000	102586313	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.18	201424	Pos	30.490000000000002	169968
@@ -1280,9 +1199,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	21	0	2170949	1000000	19586656	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.3	sbwt	none	21	1	2170949	1000000	11982000	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.58	40888	0	49.75	685224
 sars-cov-2_pangenome_k32	0.3	sbwt	none	21	1	2170949	1000000	11982000	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.09	40888	Neg	49.75	685224
 sars-cov-2_pangenome_k32	0.3	sbwt	none	21	1	2170949	1000000	11982000	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.69	40888	Pos	49.75	685224
-sars-cov-2_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	1.5799999999999998	195180	0	27.79	169884
-sars-cov-2_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	0.7999999999999999	198180	Neg	27.79	169884
-sars-cov-2_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	1.3800000000000001	198180	Pos	27.79	169884
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	23	na	2408694	1000000	120030452	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.699999999999999	228440	0	32.68	190224
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	23	na	2408694	1000000	120030452	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.6	228440	Neg	32.68	190224
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	23	na	2408694	1000000	120030452	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	9.44	228440	Pos	32.68	190224
@@ -1313,9 +1229,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	23	0	2408694	1000000	24480200	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.3	sbwt	none	23	1	2408694	1000000	14851744	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.4299999999999997	43724	0	58.46	901376
 sars-cov-2_pangenome_k32	0.3	sbwt	none	23	1	2408694	1000000	14851744	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.08	43724	Neg	58.46	901376
 sars-cov-2_pangenome_k32	0.3	sbwt	none	23	1	2408694	1000000	14851744	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.2699999999999996	43724	Pos	58.46	901376
-sars-cov-2_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	1.21	224252	0	37.71	190128
-sars-cov-2_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	0.84	224252	Neg	37.71	190128
-sars-cov-2_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	1.49	224252	Pos	37.71	190128
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	31	na	3385172	1000000	202736137	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.65	348520	0	65.65	278128
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	31	na	3385172	1000000	202736137	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	12.799999999999999	348520	Neg	65.65	278128
 sars-cov-2_pangenome_k32	0.3	bwa	prophasm	31	na	3385172	1000000	202736137	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.6	348520	Pos	65.65	278128
@@ -1346,9 +1259,6 @@ sars-cov-2_pangenome_k32	0.3	sbwt	none	31	0	3385172	1000000	49010968	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.3	sbwt	none	31	1	3385172	1000000	29167088	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	3.61	57700	0	127.6	1721672
 sars-cov-2_pangenome_k32	0.3	sbwt	none	31	1	3385172	1000000	29167088	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.33	57700	Neg	127.6	1721672
 sars-cov-2_pangenome_k32	0.3	sbwt	none	31	1	3385172	1000000	29167088	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	4.659999999999999	57820	Pos	127.6	1721672
-sars-cov-2_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	2.2	331388	0	59.650000000000006	278032
-sars-cov-2_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	1.27	331388	Neg	59.650000000000006	278032
-sars-cov-2_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	2.3	331388	Pos	59.650000000000006	278032
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	15	na	1926582	1000000	64971292	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.11	141936	0	16.02	183392
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	15	na	1926582	1000000	64971292	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.38	141912	Neg	16.02	183392
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	15	na	1926582	1000000	64971292	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.32	141936	Pos	16.02	183392
@@ -1379,9 +1289,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	15	0	1926582	1000000	8840552	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.4	sbwt	none	15	1	1926582	1000000	5882008	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.04	34816	0	22.89	522640
 sars-cov-2_pangenome_k32	0.4	sbwt	none	15	1	1926582	1000000	5882008	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.87	34816	Neg	22.89	522640
 sars-cov-2_pangenome_k32	0.4	sbwt	none	15	1	1926582	1000000	5882008	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.09	34816	Pos	22.89	522640
-sars-cov-2_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	0.8899999999999999	146504	0	14.600000000000001	124812
-sars-cov-2_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	0.6399999999999999	141160	Neg	14.600000000000001	124812
-sars-cov-2_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	1.1300000000000001	141712	Pos	14.600000000000001	124812
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	17	na	2263616	1000000	82393297	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.92	172440	0	22.51	244932
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	17	na	2263616	1000000	82393297	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.5	172440	Neg	22.51	244932
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	17	na	2263616	1000000	82393297	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.2700000000000005	172440	Pos	22.51	244932
@@ -1412,9 +1319,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	17	0	2263616	1000000	12879112	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.4	sbwt	none	17	1	2263616	1000000	8392560	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.22	37456	0	34.440000000000005	537884
 sars-cov-2_pangenome_k32	0.4	sbwt	none	17	1	2263616	1000000	8392560	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.9	37456	Neg	34.440000000000005	537884
 sars-cov-2_pangenome_k32	0.4	sbwt	none	17	1	2263616	1000000	8392560	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.28	37456	Pos	34.440000000000005	537884
-sars-cov-2_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	1.4300000000000002	168576	0	21.77	149292
-sars-cov-2_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	0.77	168576	Neg	21.77	149292
-sars-cov-2_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	1.58	173384	Pos	21.77	149292
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	19	na	2579663	1000000	99833921	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.5600000000000005	201296	0	27.19	171836
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	19	na	2579663	1000000	99833921	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	5.49	201296	Neg	27.19	171836
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	19	na	2579663	1000000	99833921	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	7.64	201296	Pos	27.19	171836
@@ -1445,9 +1349,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	19	0	2579663	1000000	17379384	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.4	sbwt	none	19	1	2579663	1000000	11215040	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.47	40096	0	40.68000000000001	679076
 sars-cov-2_pangenome_k32	0.4	sbwt	none	19	1	2579663	1000000	11215040	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.06	40096	Neg	40.68000000000001	679076
 sars-cov-2_pangenome_k32	0.4	sbwt	none	19	1	2579663	1000000	11215040	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.6300000000000001	40096	Pos	40.68000000000001	679076
-sars-cov-2_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	1.1900000000000002	199232	0	25.76	171740
-sars-cov-2_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	0.85	194628	Neg	25.76	171740
-sars-cov-2_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	1.54	194628	Pos	25.76	171740
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	21	na	2894599	1000000	118449182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.27	230972	0	31.939999999999998	196188
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	21	na	2894599	1000000	118449182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.6000000000000005	230972	Neg	31.939999999999998	196188
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	21	na	2894599	1000000	118449182	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.32	230972	Pos	31.939999999999998	196188
@@ -1478,9 +1379,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	21	0	2894599	1000000	22415472	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.4	sbwt	none	21	1	2894599	1000000	14346056	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.7	43128	0	57.730000000000004	905480
 sars-cov-2_pangenome_k32	0.4	sbwt	none	21	1	2894599	1000000	14346056	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.05	43128	Neg	57.730000000000004	905480
 sars-cov-2_pangenome_k32	0.4	sbwt	none	21	1	2894599	1000000	14346056	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.77	43128	Pos	57.730000000000004	905480
-sars-cov-2_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	1.68	221536	0	32.46	196092
-sars-cov-2_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	0.86	226488	Neg	32.46	196092
-sars-cov-2_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	2.07	221536	Pos	32.46	196092
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	23	na	3211592	1000000	138481888	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.9799999999999995	261948	0	44.09	218204
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	23	na	3211592	1000000	138481888	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.72	261948	Neg	44.09	218204
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	23	na	3211592	1000000	138481888	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.77	261948	Pos	44.09	218204
@@ -1511,9 +1409,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	23	0	3211592	1000000	28003264	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.4	sbwt	none	23	1	3211592	1000000	17838752	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.97	46492	0	63.26	1002776
 sars-cov-2_pangenome_k32	0.4	sbwt	none	23	1	3211592	1000000	17838752	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.07	46492	Neg	63.26	1002776
 sars-cov-2_pangenome_k32	0.4	sbwt	none	23	1	3211592	1000000	17838752	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.09	46492	Pos	63.26	1002776
-sars-cov-2_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	1.67	250860	0	42.22	217796
-sars-cov-2_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	0.94	252492	Neg	42.22	217796
-sars-cov-2_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	1.6	252492	Pos	42.22	217796
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	31	na	4513562	1000000	233456111	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.38	399656	0	76.78999999999999	317136
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	31	na	4513562	1000000	233456111	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	13.37	399656	Neg	76.78999999999999	317136
 sars-cov-2_pangenome_k32	0.4	bwa	prophasm	31	na	4513562	1000000	233456111	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.92	399656	Pos	76.78999999999999	317136
@@ -1544,9 +1439,6 @@ sars-cov-2_pangenome_k32	0.4	sbwt	none	31	0	4513562	1000000	55975416	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.4	sbwt	none	31	1	4513562	1000000	35258496	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	4.819999999999999	63568	0	133.92000000000002	1910112
 sars-cov-2_pangenome_k32	0.4	sbwt	none	31	1	4513562	1000000	35258496	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.42	63568	Neg	133.92000000000002	1910112
 sars-cov-2_pangenome_k32	0.4	sbwt	none	31	1	4513562	1000000	35258496	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	4.88	63768	Pos	133.92000000000002	1910112
-sars-cov-2_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	2.1	378524	0	72.33	317040
-sars-cov-2_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	1.47	377544	Neg	72.33	317040
-sars-cov-2_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	2.8000000000000003	383020	Pos	72.33	317040
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	15	na	2408227	1000000	69213862	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.619999999999999	149932	0	18.189999999999998	196904
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	15	na	2408227	1000000	69213862	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.65	149932	Neg	18.189999999999998	196904
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	15	na	2408227	1000000	69213862	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	7.04	149932	Pos	18.189999999999998	196904
@@ -1577,9 +1469,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	15	0	2408227	1000000	9586752	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.5	sbwt	none	15	1	2408227	1000000	6590536	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.09	35608	0	25.05	485568
 sars-cov-2_pangenome_k32	0.5	sbwt	none	15	1	2408227	1000000	6590536	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.91	35608	Neg	25.05	485568
 sars-cov-2_pangenome_k32	0.5	sbwt	none	15	1	2408227	1000000	6590536	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.11	35608	Pos	25.05	485568
-sars-cov-2_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	1.08	148284	0	16.759999999999998	131340
-sars-cov-2_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	0.64	151500	Neg	16.759999999999998	131340
-sars-cov-2_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	1.1300000000000001	149992	Pos	16.759999999999998	131340
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	17	na	2829520	1000000	87511852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.09	181828	0	24.6	158620
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	17	na	2829520	1000000	87511852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.6	181828	Neg	24.6	158620
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	17	na	2829520	1000000	87511852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.29	181828	Pos	24.6	158620
@@ -1610,9 +1499,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	17	0	2829520	1000000	13874352	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.5	sbwt	none	17	1	2829520	1000000	9463464	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.3800000000000001	38512	0	34.730000000000004	610784
 sars-cov-2_pangenome_k32	0.5	sbwt	none	17	1	2829520	1000000	9463464	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.04	38512	Neg	34.730000000000004	610784
 sars-cov-2_pangenome_k32	0.5	sbwt	none	17	1	2829520	1000000	9463464	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.32	38512	Pos	34.730000000000004	610784
-sars-cov-2_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	1.12	179356	0	25.34	156956
-sars-cov-2_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	0.74	179384	Neg	25.34	156956
-sars-cov-2_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	1.48	179380	Pos	25.34	156956
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	19	na	3224579	1000000	105789696	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	9.11	211928	0	30.309999999999995	180548
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	19	na	3224579	1000000	105789696	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.0200000000000005	211928	Neg	30.309999999999995	180548
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	19	na	3224579	1000000	105789696	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	8.36	211928	Pos	30.309999999999995	180548
@@ -1643,9 +1529,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	19	0	3224579	1000000	18619696	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.5	sbwt	none	19	1	3224579	1000000	12682144	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.49	41612	0	46.34	870748
 sars-cov-2_pangenome_k32	0.5	sbwt	none	19	1	3224579	1000000	12682144	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.09	41612	Neg	46.34	870748
 sars-cov-2_pangenome_k32	0.5	sbwt	none	19	1	3224579	1000000	12682144	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.56	41612	Pos	46.34	870748
-sars-cov-2_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	1.3399999999999999	204156	0	30.15	180452
-sars-cov-2_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	0.8099999999999999	209624	Neg	30.15	180452
-sars-cov-2_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	1.54	204156	Pos	30.15	180452
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	21	na	3618249	1000000	125409852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.66	243124	0	34.1	204876
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	21	na	3618249	1000000	125409852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.67	243128	Neg	34.1	204876
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	21	na	3618249	1000000	125409852	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.5	243124	Pos	34.1	204876
@@ -1676,9 +1559,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	21	0	3618249	1000000	23928496	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.5	sbwt	none	21	1	3618249	1000000	16243424	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.86	44908	0	64.9	967024
 sars-cov-2_pangenome_k32	0.5	sbwt	none	21	1	3618249	1000000	16243424	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.03	44908	Neg	64.9	967024
 sars-cov-2_pangenome_k32	0.5	sbwt	none	21	1	3618249	1000000	16243424	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	2.52	44908	Pos	64.9	967024
-sars-cov-2_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	1.54	232444	0	32.24	204780
-sars-cov-2_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	0.98	232444	Neg	32.24	204780
-sars-cov-2_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	1.74	232444	Pos	32.24	204780
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	23	na	4014491	1000000	146438097	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.41	275536	0	42.050000000000004	229600
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	23	na	4014491	1000000	146438097	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.280000000000001	275536	Neg	42.050000000000004	229600
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	23	na	4014491	1000000	146438097	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	9.1	275536	Pos	42.050000000000004	229600
@@ -1709,9 +1589,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	23	0	4014491	1000000	29806128	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.5	sbwt	none	23	1	4014491	1000000	20221504	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.53	48868	0	74.31	1141056
 sars-cov-2_pangenome_k32	0.5	sbwt	none	23	1	4014491	1000000	20221504	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.11	48868	Neg	74.31	1141056
 sars-cov-2_pangenome_k32	0.5	sbwt	none	23	1	4014491	1000000	20221504	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.84	48868	Pos	74.31	1141056
-sars-cov-2_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	1.97	261952	0	40.32	229504
-sars-cov-2_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	1.0999999999999999	261952	Neg	40.32	229504
-sars-cov-2_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	2.08	261952	Pos	40.32	229504
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	31	na	5641953	1000000	246077177	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.94	419636	0	84.52000000000001	331684
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	31	na	5641953	1000000	246077177	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	12.92	419636	Neg	84.52000000000001	331684
 sars-cov-2_pangenome_k32	0.5	bwa	prophasm	31	na	5641953	1000000	246077177	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.16	419636	Pos	84.52000000000001	331684
@@ -1742,9 +1619,6 @@ sars-cov-2_pangenome_k32	0.5	sbwt	none	31	0	5641953	1000000	59164184	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.5	sbwt	none	31	1	5641953	1000000	40055312	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	4.819999999999999	68252	0	144.64	2181228
 sars-cov-2_pangenome_k32	0.5	sbwt	none	31	1	5641953	1000000	40055312	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.58	68252	Neg	144.64	2181228
 sars-cov-2_pangenome_k32	0.5	sbwt	none	31	1	5641953	1000000	40055312	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.3100000000000005	68252	Pos	144.64	2181228
-sars-cov-2_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	2.17	396656	0	79.93	331584
-sars-cov-2_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	1.43	399204	Neg	79.93	331584
-sars-cov-2_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	3.06	395048	Pos	79.93	331584
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	15	na	2889873	1000000	68875042	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.61	148020	0	20.15	198788
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	15	na	2889873	1000000	68875042	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.69	148020	Neg	20.15	198788
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	15	na	2889873	1000000	68875042	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.48	148020	Pos	20.15	198788
@@ -1775,9 +1649,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	15	0	2889873	1000000	9986080	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.6	sbwt	none	15	1	2889873	1000000	7170080	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.08	36136	0	31.889999999999997	505216
 sars-cov-2_pangenome_k32	0.6	sbwt	none	15	1	2889873	1000000	7170080	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.87	36136	Neg	31.889999999999997	505216
 sars-cov-2_pangenome_k32	0.6	sbwt	none	15	1	2889873	1000000	7170080	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.1300000000000001	36136	Pos	31.889999999999997	505216
-sars-cov-2_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	1.08	146680	0	18.93	136396
-sars-cov-2_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	0.6499999999999999	146680	Neg	18.93	136396
-sars-cov-2_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	1.1400000000000001	146680	Pos	18.93	136396
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	17	na	3395424	1000000	86679257	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	7.86	178808	0	29.910000000000004	175856
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	17	na	3395424	1000000	86679257	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.88	178808	Neg	29.910000000000004	175856
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	17	na	3395424	1000000	86679257	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	8.76	178808	Pos	29.910000000000004	175856
@@ -1808,9 +1679,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	17	0	3395424	1000000	14253784	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.6	sbwt	none	17	1	3395424	1000000	10313896	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.37	39304	0	45.94	660724
 sars-cov-2_pangenome_k32	0.6	sbwt	none	17	1	3395424	1000000	10313896	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.9400000000000001	39304	Neg	45.94	660724
 sars-cov-2_pangenome_k32	0.6	sbwt	none	17	1	3395424	1000000	10313896	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.34	39304	Pos	45.94	660724
-sars-cov-2_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	1.48	174360	0	26.580000000000005	175856
-sars-cov-2_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	0.76	174388	Neg	26.580000000000005	175856
-sars-cov-2_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	1.42	174384	Pos	26.580000000000005	175856
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	19	na	3869495	1000000	104485941	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	8.25	207932	0	27.92	190668
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	19	na	3869495	1000000	104485941	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	5.680000000000001	207932	Neg	27.92	190668
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	19	na	3869495	1000000	104485941	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	9.24	207932	Pos	27.92	190668
@@ -1841,9 +1709,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	19	0	3869495	1000000	18938808	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.6	sbwt	none	19	1	3869495	1000000	13830304	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.83	42668	0	58.620000000000005	907612
 sars-cov-2_pangenome_k32	0.6	sbwt	none	19	1	3869495	1000000	13830304	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.3800000000000001	42668	Neg	58.620000000000005	907612
 sars-cov-2_pangenome_k32	0.6	sbwt	none	19	1	3869495	1000000	13830304	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.62	42668	Pos	58.620000000000005	907612
-sars-cov-2_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	1.26	206788	0	25.5	190668
-sars-cov-2_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	0.85	200716	Neg	25.5	190668
-sars-cov-2_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	1.81	206788	Pos	25.5	190668
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	21	na	4341899	1000000	123614609	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.770000000000001	238176	0	34.26	205432
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	21	na	4341899	1000000	123614609	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.48	238176	Neg	34.26	205432
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	21	na	4341899	1000000	123614609	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.709999999999999	238176	Pos	34.26	205432
@@ -1874,9 +1739,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	21	0	4341899	1000000	24167808	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.6	sbwt	none	21	1	4341899	1000000	17707240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.99	46560	0	66.54	1024400
 sars-cov-2_pangenome_k32	0.6	sbwt	none	21	1	4341899	1000000	17707240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.05	46560	Neg	66.54	1024400
 sars-cov-2_pangenome_k32	0.6	sbwt	none	21	1	4341899	1000000	17707240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.98	46560	Pos	66.54	1024400
-sars-cov-2_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	1.4	231260	0	33.370000000000005	205432
-sars-cov-2_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	0.8800000000000001	231260	Neg	33.370000000000005	205432
-sars-cov-2_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	1.5099999999999998	231260	Pos	33.370000000000005	205432
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	23	na	4817389	1000000	144136528	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.41	269652	0	46.36	223844
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	23	na	4817389	1000000	144136528	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.59	269652	Neg	46.36	223844
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	23	na	4817389	1000000	144136528	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.85	269652	Pos	46.36	223844
@@ -1907,9 +1769,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	23	0	4817389	1000000	29943960	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.6	sbwt	none	23	1	4817389	1000000	22042704	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.53	50580	0	101.75999999999999	1289116
 sars-cov-2_pangenome_k32	0.6	sbwt	none	23	1	4817389	1000000	22042704	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.17	50580	Neg	101.75999999999999	1289116
 sars-cov-2_pangenome_k32	0.6	sbwt	none	23	1	4817389	1000000	22042704	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.4	50580	Pos	101.75999999999999	1289116
-sars-cov-2_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	2.17	256836	0	41.28	223748
-sars-cov-2_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	1.01	261984	Neg	41.28	223748
-sars-cov-2_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	2.31	256836	Pos	41.28	223748
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	31	na	6770344	1000000	241056617	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.19	409220	0	81.73	331220
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	31	na	6770344	1000000	241056617	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	13.16	409220	Neg	81.73	331220
 sars-cov-2_pangenome_k32	0.6	bwa	prophasm	31	na	6770344	1000000	241056617	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.26	409220	Pos	81.73	331220
@@ -1940,9 +1799,6 @@ sars-cov-2_pangenome_k32	0.6	sbwt	none	31	0	6770344	1000000	58703632	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.6	sbwt	none	31	1	6770344	1000000	43639920	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.11	71812	0	169.62	2370760
 sars-cov-2_pangenome_k32	0.6	sbwt	none	31	1	6770344	1000000	43639920	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.43	71812	Neg	169.62	2370760
 sars-cov-2_pangenome_k32	0.6	sbwt	none	31	1	6770344	1000000	43639920	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.23	71812	Pos	169.62	2370760
-sars-cov-2_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	2.2199999999999998	389500	0	77.64	331220
-sars-cov-2_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	1.58	386476	Neg	77.64	331220
-sars-cov-2_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	2.94	386276	Pos	77.64	331220
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	15	na	3371518	1000000	64118900	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.68	136552	0	19.75	189400
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	15	na	3371518	1000000	64118900	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.38	136428	Neg	19.75	189400
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	15	na	3371518	1000000	64118900	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.78	136552	Pos	19.75	189400
@@ -1973,9 +1829,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	15	0	3371518	1000000	10044616	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	15	1	3371518	1000000	7634120	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.14	36664	0	26.96	516384
 sars-cov-2_pangenome_k32	0.7	sbwt	none	15	1	3371518	1000000	7634120	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.92	36664	Neg	26.96	516384
 sars-cov-2_pangenome_k32	0.7	sbwt	none	15	1	3371518	1000000	7634120	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.37	36664	Pos	26.96	516384
-sars-cov-2_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	1.01	143528	0	19.06	175108
-sars-cov-2_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	0.64	137776	Neg	19.06	175108
-sars-cov-2_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	1.06	143528	Pos	19.06	175108
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	17	na	3961328	1000000	80057091	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.43	163704	0	19.8	266844
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	17	na	3961328	1000000	80057091	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.4799999999999995	163704	Neg	19.8	266844
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	17	na	3961328	1000000	80057091	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.96	163704	Pos	19.8	266844
@@ -2006,9 +1859,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	17	0	3961328	1000000	14019624	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	17	1	3961328	1000000	10959840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.36	39832	0	41.339999999999996	689244
 sars-cov-2_pangenome_k32	0.7	sbwt	none	17	1	3961328	1000000	10959840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.9400000000000001	39832	Neg	41.339999999999996	689244
 sars-cov-2_pangenome_k32	0.7	sbwt	none	17	1	3961328	1000000	10959840	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.51	39832	Pos	41.339999999999996	689244
-sars-cov-2_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	1.52	161152	0	19.59	193540
-sars-cov-2_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	0.72	161152	Neg	19.59	193540
-sars-cov-2_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	1.36	161152	Pos	19.59	193540
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	19	na	4514411	1000000	96097166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	8	189644	0	26.59	210824
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	19	na	4514411	1000000	96097166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	5.66	189644	Neg	26.59	210824
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	19	na	4514411	1000000	96097166	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	7.63	189644	Pos	26.59	210824
@@ -2039,9 +1889,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	19	0	4514411	1000000	18338960	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	19	1	4514411	1000000	14676760	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.59	43460	0	62.650000000000006	930104
 sars-cov-2_pangenome_k32	0.7	sbwt	none	19	1	4514411	1000000	14676760	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.2	43460	Neg	62.650000000000006	930104
 sars-cov-2_pangenome_k32	0.7	sbwt	none	19	1	4514411	1000000	14676760	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	2.08	43460	Pos	62.650000000000006	930104
-sars-cov-2_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	1.27	190312	0	25.950000000000003	210824
-sars-cov-2_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	0.8	184640	Neg	25.950000000000003	210824
-sars-cov-2_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	1.85	184640	Pos	25.950000000000003	210824
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	21	na	5065549	1000000	113212254	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.57	216392	0	32.76	228032
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	21	na	5065549	1000000	113212254	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.7	216392	Neg	32.76	228032
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	21	na	5065549	1000000	113212254	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.8	216392	Pos	32.76	228032
@@ -2072,9 +1919,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	21	0	5065549	1000000	23124784	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	21	1	5065549	1000000	18745128	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.96	47480	0	82.59	1122212
 sars-cov-2_pangenome_k32	0.7	sbwt	none	21	1	5065549	1000000	18745128	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.05	47480	Neg	82.59	1122212
 sars-cov-2_pangenome_k32	0.7	sbwt	none	21	1	5065549	1000000	18745128	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	2.0799999999999996	47480	Pos	82.59	1122212
-sars-cov-2_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	1.89	208948	0	31.119999999999997	228032
-sars-cov-2_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	0.81	216064	Neg	31.119999999999997	228032
-sars-cov-2_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	2.0300000000000002	208948	Pos	31.119999999999997	228032
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	23	na	5620287	1000000	131692572	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.700000000000001	244496	0	46.08	245356
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	23	na	5620287	1000000	131692572	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.39	244496	Neg	46.08	245356
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	23	na	5620287	1000000	131692572	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	9.57	244496	Pos	46.08	245356
@@ -2105,9 +1949,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	23	0	5620287	1000000	28408992	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	23	1	5620287	1000000	23303976	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.82	51832	0	103.23	1300860
 sars-cov-2_pangenome_k32	0.7	sbwt	none	23	1	5620287	1000000	23303976	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.48	51832	Neg	103.23	1300860
 sars-cov-2_pangenome_k32	0.7	sbwt	none	23	1	5620287	1000000	23303976	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.53	51832	Pos	103.23	1300860
-sars-cov-2_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	1.9200000000000002	237740	0	43.71	245356
-sars-cov-2_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	0.99	234568	Neg	43.71	245356
-sars-cov-2_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	2.25	234568	Pos	43.71	245356
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	31	na	7898734	1000000	218477588	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.620000000000001	368572	0	77.31	364628
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	31	na	7898734	1000000	218477588	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	12.67	368576	Neg	77.31	364628
 sars-cov-2_pangenome_k32	0.7	bwa	prophasm	31	na	7898734	1000000	218477588	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	11.020000000000001	368572	Pos	77.31	364628
@@ -2138,9 +1979,6 @@ sars-cov-2_pangenome_k32	0.7	sbwt	none	31	0	7898734	1000000	54541808	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.7	sbwt	none	31	1	7898734	1000000	46007448	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	6.220000000000001	74120	0	180.85	2485476
 sars-cov-2_pangenome_k32	0.7	sbwt	none	31	1	7898734	1000000	46007448	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.44	74120	Neg	180.85	2485476
 sars-cov-2_pangenome_k32	0.7	sbwt	none	31	1	7898734	1000000	46007448	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	6.51	74264	Pos	180.85	2485476
-sars-cov-2_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	2.17	349372	0	73.63000000000001	364628
-sars-cov-2_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	1.39	350084	Neg	73.63000000000001	364628
-sars-cov-2_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	2.6700000000000004	352656	Pos	73.63000000000001	364628
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	15	na	3853164	1000000	55259608	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.51	115936	0	16.990000000000002	190160
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	15	na	3853164	1000000	55259608	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.7	115844	Neg	16.990000000000002	190160
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	15	na	3853164	1000000	55259608	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.84	115936	Pos	16.990000000000002	190160
@@ -2171,9 +2009,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	15	0	3853164	1000000	9742576	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.8	sbwt	none	15	1	3853164	1000000	7986592	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.12	36928	0	31.2	521036
 sars-cov-2_pangenome_k32	0.8	sbwt	none	15	1	3853164	1000000	7986592	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.88	36928	Neg	31.2	521036
 sars-cov-2_pangenome_k32	0.8	sbwt	none	15	1	3853164	1000000	7986592	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.15	36928	Pos	31.2	521036
-sars-cov-2_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	1.04	118656	0	16.869999999999997	190160
-sars-cov-2_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	0.5800000000000001	118656	Neg	16.869999999999997	190160
-sars-cov-2_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	1.07	118656	Pos	16.869999999999997	190160
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	17	na	4527232	1000000	67768586	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.61	136772	0	18.939999999999998	229616
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	17	na	4527232	1000000	67768586	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.319999999999999	136772	Neg	18.939999999999998	229616
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	17	na	4527232	1000000	67768586	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.51	136772	Pos	18.939999999999998	229616
@@ -2204,9 +2039,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	17	0	4527232	1000000	13137840	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.8	sbwt	none	17	1	4527232	1000000	11409056	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.5	40360	0	42.54	696664
 sars-cov-2_pangenome_k32	0.8	sbwt	none	17	1	4527232	1000000	11409056	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.11	40360	Neg	42.54	696664
 sars-cov-2_pangenome_k32	0.8	sbwt	none	17	1	4527232	1000000	11409056	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.36	40360	Pos	42.54	696664
-sars-cov-2_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	1.32	138460	0	19.09	211224
-sars-cov-2_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	0.62	137472	Neg	19.09	211224
-sars-cov-2_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	1.24	137472	Pos	19.09	211224
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	19	na	5159327	1000000	80685555	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	9.48	157176	0	25.13	230976
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	19	na	5159327	1000000	80685555	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	5.33	157176	Neg	25.13	230976
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	19	na	5159327	1000000	80685555	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	7.960000000000001	157176	Pos	25.13	230976
@@ -2237,9 +2069,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	19	0	5159327	1000000	16769248	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.8	sbwt	none	19	1	5159327	1000000	15219336	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.6300000000000001	43920	0	66.83	933580
 sars-cov-2_pangenome_k32	0.8	sbwt	none	19	1	5159327	1000000	15219336	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.15	43920	Neg	66.83	933580
 sars-cov-2_pangenome_k32	0.8	sbwt	none	19	1	5159327	1000000	15219336	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	2.1599999999999997	43920	Pos	66.83	933580
-sars-cov-2_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	1.1300000000000001	160300	0	25.88	230976
-sars-cov-2_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	0.6799999999999999	155988	Neg	25.88	230976
-sars-cov-2_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	1.76	160300	Pos	25.88	230976
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	21	na	5789199	1000000	94411632	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.45	178176	0	30.759999999999998	250652
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	21	na	5789199	1000000	94411632	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	6.49	178176	Neg	30.759999999999998	250652
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	21	na	5789199	1000000	94411632	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.96	178176	Pos	30.759999999999998	250652
@@ -2270,9 +2099,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	21	0	5789199	1000000	20755512	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.8	sbwt	none	21	1	5789199	1000000	19358816	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.97	48008	0	69.32	1137568
 sars-cov-2_pangenome_k32	0.8	sbwt	none	21	1	5789199	1000000	19358816	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.4	48008	Neg	69.32	1137568
 sars-cov-2_pangenome_k32	0.8	sbwt	none	21	1	5789199	1000000	19358816	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	2.0199999999999996	48008	Pos	69.32	1137568
-sars-cov-2_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	1.6300000000000001	175124	0	29.47	250652
-sars-cov-2_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	0.74	175124	Neg	29.47	250652
-sars-cov-2_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	1.8399999999999999	175124	Pos	29.47	250652
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	23	na	6423185	1000000	109335730	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	10.11	200516	0	36.879999999999995	331324
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	23	na	6423185	1000000	109335730	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.5600000000000005	200516	Neg	36.879999999999995	331324
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	23	na	6423185	1000000	109335730	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	8.68	200516	Pos	36.879999999999995	331324
@@ -2303,9 +2129,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	23	0	6423185	1000000	25139640	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.8	sbwt	none	23	1	6423185	1000000	24019928	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.64	52624	0	113.65	1319256
 sars-cov-2_pangenome_k32	0.8	sbwt	none	23	1	6423185	1000000	24019928	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.2	52624	Neg	113.65	1319256
 sars-cov-2_pangenome_k32	0.8	sbwt	none	23	1	6423185	1000000	24019928	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	3.25	52624	Pos	113.65	1319256
-sars-cov-2_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	1.73	197552	0	36.1	331324
-sars-cov-2_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	0.85	195524	Neg	36.1	331324
-sars-cov-2_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	1.3900000000000001	199880	Pos	36.1	331324
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	31	na	9027125	1000000	178577142	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.97	298076	0	66.53999999999999	399888
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	31	na	9027125	1000000	178577142	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	12.06	298076	Neg	66.53999999999999	399888
 sars-cov-2_pangenome_k32	0.8	bwa	prophasm	31	na	9027125	1000000	178577142	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.52	298076	Pos	66.53999999999999	399888
@@ -2336,9 +2159,6 @@ sars-cov-2_pangenome_k32	0.8	sbwt	none	31	0	9027125	1000000	46566392	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.8	sbwt	none	31	1	9027125	1000000	47172576	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.29	75408	0	175.13	2525564
 sars-cov-2_pangenome_k32	0.8	sbwt	none	31	1	9027125	1000000	47172576	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.6300000000000001	75176	Neg	175.13	2525564
 sars-cov-2_pangenome_k32	0.8	sbwt	none	31	1	9027125	1000000	47172576	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.38	75408	Pos	175.13	2525564
-sars-cov-2_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	2.47	286852	0	64.19	399888
-sars-cov-2_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	1.09	287820	Neg	64.19	399888
-sars-cov-2_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	2.33	286852	Pos	64.19	399888
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	15	na	4334809	1000000	42255768	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	5.93	86020	0	12.22	205212
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	15	na	4334809	1000000	42255768	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.2399999999999998	85960	Neg	12.22	205212
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	15	na	4334809	1000000	42255768	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	6.16	85960	Pos	12.22	205212
@@ -2369,9 +2189,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	15	0	4334809	1000000	9006344	sbwt.sars-co
 sars-cov-2_pangenome_k32	0.9	sbwt	none	15	1	4334809	1000000	8230576	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.1300000000000001	37192	0	34.69	514360
 sars-cov-2_pangenome_k32	0.9	sbwt	none	15	1	4334809	1000000	8230576	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.89	37192	Neg	34.69	514360
 sars-cov-2_pangenome_k32	0.9	sbwt	none	15	1	4334809	1000000	8230576	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.62	37192	Pos	34.69	514360
-sars-cov-2_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.96	92416	0	12.490000000000002	205212
-sars-cov-2_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.44	92416	Neg	12.490000000000002	205212
-sars-cov-2_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.89	92416	Pos	12.490000000000002	205212
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	17	na	5093136	1000000	50200751	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	5.9799999999999995	98172	0	17.24	228916
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	17	na	5093136	1000000	50200751	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.17	98172	Neg	17.24	228916
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	17	na	5093136	1000000	50200751	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	6.369999999999999	98176	Pos	17.24	228916
@@ -2402,9 +2219,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	17	0	5093136	1000000	11516456	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.9	sbwt	none	17	1	5093136	1000000	11657816	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.4000000000000001	40644	0	51.57	689176
 sars-cov-2_pangenome_k32	0.9	sbwt	none	17	1	5093136	1000000	11657816	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.9500000000000001	40644	Neg	51.57	689176
 sars-cov-2_pangenome_k32	0.9	sbwt	none	17	1	5093136	1000000	11657816	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.51	40644	Pos	51.57	689176
-sars-cov-2_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	1.05	103496	0	16.509999999999998	228916
-sars-cov-2_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	0.44999999999999996	103496	Neg	16.509999999999998	228916
-sars-cov-2_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	0.9600000000000001	103496	Pos	16.509999999999998	228916
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	19	na	5804243	1000000	58612105	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	8.47	110792	0	21.55	251116
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	19	na	5804243	1000000	58612105	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.56	110792	Neg	21.55	251116
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	19	na	5804243	1000000	58612105	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	6.180000000000001	110792	Pos	21.55	251116
@@ -2435,9 +2249,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	19	0	5804243	1000000	14121728	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.9	sbwt	none	19	1	5804243	1000000	15456704	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.6300000000000001	44184	0	66.07	986132
 sars-cov-2_pangenome_k32	0.9	sbwt	none	19	1	5804243	1000000	15456704	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.12	44184	Neg	66.07	986132
 sars-cov-2_pangenome_k32	0.9	sbwt	none	19	1	5804243	1000000	15456704	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.71	44184	Pos	66.07	986132
-sars-cov-2_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	1.33	115036	0	21.05	251116
-sars-cov-2_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	0.51	115036	Neg	21.05	251116
-sars-cov-2_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	1.33	117616	Pos	21.05	251116
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	21	na	6512849	1000000	67460109	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	7.93	123712	0	23.5	331344
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	21	na	6512849	1000000	67460109	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	5.38	123712	Neg	23.5	331344
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	21	na	6512849	1000000	67460109	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	8.709999999999999	123712	Pos	23.5	331344
@@ -2468,9 +2279,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	21	0	6512849	1000000	16924832	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.9	sbwt	none	21	1	6512849	1000000	19555240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	2.15	48272	0	69.87	1132640
 sars-cov-2_pangenome_k32	0.9	sbwt	none	21	1	6512849	1000000	19555240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.07	48272	Neg	69.87	1132640
 sars-cov-2_pangenome_k32	0.9	sbwt	none	21	1	6512849	1000000	19555240	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	2.4899999999999998	48272	Pos	69.87	1132640
-sars-cov-2_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	1.37	130684	0	22.96	331344
-sars-cov-2_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	0.51	130684	Neg	22.96	331344
-sars-cov-2_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	1.45	130684	Pos	22.96	331344
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	23	na	7226083	1000000	77151498	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.3999999999999995	137700	0	28.11	343608
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	23	na	7226083	1000000	77151498	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	6.8100000000000005	137700	Neg	28.11	343608
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	23	na	7226083	1000000	77151498	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	7.73	137700	Pos	28.11	343608
@@ -2501,9 +2309,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	23	0	7226083	1000000	19971520	sbwt.sars-c
 sars-cov-2_pangenome_k32	0.9	sbwt	none	23	1	7226083	1000000	24177576	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.93	52888	0	89.24	1303760
 sars-cov-2_pangenome_k32	0.9	sbwt	none	23	1	7226083	1000000	24177576	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.2	52888	Neg	89.24	1303760
 sars-cov-2_pangenome_k32	0.9	sbwt	none	23	1	7226083	1000000	24177576	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	2.6999999999999997	52888	Pos	89.24	1303760
-sars-cov-2_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	1.2200000000000002	139716	0	27.479999999999997	343608
-sars-cov-2_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	0.58	139716	Neg	27.479999999999997	343608
-sars-cov-2_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	1.26	139716	Pos	27.479999999999997	343608
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	31	na	10155516	1000000	121617076	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	9.73	198156	0	60.41	435152
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	31	na	10155516	1000000	121617076	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	10.96	198156	Neg	60.41	435152
 sars-cov-2_pangenome_k32	0.9	bwa	prophasm	31	na	10155516	1000000	121617076	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	9.72	198156	Pos	60.41	435152
@@ -2534,9 +2339,6 @@ sars-cov-2_pangenome_k32	0.9	sbwt	none	31	0	10155516	1000000	34484432	sbwt.sars-
 sars-cov-2_pangenome_k32	0.9	sbwt	none	31	1	10155516	1000000	47100280	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	5.46	75176	0	216.79	2498944
 sars-cov-2_pangenome_k32	0.9	sbwt	none	31	1	10155516	1000000	47100280	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.61	75176	Neg	216.79	2498944
 sars-cov-2_pangenome_k32	0.9	sbwt	none	31	1	10155516	1000000	47100280	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	6.48	75332	Pos	216.79	2498944
-sars-cov-2_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	2.11	197152	0	48.66	435152
-sars-cov-2_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	0.73	197176	Neg	48.66	435152
-sars-cov-2_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	1.8499999999999999	197152	Pos	48.66	435152
 sars-cov-2_pangenome_k32	1	bwa	prophasm	15	na	4816455	1000000	25090923	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	4.18	46784	0	12.35	220252
 sars-cov-2_pangenome_k32	1	bwa	prophasm	15	na	4816455	1000000	25090923	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.32	46708	Neg	12.35	220252
 sars-cov-2_pangenome_k32	1	bwa	prophasm	15	na	4816455	1000000	25090923	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_15.d_na	3.3499999999999996	46708	Pos	12.35	220252
@@ -2567,9 +2369,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	15	0	4816455	1000000	7529832	sbwt.sars-cov-
 sars-cov-2_pangenome_k32	1	sbwt	none	15	1	4816455	1000000	4933144	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.08	34024	0	5.51	150684
 sars-cov-2_pangenome_k32	1	sbwt	none	15	1	4816455	1000000	4933144	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	0.91	34024	Neg	5.51	150684
 sars-cov-2_pangenome_k32	1	sbwt	none	15	1	4816455	1000000	4933144	sbwt.sars-cov-2_pangenome_k32.S_none.k_15.d_1	1.09	34024	Pos	5.51	150684
-sars-cov-2_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.5	61852	0	12.9	220252
-sars-cov-2_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.27	57980	Neg	12.9	220252
-sars-cov-2_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.63	57980	Pos	12.9	220252
 sars-cov-2_pangenome_k32	1	bwa	prophasm	17	na	5659041	1000000	27181613	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.1000000000000005	47764	0	14.4	246496
 sars-cov-2_pangenome_k32	1	bwa	prophasm	17	na	5659041	1000000	27181613	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	3.67	47764	Neg	14.4	246496
 sars-cov-2_pangenome_k32	1	bwa	prophasm	17	na	5659041	1000000	27181613	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_17.d_na	4.11	47764	Pos	14.4	246496
@@ -2600,9 +2399,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	17	0	5659041	1000000	8720032	sbwt.sars-cov-
 sars-cov-2_pangenome_k32	1	sbwt	none	17	1	5659041	1000000	5561272	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.3	34552	0	5.6899999999999995	146584
 sars-cov-2_pangenome_k32	1	sbwt	none	17	1	5659041	1000000	5561272	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	0.87	34552	Neg	5.6899999999999995	146584
 sars-cov-2_pangenome_k32	1	sbwt	none	17	1	5659041	1000000	5561272	sbwt.sars-cov-2_pangenome_k32.S_none.k_17.d_1	1.24	34552	Pos	5.6899999999999995	146584
-sars-cov-2_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.66	59184	0	14.620000000000001	246496
-sars-cov-2_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.24	62708	Neg	14.620000000000001	246496
-sars-cov-2_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.8200000000000001	59184	Pos	14.620000000000001	246496
 sars-cov-2_pangenome_k32	1	bwa	prophasm	19	na	6449159	1000000	29890057	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.619999999999999	50344	0	17.2	331376
 sars-cov-2_pangenome_k32	1	bwa	prophasm	19	na	6449159	1000000	29890057	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.16	50344	Neg	17.2	331376
 sars-cov-2_pangenome_k32	1	bwa	prophasm	19	na	6449159	1000000	29890057	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_19.d_na	4.44	50344	Pos	17.2	331376
@@ -2633,9 +2429,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	19	0	6449159	1000000	9838120	sbwt.sars-cov-
 sars-cov-2_pangenome_k32	1	sbwt	none	19	1	6449159	1000000	6158752	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.4000000000000001	35080	0	6.32	144536
 sars-cov-2_pangenome_k32	1	sbwt	none	19	1	6449159	1000000	6158752	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	0.92	35080	Neg	6.32	144536
 sars-cov-2_pangenome_k32	1	sbwt	none	19	1	6449159	1000000	6158752	sbwt.sars-cov-2_pangenome_k32.S_none.k_19.d_1	1.39	35080	Pos	6.32	144536
-sars-cov-2_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.81	61632	0	16.41	331376
-sars-cov-2_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.26	61632	Neg	16.41	331376
-sars-cov-2_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.64	61632	Pos	16.41	331376
 sars-cov-2_pangenome_k32	1	bwa	prophasm	21	na	7236499	1000000	32657524	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.53	52840	0	16.759999999999998	343876
 sars-cov-2_pangenome_k32	1	bwa	prophasm	21	na	7236499	1000000	32657524	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.59	52840	Neg	16.759999999999998	343876
 sars-cov-2_pangenome_k32	1	bwa	prophasm	21	na	7236499	1000000	32657524	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_21.d_na	4.5	52840	Pos	16.759999999999998	343876
@@ -2666,9 +2459,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	21	0	7236499	1000000	10955968	sbwt.sars-cov
 sars-cov-2_pangenome_k32	1	sbwt	none	21	1	7236499	1000000	6753600	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.55	35932	0	6.63	140444
 sars-cov-2_pangenome_k32	1	sbwt	none	21	1	7236499	1000000	6753600	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	0.96	35932	Neg	6.63	140444
 sars-cov-2_pangenome_k32	1	sbwt	none	21	1	7236499	1000000	6753600	sbwt.sars-cov-2_pangenome_k32.S_none.k_21.d_1	1.66	35932	Pos	6.63	140444
-sars-cov-2_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.7	64188	0	17.45	343876
-sars-cov-2_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.25	68144	Neg	17.45	343876
-sars-cov-2_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.88	64188	Pos	17.45	343876
 sars-cov-2_pangenome_k32	1	bwa	prophasm	23	na	8028982	1000000	35734002	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.24	56180	0	21.67	368640
 sars-cov-2_pangenome_k32	1	bwa	prophasm	23	na	8028982	1000000	35734002	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.3999999999999995	56180	Neg	21.67	368640
 sars-cov-2_pangenome_k32	1	bwa	prophasm	23	na	8028982	1000000	35734002	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_23.d_na	5.03	56180	Pos	21.67	368640
@@ -2699,9 +2489,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	23	0	8028982	1000000	12087256	sbwt.sars-cov
 sars-cov-2_pangenome_k32	1	sbwt	none	23	1	8028982	1000000	7352944	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.71	36400	0	6.949999999999999	140432
 sars-cov-2_pangenome_k32	1	sbwt	none	23	1	8028982	1000000	7352944	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	0.9500000000000001	36400	Neg	6.949999999999999	140432
 sars-cov-2_pangenome_k32	1	sbwt	none	23	1	8028982	1000000	7352944	sbwt.sars-cov-2_pangenome_k32.S_none.k_23.d_1	1.85	36400	Pos	6.949999999999999	140432
-sars-cov-2_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.65	69692	0	22.310000000000002	368640
-sars-cov-2_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.27	67260	Neg	22.310000000000002	368640
-sars-cov-2_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.92	69692	Pos	22.310000000000002	368640
 sars-cov-2_pangenome_k32	1	bwa	prophasm	31	na	11283907	1000000	48126997	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	8.01	68500	0	30.599999999999998	470352
 sars-cov-2_pangenome_k32	1	bwa	prophasm	31	na	11283907	1000000	48126997	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	8.67	68500	Neg	30.599999999999998	470352
 sars-cov-2_pangenome_k32	1	bwa	prophasm	31	na	11283907	1000000	48126997	bwa.sars-cov-2_pangenome_k32.S_prophasm.k_31.d_na	8.49	68500	Pos	30.599999999999998	470352
@@ -2732,9 +2519,6 @@ sars-cov-2_pangenome_k32	1	sbwt	none	31	0	11283907	1000000	16770432	sbwt.sars-co
 sars-cov-2_pangenome_k32	1	sbwt	none	31	1	11283907	1000000	10002248	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.64	39040	0	9.86	226572
 sars-cov-2_pangenome_k32	1	sbwt	none	31	1	11283907	1000000	10002248	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	1.02	39040	Neg	9.86	226572
 sars-cov-2_pangenome_k32	1	sbwt	none	31	1	11283907	1000000	10002248	sbwt.sars-cov-2_pangenome_k32.S_none.k_31.d_1	2.7399999999999998	39040	Pos	9.86	226572
-sars-cov-2_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.8400000000000001	82872	0	30.369999999999997	470352
-sars-cov-2_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.29	81820	Neg	30.369999999999997	470352
-sars-cov-2_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.97	82872	Pos	30.369999999999997	470352
 spneumo_pangenome_k32	0.01	bwa	prophasm	15	na	66346	1000000	3542927	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	2.72	10164	0	0.38	25616
 spneumo_pangenome_k32	0.01	bwa	prophasm	15	na	66346	1000000	3542927	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	2.7399999999999998	10164	Neg	0.38	25616
 spneumo_pangenome_k32	0.01	bwa	prophasm	15	na	66346	1000000	3542927	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	2.28	10164	Pos	0.38	25616
@@ -2765,9 +2549,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	15	0	66346	1000000	1653744	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	15	1	66346	1000000	1368272	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.69	30356	0	2.13	64580
 spneumo_pangenome_k32	0.01	sbwt	none	15	1	66346	1000000	1368272	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.63	30356	Neg	2.13	64580
 spneumo_pangenome_k32	0.01	sbwt	none	15	1	66346	1000000	1368272	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.9	30356	Pos	2.13	64580
-spneumo_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.14	28304	0	0.43000000000000005	25616
-spneumo_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.14	28304	Neg	0.43000000000000005	25616
-spneumo_pangenome_k32	0.01	na	prophasm	15	na	na	na	na	na	0.19	23312	Pos	0.43000000000000005	25616
 spneumo_pangenome_k32	0.01	bwa	prophasm	17	na	71707	1000000	4094196	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.3699999999999997	10956	0	0.45	25896
 spneumo_pangenome_k32	0.01	bwa	prophasm	17	na	71707	1000000	4094196	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.32	10956	Neg	0.45	25896
 spneumo_pangenome_k32	0.01	bwa	prophasm	17	na	71707	1000000	4094196	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	2.56	10956	Pos	0.45	25896
@@ -2798,9 +2579,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	17	0	71707	1000000	1881480	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	17	1	71707	1000000	1484056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.75	30620	0	2.27	70528
 spneumo_pangenome_k32	0.01	sbwt	none	17	1	71707	1000000	1484056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.68	30620	Neg	2.27	70528
 spneumo_pangenome_k32	0.01	sbwt	none	17	1	71707	1000000	1484056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.03	30620	Pos	2.27	70528
-spneumo_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.14	29996	0	0.55	25896
-spneumo_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.14	25772	Neg	0.55	25896
-spneumo_pangenome_k32	0.01	na	prophasm	17	na	na	na	na	na	0.2	21580	Pos	0.55	25896
 spneumo_pangenome_k32	0.01	bwa	prophasm	19	na	75514	1000000	4581477	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	3.8099999999999996	11680	0	0.6	25956
 spneumo_pangenome_k32	0.01	bwa	prophasm	19	na	75514	1000000	4581477	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	3.78	11680	Neg	0.6	25956
 spneumo_pangenome_k32	0.01	bwa	prophasm	19	na	75514	1000000	4581477	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	2.48	11680	Pos	0.6	25956
@@ -2831,9 +2609,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	19	0	75514	1000000	2117120	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	19	1	75514	1000000	1603232	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.78	30620	0	2.4	75364
 spneumo_pangenome_k32	0.01	sbwt	none	19	1	75514	1000000	1603232	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.71	30620	Neg	2.4	75364
 spneumo_pangenome_k32	0.01	sbwt	none	19	1	75514	1000000	1603232	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.16	30620	Pos	2.4	75364
-spneumo_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.13	31048	0	0.65	25956
-spneumo_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.13	27876	Neg	0.65	25956
-spneumo_pangenome_k32	0.01	na	prophasm	19	na	na	na	na	na	0.23	25992	Pos	0.65	25956
 spneumo_pangenome_k32	0.01	bwa	prophasm	21	na	79100	1000000	5081472	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	4.18	12480	0	0.6100000000000001	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	21	na	79100	1000000	5081472	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	4.31	12480	Neg	0.6100000000000001	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	21	na	79100	1000000	5081472	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	2.59	12480	Pos	0.6100000000000001	26144
@@ -2864,9 +2639,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	21	0	79100	1000000	2368408	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	21	1	79100	1000000	1730672	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	0.8200000000000001	30884	0	2.54	78116
 spneumo_pangenome_k32	0.01	sbwt	none	21	1	79100	1000000	1730672	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	0.73	30884	Neg	2.54	78116
 spneumo_pangenome_k32	0.01	sbwt	none	21	1	79100	1000000	1730672	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.26	30884	Pos	2.54	78116
-spneumo_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.15	28476	0	0.6900000000000001	26144
-spneumo_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.13	28476	Neg	0.6900000000000001	26144
-spneumo_pangenome_k32	0.01	na	prophasm	21	na	na	na	na	na	0.24000000000000002	25376	Pos	0.6900000000000001	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	23	na	82605	1000000	5606791	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	4.74	13000	0	0.67	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	23	na	82605	1000000	5606791	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	5.06	13000	Neg	0.67	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	23	na	82605	1000000	5606791	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	2.7	13000	Pos	0.67	26144
@@ -2897,9 +2669,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	23	0	82605	1000000	2638632	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	23	1	82605	1000000	1866496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	0.88	30864	0	2.77	94112
 spneumo_pangenome_k32	0.01	sbwt	none	23	1	82605	1000000	1866496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	0.78	30864	Neg	2.77	94112
 spneumo_pangenome_k32	0.01	sbwt	none	23	1	82605	1000000	1866496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.45	30864	Pos	2.77	94112
-spneumo_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.15	30828	0	0.79	26144
-spneumo_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.14	30828	Neg	0.79	26144
-spneumo_pangenome_k32	0.01	na	prophasm	23	na	na	na	na	na	0.26	28256	Pos	0.79	26144
 spneumo_pangenome_k32	0.01	bwa	prophasm	31	na	96277	1000000	7886638	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	6.66	16108	0	1.01	36956
 spneumo_pangenome_k32	0.01	bwa	prophasm	31	na	96277	1000000	7886638	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	7.359999999999999	16108	Neg	1.01	36956
 spneumo_pangenome_k32	0.01	bwa	prophasm	31	na	96277	1000000	7886638	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	3.03	16108	Pos	1.01	36956
@@ -2930,9 +2699,6 @@ spneumo_pangenome_k32	0.01	sbwt	none	31	0	96277	1000000	3878784	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.01	sbwt	none	31	1	96277	1000000	2493824	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.07	31656	0	3.57	119456
 spneumo_pangenome_k32	0.01	sbwt	none	31	1	96277	1000000	2493824	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	0.86	31656	Neg	3.57	119456
 spneumo_pangenome_k32	0.01	sbwt	none	31	1	96277	1000000	2493824	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.8900000000000001	31656	Pos	3.57	119456
-spneumo_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.16999999999999998	34984	0	1.24	37312
-spneumo_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.16	32012	Neg	1.24	37312
-spneumo_pangenome_k32	0.01	na	prophasm	31	na	na	na	na	na	0.32	34376	Pos	1.24	37312
 spneumo_pangenome_k32	0.1	bwa	prophasm	15	na	663462	1000000	33141145	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	2.86	75152	0	5.54	94104
 spneumo_pangenome_k32	0.1	bwa	prophasm	15	na	663462	1000000	33141145	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	2.98	75152	Neg	5.54	94104
 spneumo_pangenome_k32	0.1	bwa	prophasm	15	na	663462	1000000	33141145	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.67	75152	Pos	5.54	94104
@@ -2963,9 +2729,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	15	0	663462	1000000	5289144	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.1	sbwt	none	15	1	663462	1000000	3386400	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.89	32448	0	10.739999999999998	229148
 spneumo_pangenome_k32	0.1	sbwt	none	15	1	663462	1000000	3386400	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.78	32448	Neg	10.739999999999998	229148
 spneumo_pangenome_k32	0.1	sbwt	none	15	1	663462	1000000	3386400	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.03	32448	Pos	10.739999999999998	229148
-spneumo_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.4	87124	0	5.1899999999999995	90820
-spneumo_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.37	87124	Neg	5.1899999999999995	90820
-spneumo_pangenome_k32	0.1	na	prophasm	15	na	na	na	na	na	0.63	87124	Pos	5.1899999999999995	90820
 spneumo_pangenome_k32	0.1	bwa	prophasm	17	na	717072	1000000	38446712	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.44	83456	0	6.5200000000000005	115312
 spneumo_pangenome_k32	0.1	bwa	prophasm	17	na	717072	1000000	38446712	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.77	83456	Neg	6.5200000000000005	115312
 spneumo_pangenome_k32	0.1	bwa	prophasm	17	na	717072	1000000	38446712	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.97	83588	Pos	6.5200000000000005	115312
@@ -2996,9 +2759,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	17	0	717072	1000000	7246288	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.1	sbwt	none	17	1	717072	1000000	4416144	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.02	33504	0	12.440000000000001	286156
 spneumo_pangenome_k32	0.1	sbwt	none	17	1	717072	1000000	4416144	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.83	33504	Neg	12.440000000000001	286156
 spneumo_pangenome_k32	0.1	sbwt	none	17	1	717072	1000000	4416144	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.17	33504	Pos	12.440000000000001	286156
-spneumo_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.43000000000000005	94764	0	6.62	95244
-spneumo_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.37	94764	Neg	6.62	95244
-spneumo_pangenome_k32	0.1	na	prophasm	17	na	na	na	na	na	0.7000000000000001	94764	Pos	6.62	95244
 spneumo_pangenome_k32	0.1	bwa	prophasm	19	na	755141	1000000	43007733	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	4.26	89920	0	7.2700000000000005	145828
 spneumo_pangenome_k32	0.1	bwa	prophasm	19	na	755141	1000000	43007733	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	4.46	89920	Neg	7.2700000000000005	145828
 spneumo_pangenome_k32	0.1	bwa	prophasm	19	na	755141	1000000	43007733	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.89	89988	Pos	7.2700000000000005	145828
@@ -3029,9 +2789,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	19	0	755141	1000000	9286760	sbwt.spneumo_pan
 spneumo_pangenome_k32	0.1	sbwt	none	19	1	755141	1000000	5490480	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.09	34560	0	14.93	304636
 spneumo_pangenome_k32	0.1	sbwt	none	19	1	755141	1000000	5490480	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.86	34560	Neg	14.93	304636
 spneumo_pangenome_k32	0.1	sbwt	none	19	1	755141	1000000	5490480	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.34	34560	Pos	14.93	304636
-spneumo_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.48	100232	0	7.010000000000001	98384
-spneumo_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.4	100232	Neg	7.010000000000001	98384
-spneumo_pangenome_k32	0.1	na	prophasm	19	na	na	na	na	na	0.77	100232	Pos	7.010000000000001	98384
 spneumo_pangenome_k32	0.1	bwa	prophasm	21	na	791006	1000000	47612497	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	4.54	96120	0	9.68	163704
 spneumo_pangenome_k32	0.1	bwa	prophasm	21	na	791006	1000000	47612497	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	5.09	96120	Neg	9.68	163704
 spneumo_pangenome_k32	0.1	bwa	prophasm	21	na	791006	1000000	47612497	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.31	96216	Pos	9.68	163704
@@ -3062,9 +2819,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	21	0	791006	1000000	11460368	sbwt.spneumo_pa
 spneumo_pangenome_k32	0.1	sbwt	none	21	1	791006	1000000	6630896	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.2	35616	0	21.4	326420
 spneumo_pangenome_k32	0.1	sbwt	none	21	1	791006	1000000	6630896	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	0.9	35616	Neg	21.4	326420
 spneumo_pangenome_k32	0.1	sbwt	none	21	1	791006	1000000	6630896	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.52	35616	Pos	21.4	326420
-spneumo_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	0.53	105628	0	8.85	101608
-spneumo_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	0.43000000000000005	105628	Neg	8.85	101608
-spneumo_pangenome_k32	0.1	na	prophasm	21	na	na	na	na	na	1.06	105628	Pos	8.85	101608
 spneumo_pangenome_k32	0.1	bwa	prophasm	23	na	826059	1000000	52444361	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	5.260000000000001	102656	0	12.1	182628
 spneumo_pangenome_k32	0.1	bwa	prophasm	23	na	826059	1000000	52444361	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	5.62	102656	Neg	12.1	182628
 spneumo_pangenome_k32	0.1	bwa	prophasm	23	na	826059	1000000	52444361	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	5.890000000000001	102656	Pos	12.1	182628
@@ -3095,9 +2849,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	23	0	826059	1000000	13788960	sbwt.spneumo_pa
 spneumo_pangenome_k32	0.1	sbwt	none	23	1	826059	1000000	7850384	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.62	36936	0	23.2	361404
 spneumo_pangenome_k32	0.1	sbwt	none	23	1	826059	1000000	7850384	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	0.92	36936	Neg	23.2	361404
 spneumo_pangenome_k32	0.1	sbwt	none	23	1	826059	1000000	7850384	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.64	36936	Pos	23.2	361404
-spneumo_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	0.5800000000000001	108476	0	11.309999999999999	104812
-spneumo_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	0.43000000000000005	113464	Neg	11.309999999999999	104812
-spneumo_pangenome_k32	0.1	na	prophasm	23	na	na	na	na	na	1.19	110928	Pos	11.309999999999999	104812
 spneumo_pangenome_k32	0.1	bwa	prophasm	31	na	962775	1000000	73444839	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.71	129412	0	18.02	117936
 spneumo_pangenome_k32	0.1	bwa	prophasm	31	na	962775	1000000	73444839	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.62	129368	Neg	18.02	117936
 spneumo_pangenome_k32	0.1	bwa	prophasm	31	na	962775	1000000	73444839	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	7.84	129412	Pos	18.02	117936
@@ -3128,9 +2879,6 @@ spneumo_pangenome_k32	0.1	sbwt	none	31	0	962775	1000000	24462144	sbwt.spneumo_pa
 spneumo_pangenome_k32	0.1	sbwt	none	31	1	962775	1000000	13456248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.98	42412	0	36.910000000000004	545288
 spneumo_pangenome_k32	0.1	sbwt	none	31	1	962775	1000000	13456248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.06	42412	Neg	36.910000000000004	545288
 spneumo_pangenome_k32	0.1	sbwt	none	31	1	962775	1000000	13456248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	2.45	42412	Pos	36.910000000000004	545288
-spneumo_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	0.75	135064	0	18.73	117852
-spneumo_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	0.5	136672	Neg	18.73	117852
-spneumo_pangenome_k32	0.1	na	prophasm	31	na	na	na	na	na	1.52	136152	Pos	18.73	117852
 spneumo_pangenome_k32	0.2	bwa	prophasm	15	na	1326925	1000000	59250001	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	5.5	131028	0	11.370000000000001	165424
 spneumo_pangenome_k32	0.2	bwa	prophasm	15	na	1326925	1000000	59250001	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.31	131028	Neg	11.370000000000001	165424
 spneumo_pangenome_k32	0.2	bwa	prophasm	15	na	1326925	1000000	59250001	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.17	131028	Pos	11.370000000000001	165424
@@ -3161,9 +2909,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	15	0	1326925	1000000	8121232	sbwt.spneumo_pa
 spneumo_pangenome_k32	0.2	sbwt	none	15	1	1326925	1000000	5096328	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.05	34032	0	21.34	342368
 spneumo_pangenome_k32	0.2	sbwt	none	15	1	1326925	1000000	5096328	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.92	34032	Neg	21.34	342368
 spneumo_pangenome_k32	0.2	sbwt	none	15	1	1326925	1000000	5096328	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.06	34032	Pos	21.34	342368
-spneumo_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	0.8200000000000001	138504	0	11.650000000000002	115408
-spneumo_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	0.5700000000000001	133924	Neg	11.650000000000002	115408
-spneumo_pangenome_k32	0.2	na	prophasm	15	na	na	na	na	na	0.99	133924	Pos	11.650000000000002	115408
 spneumo_pangenome_k32	0.2	bwa	prophasm	17	na	1434145	1000000	69231316	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	5.619999999999999	146880	0	13.64	204456
 spneumo_pangenome_k32	0.2	bwa	prophasm	17	na	1434145	1000000	69231316	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.15	146880	Neg	13.64	204456
 spneumo_pangenome_k32	0.2	bwa	prophasm	17	na	1434145	1000000	69231316	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.079999999999999	146880	Pos	13.64	204456
@@ -3194,9 +2939,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	17	0	1434145	1000000	11557880	sbwt.spneumo_p
 spneumo_pangenome_k32	0.2	sbwt	none	17	1	1434145	1000000	6983384	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.1	35880	0	23.409999999999997	458092
 spneumo_pangenome_k32	0.2	sbwt	none	17	1	1434145	1000000	6983384	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.93	35880	Neg	23.409999999999997	458092
 spneumo_pangenome_k32	0.2	sbwt	none	17	1	1434145	1000000	6983384	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.28	35880	Pos	23.409999999999997	458092
-spneumo_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	0.79	147900	0	13.49	129068
-spneumo_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	0.6000000000000001	150364	Neg	13.49	129068
-spneumo_pangenome_k32	0.2	na	prophasm	17	na	na	na	na	na	1.5	146860	Pos	13.49	129068
 spneumo_pangenome_k32	0.2	bwa	prophasm	19	na	1510282	1000000	77355809	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.97	158256	0	15.72	258224
 spneumo_pangenome_k32	0.2	bwa	prophasm	19	na	1510282	1000000	77355809	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	5.62	158260	Neg	15.72	258224
 spneumo_pangenome_k32	0.2	bwa	prophasm	19	na	1510282	1000000	77355809	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	9.040000000000001	158256	Pos	15.72	258224
@@ -3227,9 +2969,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	19	0	1510282	1000000	15112680	sbwt.spneumo_p
 spneumo_pangenome_k32	0.2	sbwt	none	19	1	1510282	1000000	8951904	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.23	37992	0	31.72	546724
 spneumo_pangenome_k32	0.2	sbwt	none	19	1	1510282	1000000	8951904	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.93	37992	Neg	31.72	546724
 spneumo_pangenome_k32	0.2	sbwt	none	19	1	1510282	1000000	8951904	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.38	37992	Pos	31.72	546724
-spneumo_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	0.87	158872	0	16.72	136656
-spneumo_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	0.62	159860	Neg	16.72	136656
-spneumo_pangenome_k32	0.2	na	prophasm	19	na	na	na	na	na	1.1800000000000002	159860	Pos	16.72	136656
 spneumo_pangenome_k32	0.2	bwa	prophasm	21	na	1582012	1000000	85616086	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.3	169448	0	19.87	143304
 spneumo_pangenome_k32	0.2	bwa	prophasm	21	na	1582012	1000000	85616086	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.359999999999999	169448	Neg	19.87	143304
 spneumo_pangenome_k32	0.2	bwa	prophasm	21	na	1582012	1000000	85616086	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.23	169448	Pos	19.87	143304
@@ -3260,9 +2999,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	21	0	1582012	1000000	18906128	sbwt.spneumo_p
 spneumo_pangenome_k32	0.2	sbwt	none	21	1	1582012	1000000	11033056	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.82	39840	0	31.63	594992
 spneumo_pangenome_k32	0.2	sbwt	none	21	1	1582012	1000000	11033056	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	0.98	39840	Neg	31.63	594992
 spneumo_pangenome_k32	0.2	sbwt	none	21	1	1582012	1000000	11033056	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.78	39840	Pos	31.63	594992
-spneumo_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	0.9299999999999999	168216	0	18.88	144200
-spneumo_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	0.6699999999999999	169284	Neg	18.88	144200
-spneumo_pangenome_k32	0.2	na	prophasm	21	na	na	na	na	na	1.24	168632	Pos	18.88	144200
 spneumo_pangenome_k32	0.2	bwa	prophasm	23	na	1652118	1000000	94163905	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.8	180772	0	23.799999999999997	150696
 spneumo_pangenome_k32	0.2	bwa	prophasm	23	na	1652118	1000000	94163905	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.25	180772	Neg	23.799999999999997	150696
 spneumo_pangenome_k32	0.2	bwa	prophasm	23	na	1652118	1000000	94163905	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.7700000000000005	180772	Pos	23.799999999999997	150696
@@ -3293,9 +3029,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	23	0	1652118	1000000	22935640	sbwt.spneumo_p
 spneumo_pangenome_k32	0.2	sbwt	none	23	1	1652118	1000000	13250496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.87	42148	0	38.17	674520
 spneumo_pangenome_k32	0.2	sbwt	none	23	1	1652118	1000000	13250496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	0.98	42148	Neg	38.17	674520
 spneumo_pangenome_k32	0.2	sbwt	none	23	1	1652118	1000000	13250496	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.87	42148	Pos	38.17	674520
-spneumo_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	1.1	180392	0	23.669999999999998	150612
-spneumo_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	0.68	181548	Neg	23.669999999999998	150612
-spneumo_pangenome_k32	0.2	na	prophasm	23	na	na	na	na	na	1.37	180392	Pos	23.669999999999998	150612
 spneumo_pangenome_k32	0.2	bwa	prophasm	31	na	1925551	1000000	131731254	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.41	228520	0	41.15	181508
 spneumo_pangenome_k32	0.2	bwa	prophasm	31	na	1925551	1000000	131731254	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	11.71	228520	Neg	41.15	181508
 spneumo_pangenome_k32	0.2	bwa	prophasm	31	na	1925551	1000000	131731254	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.280000000000001	228516	Pos	41.15	181508
@@ -3326,9 +3059,6 @@ spneumo_pangenome_k32	0.2	sbwt	none	31	0	1925551	1000000	41419936	sbwt.spneumo_p
 spneumo_pangenome_k32	0.2	sbwt	none	31	1	1925551	1000000	23422248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	2.98	52104	0	67.81	1023880
 spneumo_pangenome_k32	0.2	sbwt	none	31	1	1925551	1000000	23422248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.21	52104	Neg	67.81	1023880
 spneumo_pangenome_k32	0.2	sbwt	none	31	1	1925551	1000000	23422248	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	3.52	52104	Pos	67.81	1023880
-spneumo_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	1.1600000000000001	228244	0	39.11	181412
-spneumo_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	0.8	224268	Neg	39.11	181412
-spneumo_pangenome_k32	0.2	na	prophasm	31	na	na	na	na	na	1.53	224268	Pos	39.11	181412
 spneumo_pangenome_k32	0.3	bwa	prophasm	15	na	1990388	1000000	78343730	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.37	170716	0	15.14	217780
 spneumo_pangenome_k32	0.3	bwa	prophasm	15	na	1990388	1000000	78343730	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	4.069999999999999	170716	Neg	15.14	217780
 spneumo_pangenome_k32	0.3	bwa	prophasm	15	na	1990388	1000000	78343730	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7.2299999999999995	170716	Pos	15.14	217780
@@ -3359,9 +3089,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	15	0	1990388	1000000	10219176	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	15	1	1990388	1000000	6498320	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.05	35616	0	25.389999999999997	548176
 spneumo_pangenome_k32	0.3	sbwt	none	15	1	1990388	1000000	6498320	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.85	35616	Neg	25.389999999999997	548176
 spneumo_pangenome_k32	0.3	sbwt	none	15	1	1990388	1000000	6498320	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.09	35616	Pos	25.389999999999997	548176
-spneumo_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	1	169712	0	15.39	151396
-spneumo_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	0.71	169712	Neg	15.39	151396
-spneumo_pangenome_k32	0.3	na	prophasm	15	na	na	na	na	na	1.22	169712	Pos	15.39	151396
 spneumo_pangenome_k32	0.3	bwa	prophasm	17	na	2151218	1000000	91810732	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	5.66	192340	0	22.58	166716
 spneumo_pangenome_k32	0.3	bwa	prophasm	17	na	2151218	1000000	91810732	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.489999999999999	192340	Neg	22.58	166716
 spneumo_pangenome_k32	0.3	bwa	prophasm	17	na	2151218	1000000	91810732	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.92	192340	Pos	22.58	166716
@@ -3392,9 +3119,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	17	0	2151218	1000000	14719648	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	17	1	2151218	1000000	9105720	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.42	37992	0	32.63	564396
 spneumo_pangenome_k32	0.3	sbwt	none	17	1	2151218	1000000	9105720	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1	37992	Neg	32.63	564396
 spneumo_pangenome_k32	0.3	sbwt	none	17	1	2151218	1000000	9105720	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.35	37992	Pos	32.63	564396
-spneumo_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	1.24	189748	0	19.25	166632
-spneumo_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	0.76	190104	Neg	19.25	166632
-spneumo_pangenome_k32	0.3	na	prophasm	17	na	na	na	na	na	1.79	190104	Pos	19.25	166632
 spneumo_pangenome_k32	0.3	bwa	prophasm	19	na	2265423	1000000	102483277	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.67	207304	0	25.979999999999997	177360
 spneumo_pangenome_k32	0.3	bwa	prophasm	19	na	2265423	1000000	102483277	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	5.66	207304	Neg	25.979999999999997	177360
 spneumo_pangenome_k32	0.3	bwa	prophasm	19	na	2265423	1000000	102483277	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	8.05	207304	Pos	25.979999999999997	177360
@@ -3425,9 +3149,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	19	0	2265423	1000000	19341624	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	19	1	2265423	1000000	11817112	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.53	40632	0	47.24	660644
 spneumo_pangenome_k32	0.3	sbwt	none	19	1	2265423	1000000	11817112	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.97	40632	Neg	47.24	660644
 spneumo_pangenome_k32	0.3	sbwt	none	19	1	2265423	1000000	11817112	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.83	40632	Pos	47.24	660644
-spneumo_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	1.32	199896	0	24.36	177208
-spneumo_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	0.79	205760	Neg	24.36	177208
-spneumo_pangenome_k32	0.3	na	prophasm	19	na	na	na	na	na	1.36	200884	Pos	24.36	177208
 spneumo_pangenome_k32	0.3	bwa	prophasm	21	na	2373018	1000000	113301308	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7	221964	0	35.92	189000
 spneumo_pangenome_k32	0.3	bwa	prophasm	21	na	2373018	1000000	113301308	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.59	221964	Neg	35.92	189000
 spneumo_pangenome_k32	0.3	bwa	prophasm	21	na	2373018	1000000	113301308	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.19	221964	Pos	35.92	189000
@@ -3458,9 +3179,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	21	0	2373018	1000000	24255992	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	21	1	2373018	1000000	14661936	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.72	43468	0	47.339999999999996	862604
 spneumo_pangenome_k32	0.3	sbwt	none	21	1	2373018	1000000	14661936	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.02	43468	Neg	47.339999999999996	862604
 spneumo_pangenome_k32	0.3	sbwt	none	21	1	2373018	1000000	14661936	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.99	43468	Pos	47.339999999999996	862604
-spneumo_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	1.28	213456	0	35.1	187356
-spneumo_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	0.8200000000000001	217148	Neg	35.1	187356
-spneumo_pangenome_k32	0.3	na	prophasm	21	na	na	na	na	na	1.52	217148	Pos	35.1	187356
 spneumo_pangenome_k32	0.3	bwa	prophasm	23	na	2478177	1000000	124530873	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.88	236856	0	34.160000000000004	197352
 spneumo_pangenome_k32	0.3	bwa	prophasm	23	na	2478177	1000000	124530873	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.56	236856	Neg	34.160000000000004	197352
 spneumo_pangenome_k32	0.3	bwa	prophasm	23	na	2478177	1000000	124530873	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.799999999999999	236856	Pos	34.160000000000004	197352
@@ -3491,9 +3209,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	23	0	2478177	1000000	29480360	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	23	1	2478177	1000000	17695504	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.6799999999999997	46568	0	57.98	917756
 spneumo_pangenome_k32	0.3	sbwt	none	23	1	2478177	1000000	17695504	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.15	46568	Neg	57.98	917756
 spneumo_pangenome_k32	0.3	sbwt	none	23	1	2478177	1000000	17695504	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.23	46568	Pos	57.98	917756
-spneumo_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	1.2100000000000002	230788	0	39.879999999999995	197256
-spneumo_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	0.88	230788	Neg	39.879999999999995	197256
-spneumo_pangenome_k32	0.3	na	prophasm	23	na	na	na	na	na	1.51	230788	Pos	39.879999999999995	197256
 spneumo_pangenome_k32	0.3	bwa	prophasm	31	na	2888326	1000000	173966954	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.81	299744	0	52.00000000000001	238004
 spneumo_pangenome_k32	0.3	bwa	prophasm	31	na	2888326	1000000	173966954	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	12.44	299744	Neg	52.00000000000001	238004
 spneumo_pangenome_k32	0.3	bwa	prophasm	31	na	2888326	1000000	173966954	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.870000000000001	299744	Pos	52.00000000000001	238004
@@ -3524,9 +3239,6 @@ spneumo_pangenome_k32	0.3	sbwt	none	31	0	2888326	1000000	53381272	sbwt.spneumo_p
 spneumo_pangenome_k32	0.3	sbwt	none	31	1	2888326	1000000	31603320	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	4.04	60016	0	91.25	1326344
 spneumo_pangenome_k32	0.3	sbwt	none	31	1	2888326	1000000	31603320	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.34	60016	Neg	91.25	1326344
 spneumo_pangenome_k32	0.3	sbwt	none	31	1	2888326	1000000	31603320	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	4.91	60200	Pos	91.25	1326344
-spneumo_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	1.5999999999999999	288464	0	50.64	237908
-spneumo_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	1.01	288464	Neg	50.64	237908
-spneumo_pangenome_k32	0.3	na	prophasm	31	na	na	na	na	na	1.8199999999999998	287476	Pos	50.64	237908
 spneumo_pangenome_k32	0.4	bwa	prophasm	15	na	2653851	1000000	90365025	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.13	195108	0	23.840000000000003	252124
 spneumo_pangenome_k32	0.4	bwa	prophasm	15	na	2653851	1000000	90365025	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.83	195108	Neg	23.840000000000003	252124
 spneumo_pangenome_k32	0.4	bwa	prophasm	15	na	2653851	1000000	90365025	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7.83	195108	Pos	23.840000000000003	252124
@@ -3557,9 +3269,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	15	0	2653851	1000000	11739360	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	15	1	2653851	1000000	7666176	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.09	36672	0	35.29	554264
 spneumo_pangenome_k32	0.4	sbwt	none	15	1	2653851	1000000	7666176	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.87	36672	Neg	35.29	554264
 spneumo_pangenome_k32	0.4	sbwt	none	15	1	2653851	1000000	7666176	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.34	36672	Pos	35.29	554264
-spneumo_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	1.1300000000000001	194436	0	22.410000000000004	171132
-spneumo_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	0.79	189112	Neg	22.410000000000004	171132
-spneumo_pangenome_k32	0.4	na	prophasm	15	na	na	na	na	na	1.33	194436	Pos	22.410000000000004	171132
 spneumo_pangenome_k32	0.4	bwa	prophasm	17	na	2868290	1000000	105972437	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.67	220244	0	26.330000000000002	190580
 spneumo_pangenome_k32	0.4	bwa	prophasm	17	na	2868290	1000000	105972437	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.97	220244	Neg	26.330000000000002	190580
 spneumo_pangenome_k32	0.4	bwa	prophasm	17	na	2868290	1000000	105972437	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.65	220244	Pos	26.330000000000002	190580
@@ -3590,9 +3299,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	17	0	2868290	1000000	16912256	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	17	1	2868290	1000000	10862048	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.78	39840	0	40.29	685320
 spneumo_pangenome_k32	0.4	sbwt	none	17	1	2868290	1000000	10862048	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.06	39840	Neg	40.29	685320
 spneumo_pangenome_k32	0.4	sbwt	none	17	1	2868290	1000000	10862048	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.31	39840	Pos	40.29	685320
-spneumo_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	1.26	214748	0	24.81	190484
-spneumo_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	0.9	211736	Neg	24.81	190484
-spneumo_pangenome_k32	0.4	na	prophasm	17	na	na	na	na	na	1.5	210876	Pos	24.81	190484
 spneumo_pangenome_k32	0.4	bwa	prophasm	19	na	3020564	1000000	118205253	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.29	237400	0	28.84	204124
 spneumo_pangenome_k32	0.4	bwa	prophasm	19	na	3020564	1000000	118205253	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	5.73	237400	Neg	28.84	204124
 spneumo_pangenome_k32	0.4	bwa	prophasm	19	na	3020564	1000000	118205253	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.75	237400	Pos	28.84	204124
@@ -3623,9 +3329,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	19	0	3020564	1000000	22179552	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	19	1	3020564	1000000	14179600	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.44	43136	0	49.74	889084
 spneumo_pangenome_k32	0.4	sbwt	none	19	1	3020564	1000000	14179600	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.97	43136	Neg	49.74	889084
 spneumo_pangenome_k32	0.4	sbwt	none	19	1	3020564	1000000	14179600	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.52	43136	Pos	49.74	889084
-spneumo_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	1.32	228116	0	32.85	202864
-spneumo_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	0.95	226672	Neg	32.85	202864
-spneumo_pangenome_k32	0.4	na	prophasm	19	na	na	na	na	na	1.52	227660	Pos	32.85	202864
 spneumo_pangenome_k32	0.4	bwa	prophasm	21	na	3164024	1000000	130625183	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.81	254236	0	37.36	215268
 spneumo_pangenome_k32	0.4	bwa	prophasm	21	na	3164024	1000000	130625183	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.859999999999999	254236	Neg	37.36	215268
 spneumo_pangenome_k32	0.4	bwa	prophasm	21	na	3164024	1000000	130625183	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.510000000000002	254236	Pos	37.36	215268
@@ -3656,9 +3359,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	21	0	3164024	1000000	27775928	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	21	1	3164024	1000000	17637272	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.4299999999999997	46304	0	71.64	952556
 spneumo_pangenome_k32	0.4	sbwt	none	21	1	3164024	1000000	17637272	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.31	46304	Neg	71.64	952556
 spneumo_pangenome_k32	0.4	sbwt	none	21	1	3164024	1000000	17637272	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.56	46304	Pos	71.64	952556
-spneumo_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	1.3599999999999999	243224	0	43.660000000000004	214184
-spneumo_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	0.99	245572	Neg	43.660000000000004	214184
-spneumo_pangenome_k32	0.4	na	prophasm	21	na	na	na	na	na	1.62	243832	Pos	43.660000000000004	214184
 spneumo_pangenome_k32	0.4	bwa	prophasm	23	na	3304237	1000000	143528782	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.02	271356	0	38.53	227308
 spneumo_pangenome_k32	0.4	bwa	prophasm	23	na	3304237	1000000	143528782	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.6499999999999995	271356	Neg	38.53	227308
 spneumo_pangenome_k32	0.4	bwa	prophasm	23	na	3304237	1000000	143528782	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	9.040000000000001	271356	Pos	38.53	227308
@@ -3689,9 +3389,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	23	0	3304237	1000000	33717328	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	23	1	3304237	1000000	21315920	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.17	50060	0	71.49	1043424
 spneumo_pangenome_k32	0.4	sbwt	none	23	1	3304237	1000000	21315920	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.1300000000000001	50060	Neg	71.49	1043424
 spneumo_pangenome_k32	0.4	sbwt	none	23	1	3304237	1000000	21315920	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.36	50060	Pos	71.49	1043424
-spneumo_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	1.4	262676	0	36.5	227212
-spneumo_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	1.03	259104	Neg	36.5	227212
-spneumo_pangenome_k32	0.4	na	prophasm	23	na	na	na	na	na	1.61	262676	Pos	36.5	227212
 spneumo_pangenome_k32	0.4	bwa	prophasm	31	na	3851102	1000000	200143870	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.04	343324	0	64.27	273100
 spneumo_pangenome_k32	0.4	bwa	prophasm	31	na	3851102	1000000	200143870	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	14.34	343324	Neg	64.27	273100
 spneumo_pangenome_k32	0.4	bwa	prophasm	31	na	3851102	1000000	200143870	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	11.28	343324	Pos	64.27	273100
@@ -3722,9 +3419,6 @@ spneumo_pangenome_k32	0.4	sbwt	none	31	0	3851102	1000000	60837384	sbwt.spneumo_p
 spneumo_pangenome_k32	0.4	sbwt	none	31	1	3851102	1000000	38206008	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6	66480	0	133.24	1824852
 spneumo_pangenome_k32	0.4	sbwt	none	31	1	3851102	1000000	38206008	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.41	66480	Neg	133.24	1824852
 spneumo_pangenome_k32	0.4	sbwt	none	31	1	3851102	1000000	38206008	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	4.99	66480	Pos	133.24	1824852
-spneumo_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	1.68	330456	0	61.42	273004
-spneumo_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	1.12	330456	Neg	61.42	273004
-spneumo_pangenome_k32	0.4	na	prophasm	31	na	na	na	na	na	1.8900000000000001	330456	Pos	61.42	273004
 spneumo_pangenome_k32	0.5	bwa	prophasm	15	na	3317314	1000000	95591602	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7.44	204812	0	22.45	180788
 spneumo_pangenome_k32	0.5	bwa	prophasm	15	na	3317314	1000000	95591602	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.97	204812	Neg	22.45	180788
 spneumo_pangenome_k32	0.5	bwa	prophasm	15	na	3317314	1000000	95591602	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7.55	204812	Pos	22.45	180788
@@ -3755,9 +3449,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	15	0	3317314	1000000	12756848	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	15	1	3317314	1000000	8640336	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.09	37788	0	35.82	628820
 spneumo_pangenome_k32	0.5	sbwt	none	15	1	3317314	1000000	8640336	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.97	37788	Neg	35.82	628820
 spneumo_pangenome_k32	0.5	sbwt	none	15	1	3317314	1000000	8640336	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.18	37788	Pos	35.82	628820
-spneumo_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	1.31	197992	0	21.77	180692
-spneumo_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	0.8300000000000001	201972	Neg	21.77	180692
-spneumo_pangenome_k32	0.5	na	prophasm	15	na	na	na	na	na	1.4000000000000001	200760	Pos	21.77	180692
 spneumo_pangenome_k32	0.5	bwa	prophasm	17	na	3585363	1000000	111873647	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.33	230936	0	28.48	200512
 spneumo_pangenome_k32	0.5	bwa	prophasm	17	na	3585363	1000000	111873647	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.96	230936	Neg	28.48	200512
 spneumo_pangenome_k32	0.5	bwa	prophasm	17	na	3585363	1000000	111873647	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.42	230936	Pos	28.48	200512
@@ -3788,9 +3479,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	17	0	3585363	1000000	18216216	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	17	1	3585363	1000000	12299344	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.26	41092	0	46.04	874824
 spneumo_pangenome_k32	0.5	sbwt	none	17	1	3585363	1000000	12299344	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.07	41092	Neg	46.04	874824
 spneumo_pangenome_k32	0.5	sbwt	none	17	1	3585363	1000000	12299344	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.34	41092	Pos	46.04	874824
-spneumo_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	1.28	222456	0	27.74	200416
-spneumo_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	0.98	222240	Neg	27.74	200416
-spneumo_pangenome_k32	0.5	na	prophasm	17	na	na	na	na	na	2.06	220444	Pos	27.74	200416
 spneumo_pangenome_k32	0.5	bwa	prophasm	19	na	3775706	1000000	124770795	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.66	249040	0	32.41	213352
 spneumo_pangenome_k32	0.5	bwa	prophasm	19	na	3775706	1000000	124770795	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.01	249040	Neg	32.41	213352
 spneumo_pangenome_k32	0.5	bwa	prophasm	19	na	3775706	1000000	124770795	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	8.53	249040	Pos	32.41	213352
@@ -3821,9 +3509,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	19	0	3775706	1000000	23739696	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	19	1	3775706	1000000	16091752	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.52	44984	0	60.55	948632
 spneumo_pangenome_k32	0.5	sbwt	none	19	1	3775706	1000000	16091752	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.02	44984	Neg	60.55	948632
 spneumo_pangenome_k32	0.5	sbwt	none	19	1	3775706	1000000	16091752	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.6300000000000001	44984	Pos	60.55	948632
-spneumo_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	1.44	238380	0	30.83	213256
-spneumo_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	0.97	238880	Neg	30.83	213256
-spneumo_pangenome_k32	0.5	na	prophasm	19	na	na	na	na	na	1.6099999999999999	238404	Pos	30.83	213256
 spneumo_pangenome_k32	0.5	bwa	prophasm	21	na	3955030	1000000	137694211	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.84	266464	0	37.13	225892
 spneumo_pangenome_k32	0.5	bwa	prophasm	21	na	3955030	1000000	137694211	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7	266464	Neg	37.13	225892
 spneumo_pangenome_k32	0.5	bwa	prophasm	21	na	3955030	1000000	137694211	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.76	266464	Pos	37.13	225892
@@ -3854,9 +3539,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	21	0	3955030	1000000	29570848	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	21	1	3955030	1000000	20006424	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.29	48612	0	81.53	1043780
 spneumo_pangenome_k32	0.5	sbwt	none	21	1	3955030	1000000	20006424	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.11	48612	Neg	81.53	1043780
 spneumo_pangenome_k32	0.5	sbwt	none	21	1	3955030	1000000	20006424	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.36	48612	Pos	81.53	1043780
-spneumo_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	1.8399999999999999	253508	0	35.71	225796
-spneumo_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	0.99	254220	Neg	35.71	225796
-spneumo_pangenome_k32	0.5	na	prophasm	21	na	na	na	na	na	1.74	253700	Pos	35.71	225796
 spneumo_pangenome_k32	0.5	bwa	prophasm	23	na	4130296	1000000	151197969	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.1	284356	0	42.67	236296
 spneumo_pangenome_k32	0.5	bwa	prophasm	23	na	4130296	1000000	151197969	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.85	284356	Neg	42.67	236296
 spneumo_pangenome_k32	0.5	bwa	prophasm	23	na	4130296	1000000	151197969	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	9.8	284356	Pos	42.67	236296
@@ -3887,9 +3569,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	23	0	4130296	1000000	35765888	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	23	1	4130296	1000000	24178560	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	4.12	52896	0	96.66000000000001	1190208
 spneumo_pangenome_k32	0.5	sbwt	none	23	1	4130296	1000000	24178560	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.53	52896	Neg	96.66000000000001	1190208
 spneumo_pangenome_k32	0.5	sbwt	none	23	1	4130296	1000000	24178560	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3	52896	Pos	96.66000000000001	1190208
-spneumo_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	1.54	270808	0	42.1	236200
-spneumo_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	1.03	276276	Neg	42.1	236200
-spneumo_pangenome_k32	0.5	na	prophasm	23	na	na	na	na	na	1.96	270808	Pos	42.1	236200
 spneumo_pangenome_k32	0.5	bwa	prophasm	31	na	4813877	1000000	210350611	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.37	359396	0	71.91	284164
 spneumo_pangenome_k32	0.5	bwa	prophasm	31	na	4813877	1000000	210350611	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	13.18	359400	Neg	71.91	284164
 spneumo_pangenome_k32	0.5	bwa	prophasm	31	na	4813877	1000000	210350611	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.34	359396	Pos	71.91	284164
@@ -3920,9 +3599,6 @@ spneumo_pangenome_k32	0.5	sbwt	none	31	0	4813877	1000000	64004472	sbwt.spneumo_p
 spneumo_pangenome_k32	0.5	sbwt	none	31	1	4813877	1000000	43320752	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	5.31	71556	0	131.29	1942556
 spneumo_pangenome_k32	0.5	sbwt	none	31	1	4813877	1000000	43320752	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.6400000000000001	71556	Neg	131.29	1942556
 spneumo_pangenome_k32	0.5	sbwt	none	31	1	4813877	1000000	43320752	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	5.76	71556	Pos	131.29	1942556
-spneumo_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	2.3	344228	0	69.62	284064
-spneumo_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	1.2	343568	Neg	69.62	284064
-spneumo_pangenome_k32	0.5	na	prophasm	31	na	na	na	na	na	2.05	344364	Pos	69.62	284064
 spneumo_pangenome_k32	0.6	bwa	prophasm	15	na	3980776	1000000	94175111	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	8.219999999999999	200140	0	22.68	194148
 spneumo_pangenome_k32	0.6	bwa	prophasm	15	na	3980776	1000000	94175111	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	4.24	200140	Neg	22.68	194148
 spneumo_pangenome_k32	0.6	bwa	prophasm	15	na	3980776	1000000	94175111	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7.79	200140	Pos	22.68	194148
@@ -3953,9 +3629,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	15	0	3980776	1000000	13303456	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	15	1	3980776	1000000	9442464	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.12	38256	0	47.96	676820
 spneumo_pangenome_k32	0.6	sbwt	none	15	1	3980776	1000000	9442464	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.01	38256	Neg	47.96	676820
 spneumo_pangenome_k32	0.6	sbwt	none	15	1	3980776	1000000	9442464	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.14	38256	Pos	47.96	676820
-spneumo_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	1.2200000000000002	198700	0	21.97	194148
-spneumo_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	0.8500000000000001	198700	Neg	21.97	194148
-spneumo_pangenome_k32	0.6	na	prophasm	15	na	na	na	na	na	1.33	198700	Pos	21.97	194148
 spneumo_pangenome_k32	0.6	bwa	prophasm	17	na	4302436	1000000	109699019	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.640000000000001	224788	0	27.620000000000005	204200
 spneumo_pangenome_k32	0.6	bwa	prophasm	17	na	4302436	1000000	109699019	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	5.37	224788	Neg	27.620000000000005	204200
 spneumo_pangenome_k32	0.6	bwa	prophasm	17	na	4302436	1000000	109699019	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.36	224788	Pos	27.620000000000005	204200
@@ -3986,9 +3659,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	17	0	4302436	1000000	18670888	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	17	1	4302436	1000000	13445056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.3800000000000001	42412	0	57.95	911772
 spneumo_pangenome_k32	0.6	sbwt	none	17	1	4302436	1000000	13445056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.06	42412	Neg	57.95	911772
 spneumo_pangenome_k32	0.6	sbwt	none	17	1	4302436	1000000	13445056	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.35	42412	Pos	57.95	911772
-spneumo_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	1.37	215136	0	28.580000000000005	204200
-spneumo_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	0.89	215136	Neg	28.580000000000005	204200
-spneumo_pangenome_k32	0.6	na	prophasm	17	na	na	na	na	na	1.87	215136	Pos	28.580000000000005	204200
 spneumo_pangenome_k32	0.6	bwa	prophasm	19	na	4530847	1000000	122052494	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.25	241960	0	36.480000000000004	211336
 spneumo_pangenome_k32	0.6	bwa	prophasm	19	na	4530847	1000000	122052494	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.32	241960	Neg	36.480000000000004	211336
 spneumo_pangenome_k32	0.6	bwa	prophasm	19	na	4530847	1000000	122052494	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.859999999999999	241960	Pos	36.480000000000004	211336
@@ -4019,9 +3689,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	19	0	4530847	1000000	24024160	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	19	1	4530847	1000000	17576592	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.73	46304	0	62.85	992656
 spneumo_pangenome_k32	0.6	sbwt	none	19	1	4530847	1000000	17576592	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.08	46304	Neg	62.85	992656
 spneumo_pangenome_k32	0.6	sbwt	none	19	1	4530847	1000000	17576592	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.72	46304	Pos	62.85	992656
-spneumo_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	1.4	231956	0	32.04	211336
-spneumo_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	0.96	230968	Neg	32.04	211336
-spneumo_pangenome_k32	0.6	na	prophasm	19	na	na	na	na	na	1.5899999999999999	231844	Pos	32.04	211336
 spneumo_pangenome_k32	0.6	bwa	prophasm	21	na	4746036	1000000	134602741	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.82	258848	0	37.29	218060
 spneumo_pangenome_k32	0.6	bwa	prophasm	21	na	4746036	1000000	134602741	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.07	258848	Neg	37.29	218060
 spneumo_pangenome_k32	0.6	bwa	prophasm	21	na	4746036	1000000	134602741	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.709999999999999	258848	Pos	37.29	218060
@@ -4052,9 +3719,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	21	0	4746036	1000000	29682440	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	21	1	4746036	1000000	21807824	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.13	50588	0	75.94000000000001	1180268
 spneumo_pangenome_k32	0.6	sbwt	none	21	1	4746036	1000000	21807824	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.39	50588	Neg	75.94000000000001	1180268
 spneumo_pangenome_k32	0.6	sbwt	none	21	1	4746036	1000000	21807824	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.4099999999999997	50588	Pos	75.94000000000001	1180268
-spneumo_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	1.8599999999999999	247224	0	36.93	218060
-spneumo_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	1	248448	Neg	36.93	218060
-spneumo_pangenome_k32	0.6	na	prophasm	21	na	na	na	na	na	1.71	246596	Pos	36.93	218060
 spneumo_pangenome_k32	0.6	bwa	prophasm	23	na	4956355	1000000	147737695	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.440000000000001	276228	0	42.730000000000004	229668
 spneumo_pangenome_k32	0.6	bwa	prophasm	23	na	4956355	1000000	147737695	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.55	276228	Neg	42.730000000000004	229668
 spneumo_pangenome_k32	0.6	bwa	prophasm	23	na	4956355	1000000	147737695	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	9.01	276228	Pos	42.730000000000004	229668
@@ -4085,9 +3749,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	23	0	4956355	1000000	35693232	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	23	1	4956355	1000000	26315840	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.69	54940	0	89.56	1348652
 spneumo_pangenome_k32	0.6	sbwt	none	23	1	4956355	1000000	26315840	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.21	54940	Neg	89.56	1348652
 spneumo_pangenome_k32	0.6	sbwt	none	23	1	4956355	1000000	26315840	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.7	54940	Pos	89.56	1348652
-spneumo_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	1.6099999999999999	263704	0	41.8	229572
-spneumo_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	0.98	266620	Neg	41.8	229572
-spneumo_pangenome_k32	0.6	na	prophasm	23	na	na	na	na	na	1.6800000000000002	266164	Pos	41.8	229572
 spneumo_pangenome_k32	0.6	bwa	prophasm	31	na	5776653	1000000	204891820	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.030000000000001	348492	0	68.9	275376
 spneumo_pangenome_k32	0.6	bwa	prophasm	31	na	5776653	1000000	204891820	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	13.03	348492	Neg	68.9	275376
 spneumo_pangenome_k32	0.6	bwa	prophasm	31	na	5776653	1000000	204891820	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.4	348492	Pos	68.9	275376
@@ -4118,9 +3779,6 @@ spneumo_pangenome_k32	0.6	sbwt	none	31	0	5776653	1000000	63024032	sbwt.spneumo_p
 spneumo_pangenome_k32	0.6	sbwt	none	31	1	5776653	1000000	47032480	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	5.59	75184	0	148.51	2030772
 spneumo_pangenome_k32	0.6	sbwt	none	31	1	5776653	1000000	47032480	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.51	75184	Neg	148.51	2030772
 spneumo_pangenome_k32	0.6	sbwt	none	31	1	5776653	1000000	47032480	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	5.569999999999999	75184	Pos	148.51	2030772
-spneumo_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	1.8199999999999998	337248	0	65.22999999999999	275280
-spneumo_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	1.1600000000000001	333248	Neg	65.22999999999999	275280
-spneumo_pangenome_k32	0.6	na	prophasm	31	na	na	na	na	na	1.99	332728	Pos	65.22999999999999	275280
 spneumo_pangenome_k32	0.7	bwa	prophasm	15	na	4644239	1000000	86344675	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.46	181592	0	21.68	253224
 spneumo_pangenome_k32	0.7	bwa	prophasm	15	na	4644239	1000000	86344675	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	4.24	181592	Neg	21.68	253224
 spneumo_pangenome_k32	0.7	bwa	prophasm	15	na	4644239	1000000	86344675	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	7	181592	Pos	21.68	253224
@@ -4151,9 +3809,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	15	0	4644239	1000000	13385600	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	15	1	4644239	1000000	10090752	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.37	39048	0	48.79	703160
 spneumo_pangenome_k32	0.7	sbwt	none	15	1	4644239	1000000	10090752	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.03	39048	Neg	48.79	703160
 spneumo_pangenome_k32	0.7	sbwt	none	15	1	4644239	1000000	10090752	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.45	39048	Pos	48.79	703160
-spneumo_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	1.21	180900	0	21.990000000000002	214880
-spneumo_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	0.7200000000000001	180900	Neg	21.990000000000002	214880
-spneumo_pangenome_k32	0.7	na	prophasm	15	na	na	na	na	na	1.26	180476	Pos	21.990000000000002	214880
 spneumo_pangenome_k32	0.7	bwa	prophasm	17	na	5019508	1000000	99486676	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.79	201868	0	27.880000000000003	226608
 spneumo_pangenome_k32	0.7	bwa	prophasm	17	na	5019508	1000000	99486676	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.92	201868	Neg	27.880000000000003	226608
 spneumo_pangenome_k32	0.7	bwa	prophasm	17	na	5019508	1000000	99486676	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.17	201868	Pos	27.880000000000003	226608
@@ -4184,9 +3839,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	17	0	5019508	1000000	18259344	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	17	1	5019508	1000000	14306800	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.76	43136	0	64.21000000000001	973848
 spneumo_pangenome_k32	0.7	sbwt	none	17	1	5019508	1000000	14306800	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.99	43136	Neg	64.21000000000001	973848
 spneumo_pangenome_k32	0.7	sbwt	none	17	1	5019508	1000000	14306800	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.3900000000000001	43136	Pos	64.21000000000001	973848
-spneumo_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	1.28	197548	0	27.43	226608
-spneumo_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	0.7999999999999999	196016	Neg	27.43	226608
-spneumo_pangenome_k32	0.7	na	prophasm	17	na	na	na	na	na	1.33	196016	Pos	27.43	226608
 spneumo_pangenome_k32	0.7	bwa	prophasm	19	na	5285988	1000000	110414214	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	8.56	216892	0	30.88	235048
 spneumo_pangenome_k32	0.7	bwa	prophasm	19	na	5285988	1000000	110414214	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	5.9	216896	Neg	30.88	235048
 spneumo_pangenome_k32	0.7	bwa	prophasm	19	na	5285988	1000000	110414214	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	8.37	216892	Pos	30.88	235048
@@ -4217,9 +3869,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	19	0	5285988	1000000	23057264	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	19	1	5285988	1000000	18653136	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.69	47488	0	77.98	1042788
 spneumo_pangenome_k32	0.7	sbwt	none	19	1	5285988	1000000	18653136	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.04	47488	Neg	77.98	1042788
 spneumo_pangenome_k32	0.7	sbwt	none	19	1	5285988	1000000	18653136	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.72	47488	Pos	77.98	1042788
-spneumo_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	1.77	210112	0	30.55	235048
-spneumo_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	0.8300000000000001	214124	Neg	30.55	235048
-spneumo_pangenome_k32	0.7	na	prophasm	19	na	na	na	na	na	1.9	213136	Pos	30.55	235048
 spneumo_pangenome_k32	0.7	bwa	prophasm	21	na	5537042	1000000	121490203	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	9.19	231636	0	37.57	242772
 spneumo_pangenome_k32	0.7	bwa	prophasm	21	na	5537042	1000000	121490203	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.68	231636	Neg	37.57	242772
 spneumo_pangenome_k32	0.7	bwa	prophasm	21	na	5537042	1000000	121490203	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.120000000000001	231636	Pos	37.57	242772
@@ -4250,9 +3899,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	21	0	5537042	1000000	28105888	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	21	1	5537042	1000000	23051968	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.5100000000000002	51644	0	79.11999999999999	1192260
 spneumo_pangenome_k32	0.7	sbwt	none	21	1	5537042	1000000	23051968	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.18	51644	Neg	79.11999999999999	1192260
 spneumo_pangenome_k32	0.7	sbwt	none	21	1	5537042	1000000	23051968	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.51	51644	Pos	79.11999999999999	1192260
-spneumo_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	1.4700000000000002	222560	0	36.83	242772
-spneumo_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	0.8999999999999999	224948	Neg	36.83	242772
-spneumo_pangenome_k32	0.7	na	prophasm	21	na	na	na	na	na	1.64	223548	Pos	36.83	242772
 spneumo_pangenome_k32	0.7	bwa	prophasm	23	na	5782415	1000000	133158846	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.11	246980	0	40.14	250440
 spneumo_pangenome_k32	0.7	bwa	prophasm	23	na	5782415	1000000	133158846	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.61	246980	Neg	40.14	250440
 spneumo_pangenome_k32	0.7	bwa	prophasm	23	na	5782415	1000000	133158846	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.479999999999999	246980	Pos	40.14	250440
@@ -4283,9 +3929,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	23	0	5782415	1000000	33457776	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	23	1	5782415	1000000	27746720	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	2.93	56260	0	96.18	1357064
 spneumo_pangenome_k32	0.7	sbwt	none	23	1	5782415	1000000	27746720	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.26	56260	Neg	96.18	1357064
 spneumo_pangenome_k32	0.7	sbwt	none	23	1	5782415	1000000	27746720	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3.04	56260	Pos	96.18	1357064
-spneumo_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	1.4500000000000002	239716	0	39.379999999999995	250440
-spneumo_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	0.88	239716	Neg	39.379999999999995	250440
-spneumo_pangenome_k32	0.7	na	prophasm	23	na	na	na	na	na	1.52	239716	Pos	39.379999999999995	250440
 spneumo_pangenome_k32	0.7	bwa	prophasm	31	na	6739428	1000000	183941577	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.19	310900	0	68.5	331360
 spneumo_pangenome_k32	0.7	bwa	prophasm	31	na	6739428	1000000	183941577	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	13.14	310900	Neg	68.5	331360
 spneumo_pangenome_k32	0.7	bwa	prophasm	31	na	6739428	1000000	183941577	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.46	310900	Pos	68.5	331360
@@ -4316,9 +3959,6 @@ spneumo_pangenome_k32	0.7	sbwt	none	31	0	6739428	1000000	57873584	sbwt.spneumo_p
 spneumo_pangenome_k32	0.7	sbwt	none	31	1	6739428	1000000	49362312	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6.42	77552	0	160.43	2170012
 spneumo_pangenome_k32	0.7	sbwt	none	31	1	6739428	1000000	49362312	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.53	77552	Neg	160.43	2170012
 spneumo_pangenome_k32	0.7	sbwt	none	31	1	6739428	1000000	49362312	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	5.84	77552	Pos	160.43	2170012
-spneumo_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	2.4	298076	0	60.37	331360
-spneumo_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	1.03	305364	Neg	60.37	331360
-spneumo_pangenome_k32	0.7	na	prophasm	31	na	na	na	na	na	1.8299999999999998	298076	Pos	60.37	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	15	na	5307702	1000000	72086778	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.24	149108	0	21.42	239696
 spneumo_pangenome_k32	0.8	bwa	prophasm	15	na	5307702	1000000	72086778	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.4699999999999998	149100	Neg	21.42	239696
 spneumo_pangenome_k32	0.8	bwa	prophasm	15	na	5307702	1000000	72086778	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	6.48	149108	Pos	21.42	239696
@@ -4349,9 +3989,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	15	0	5307702	1000000	12960856	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	15	1	5307702	1000000	10588976	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.42	39576	0	49.199999999999996	838044
 spneumo_pangenome_k32	0.8	sbwt	none	15	1	5307702	1000000	10588976	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.9600000000000001	39576	Neg	49.199999999999996	838044
 spneumo_pangenome_k32	0.8	sbwt	none	15	1	5307702	1000000	10588976	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.15	39576	Pos	49.199999999999996	838044
-spneumo_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	1.07	153060	0	21.22	235592
-spneumo_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	0.65	153060	Neg	21.22	235592
-spneumo_pangenome_k32	0.8	na	prophasm	15	na	na	na	na	na	1.1	153060	Pos	21.22	235592
 spneumo_pangenome_k32	0.8	bwa	prophasm	17	na	5736581	1000000	81424400	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	6.46	162556	0	25.25	249004
 spneumo_pangenome_k32	0.8	bwa	prophasm	17	na	5736581	1000000	81424400	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	4.42	162556	Neg	25.25	249004
 spneumo_pangenome_k32	0.8	bwa	prophasm	17	na	5736581	1000000	81424400	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	7.57	162556	Pos	25.25	249004
@@ -4382,9 +4019,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	17	0	5736581	1000000	16938192	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	17	1	5736581	1000000	14896816	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.79	43732	0	65.8	939372
 spneumo_pangenome_k32	0.8	sbwt	none	17	1	5736581	1000000	14896816	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.99	43732	Neg	65.8	939372
 spneumo_pangenome_k32	0.8	sbwt	none	17	1	5736581	1000000	14896816	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.69	43732	Pos	65.8	939372
-spneumo_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	1.21	162180	0	25.09	249004
-spneumo_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	0.62	164732	Neg	25.09	249004
-spneumo_pangenome_k32	0.8	na	prophasm	17	na	na	na	na	na	1.49	164732	Pos	25.09	249004
 spneumo_pangenome_k32	0.8	bwa	prophasm	19	na	6041129	1000000	89844436	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	9.04	173796	0	28.189999999999998	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	19	na	6041129	1000000	89844436	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	5.65	173796	Neg	28.189999999999998	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	19	na	6041129	1000000	89844436	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	7.21	173796	Pos	28.189999999999998	331360
@@ -4415,9 +4049,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	19	0	6041129	1000000	20757760	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	19	1	6041129	1000000	19328728	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	2.61	48016	0	69.51	1118204
 spneumo_pangenome_k32	0.8	sbwt	none	19	1	6041129	1000000	19328728	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.11	48016	Neg	69.51	1118204
 spneumo_pangenome_k32	0.8	sbwt	none	19	1	6041129	1000000	19328728	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.98	48016	Pos	69.51	1118204
-spneumo_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	1.21	171832	0	28.03	331360
-spneumo_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	0.67	175820	Neg	28.03	331360
-spneumo_pangenome_k32	0.8	na	prophasm	19	na	na	na	na	na	1.29	175296	Pos	28.03	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	21	na	6328048	1000000	98459441	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.79	185024	0	31.18	331344
 spneumo_pangenome_k32	0.8	bwa	prophasm	21	na	6328048	1000000	98459441	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.79	185024	Neg	31.18	331344
 spneumo_pangenome_k32	0.8	bwa	prophasm	21	na	6328048	1000000	98459441	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	8.65	185024	Pos	31.18	331344
@@ -4448,9 +4079,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	21	0	6328048	1000000	24763360	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	21	1	6328048	1000000	23750888	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.6599999999999997	52368	0	82.29	1264740
 spneumo_pangenome_k32	0.8	sbwt	none	21	1	6328048	1000000	23750888	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.16	52368	Neg	82.29	1264740
 spneumo_pangenome_k32	0.8	sbwt	none	21	1	6328048	1000000	23750888	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	3.43	52368	Pos	82.29	1264740
-spneumo_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	1.26	184620	0	30.520000000000003	331344
-spneumo_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	0.7	184932	Neg	30.520000000000003	331344
-spneumo_pangenome_k32	0.8	na	prophasm	21	na	na	na	na	na	1.29	182592	Pos	30.520000000000003	331344
 spneumo_pangenome_k32	0.8	bwa	prophasm	23	na	6608474	1000000	107747436	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.87	197152	0	35.02	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	23	na	6608474	1000000	107747436	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.02	197152	Neg	35.02	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	23	na	6608474	1000000	107747436	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	10.3	197152	Pos	35.02	331360
@@ -4481,9 +4109,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	23	0	6608474	1000000	29006752	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	23	1	6608474	1000000	28472040	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3.0300000000000002	57052	0	97.60000000000001	1631600
 spneumo_pangenome_k32	0.8	sbwt	none	23	1	6608474	1000000	28472040	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.32	57052	Neg	97.60000000000001	1631600
 spneumo_pangenome_k32	0.8	sbwt	none	23	1	6608474	1000000	28472040	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3.7199999999999998	57052	Pos	97.60000000000001	1631600
-spneumo_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	1.31	195292	0	34.53	331360
-spneumo_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	0.71	195292	Neg	34.53	331360
-spneumo_pangenome_k32	0.8	na	prophasm	23	na	na	na	na	na	1.34	195292	Pos	34.53	331360
 spneumo_pangenome_k32	0.8	bwa	prophasm	31	na	7702204	1000000	147504215	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.42	246620	0	51.16	358460
 spneumo_pangenome_k32	0.8	bwa	prophasm	31	na	7702204	1000000	147504215	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	11.74	246620	Neg	51.16	358460
 spneumo_pangenome_k32	0.8	bwa	prophasm	31	na	7702204	1000000	147504215	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.44	246620	Pos	51.16	358460
@@ -4514,9 +4139,6 @@ spneumo_pangenome_k32	0.8	sbwt	none	31	0	7702204	1000000	48337904	sbwt.spneumo_p
 spneumo_pangenome_k32	0.8	sbwt	none	31	1	7702204	1000000	50279200	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6.7299999999999995	78460	0	158.26	2189616
 spneumo_pangenome_k32	0.8	sbwt	none	31	1	7702204	1000000	50279200	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.52	78216	Neg	158.26	2189616
 spneumo_pangenome_k32	0.8	sbwt	none	31	1	7702204	1000000	50279200	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6.08	78460	Pos	158.26	2189616
-spneumo_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	1.5299999999999998	247928	0	50.86000000000001	358460
-spneumo_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	0.87	247928	Neg	50.86000000000001	358460
-spneumo_pangenome_k32	0.8	na	prophasm	31	na	na	na	na	na	1.59	241396	Pos	50.86000000000001	358460
 spneumo_pangenome_k32	0.9	bwa	prophasm	15	na	5971165	1000000	51638755	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	5.31	102592	0	17.53	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	15	na	5971165	1000000	51638755	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.11	102592	Neg	17.53	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	15	na	5971165	1000000	51638755	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	5.46	102592	Pos	17.53	331340
@@ -4547,9 +4169,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	15	0	5971165	1000000	11923608	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	15	1	5971165	1000000	10941744	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.35	39840	0	50.620000000000005	701728
 spneumo_pangenome_k32	0.9	sbwt	none	15	1	5971165	1000000	10941744	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.97	39840	Neg	50.620000000000005	701728
 spneumo_pangenome_k32	0.9	sbwt	none	15	1	5971165	1000000	10941744	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.33	39840	Pos	50.620000000000005	701728
-spneumo_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.98	108316	0	18.22	331340
-spneumo_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.45999999999999996	111080	Neg	18.22	331340
-spneumo_pangenome_k32	0.9	na	prophasm	15	na	na	na	na	na	0.9299999999999999	111080	Pos	18.22	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	17	na	6453654	1000000	55809746	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	5.6899999999999995	106932	0	21.45	331296
 spneumo_pangenome_k32	0.9	bwa	prophasm	17	na	6453654	1000000	55809746	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.9299999999999997	106932	Neg	21.45	331296
 spneumo_pangenome_k32	0.9	bwa	prophasm	17	na	6453654	1000000	55809746	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	5.680000000000001	106932	Pos	21.45	331296
@@ -4580,9 +4199,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	17	0	6453654	1000000	14556424	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	17	1	6453654	1000000	15217088	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.41	43928	0	59.239999999999995	980960
 spneumo_pangenome_k32	0.9	sbwt	none	17	1	6453654	1000000	15217088	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.09	43928	Neg	59.239999999999995	980960
 spneumo_pangenome_k32	0.9	sbwt	none	17	1	6453654	1000000	15217088	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.48	43928	Pos	59.239999999999995	980960
-spneumo_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	0.87	115728	0	20.5	331296
-spneumo_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	0.47	115728	Neg	20.5	331296
-spneumo_pangenome_k32	0.9	na	prophasm	17	na	na	na	na	na	0.88	115728	Pos	20.5	331296
 spneumo_pangenome_k32	0.9	bwa	prophasm	19	na	6796270	1000000	60757176	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	8.2	113036	0	22.279999999999998	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	19	na	6796270	1000000	60757176	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	4.74	113036	Neg	22.279999999999998	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	19	na	6796270	1000000	60757176	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	6.12	113036	Pos	22.279999999999998	331340
@@ -4613,9 +4229,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	19	0	6796270	1000000	16969504	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	19	1	6796270	1000000	19599872	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.85	48280	0	85.63	1050972
 spneumo_pangenome_k32	0.9	sbwt	none	19	1	6796270	1000000	19599872	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.1	48280	Neg	85.63	1050972
 spneumo_pangenome_k32	0.9	sbwt	none	19	1	6796270	1000000	19599872	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.84	48280	Pos	85.63	1050972
-spneumo_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	0.93	119352	0	22.229999999999997	331340
-spneumo_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	0.47	121692	Neg	22.229999999999997	331340
-spneumo_pangenome_k32	0.9	na	prophasm	19	na	na	na	na	na	0.9299999999999999	121692	Pos	22.229999999999997	331340
 spneumo_pangenome_k32	0.9	bwa	prophasm	21	na	7119054	1000000	65827410	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	7.1000000000000005	119236	0	25.349999999999998	340260
 spneumo_pangenome_k32	0.9	bwa	prophasm	21	na	7119054	1000000	65827410	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	5.42	119236	Neg	25.349999999999998	340260
 spneumo_pangenome_k32	0.9	bwa	prophasm	21	na	7119054	1000000	65827410	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	6.61	119236	Pos	25.349999999999998	340260
@@ -4646,9 +4259,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	21	0	7119054	1000000	19470728	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	21	1	7119054	1000000	23898448	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.38	52688	0	88.48	1195364
 spneumo_pangenome_k32	0.9	sbwt	none	21	1	7119054	1000000	23898448	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.23	52368	Neg	88.48	1195364
 spneumo_pangenome_k32	0.9	sbwt	none	21	1	7119054	1000000	23898448	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	2.3099999999999996	52688	Pos	88.48	1195364
-spneumo_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	0.99	127580	0	24.72	340260
-spneumo_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	0.49	127580	Neg	24.72	340260
-spneumo_pangenome_k32	0.9	na	prophasm	21	na	na	na	na	na	0.99	127580	Pos	24.72	340260
 spneumo_pangenome_k32	0.9	bwa	prophasm	23	na	7434533	1000000	71699538	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	8.030000000000001	126792	0	27.48	350120
 spneumo_pangenome_k32	0.9	bwa	prophasm	23	na	7434533	1000000	71699538	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	6.19	126792	Neg	27.48	350120
 spneumo_pangenome_k32	0.9	bwa	prophasm	23	na	7434533	1000000	71699538	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	7.9399999999999995	126792	Pos	27.48	350120
@@ -4679,9 +4289,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	23	0	7434533	1000000	22110024	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	23	1	7434533	1000000	28489952	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3.82	57052	0	94.76	1362184
 spneumo_pangenome_k32	0.9	sbwt	none	23	1	7434533	1000000	28489952	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.31	57052	Neg	94.76	1362184
 spneumo_pangenome_k32	0.9	sbwt	none	23	1	7434533	1000000	28489952	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	3.7399999999999998	57052	Pos	94.76	1362184
-spneumo_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	1.03	132932	0	27.310000000000002	350120
-spneumo_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	0.48	132932	Neg	27.310000000000002	350120
-spneumo_pangenome_k32	0.9	na	prophasm	23	na	na	na	na	na	1.1400000000000001	132932	Pos	27.310000000000002	350120
 spneumo_pangenome_k32	0.9	bwa	prophasm	31	na	8664979	1000000	95782478	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.43	155924	0	38.63	388572
 spneumo_pangenome_k32	0.9	bwa	prophasm	31	na	8664979	1000000	95782478	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	10.86	155928	Neg	38.63	388572
 spneumo_pangenome_k32	0.9	bwa	prophasm	31	na	8664979	1000000	95782478	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	9.440000000000001	155924	Pos	38.63	388572
@@ -4712,9 +4319,6 @@ spneumo_pangenome_k32	0.9	sbwt	none	31	0	8664979	1000000	34024904	sbwt.spneumo_p
 spneumo_pangenome_k32	0.9	sbwt	none	31	1	8664979	1000000	49746936	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6.23	77928	0	159.73999999999998	2178144
 spneumo_pangenome_k32	0.9	sbwt	none	31	1	8664979	1000000	49746936	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.6	77688	Neg	159.73999999999998	2178144
 spneumo_pangenome_k32	0.9	sbwt	none	31	1	8664979	1000000	49746936	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	6.34	77928	Pos	159.73999999999998	2178144
-spneumo_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	1.33	162060	0	37.2	388572
-spneumo_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	0.5700000000000001	159972	Neg	37.2	388572
-spneumo_pangenome_k32	0.9	na	prophasm	31	na	na	na	na	na	1.23	162060	Pos	37.2	388572
 spneumo_pangenome_k32	1	bwa	prophasm	15	na	6634628	1000000	25059644	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.23	42024	0	13.66	331396
 spneumo_pangenome_k32	1	bwa	prophasm	15	na	6634628	1000000	25059644	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.0399999999999996	42024	Neg	13.66	331396
 spneumo_pangenome_k32	1	bwa	prophasm	15	na	6634628	1000000	25059644	bwa.spneumo_pangenome_k32.S_prophasm.k_15.d_na	3.39	42024	Pos	13.66	331396
@@ -4745,9 +4349,6 @@ spneumo_pangenome_k32	1	sbwt	none	15	0	6634628	1000000	9757200	sbwt.spneumo_pang
 spneumo_pangenome_k32	1	sbwt	none	15	1	6634628	1000000	6634528	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.1	35616	0	5.96	121468
 spneumo_pangenome_k32	1	sbwt	none	15	1	6634628	1000000	6634528	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	0.87	35616	Neg	5.96	121468
 spneumo_pangenome_k32	1	sbwt	none	15	1	6634628	1000000	6634528	sbwt.spneumo_pangenome_k32.S_none.k_15.d_1	1.11	35616	Pos	5.96	121468
-spneumo_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.43999999999999995	57936	0	13.989999999999998	331396
-spneumo_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.23	57936	Neg	13.989999999999998	331396
-spneumo_pangenome_k32	1	na	prophasm	15	na	na	na	na	na	0.44	57936	Pos	13.989999999999998	331396
 spneumo_pangenome_k32	1	bwa	prophasm	17	na	7170727	1000000	22955466	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	2.9899999999999998	35236	0	14.149999999999999	341896
 spneumo_pangenome_k32	1	bwa	prophasm	17	na	7170727	1000000	22955466	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	3.55	35236	Neg	14.149999999999999	341896
 spneumo_pangenome_k32	1	bwa	prophasm	17	na	7170727	1000000	22955466	bwa.spneumo_pangenome_k32.S_prophasm.k_17.d_na	2.9	35236	Pos	14.149999999999999	341896
@@ -4778,9 +4379,6 @@ spneumo_pangenome_k32	1	sbwt	none	17	0	7170727	1000000	10461136	sbwt.spneumo_pan
 spneumo_pangenome_k32	1	sbwt	none	17	1	7170727	1000000	6951528	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.33	35880	0	6.06	119412
 spneumo_pangenome_k32	1	sbwt	none	17	1	7170727	1000000	6951528	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	0.97	35880	Neg	6.06	119412
 spneumo_pangenome_k32	1	sbwt	none	17	1	7170727	1000000	6951528	sbwt.spneumo_pangenome_k32.S_none.k_17.d_1	1.34	35880	Pos	6.06	119412
-spneumo_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.38	50292	0	14.7	341896
-spneumo_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.19	50292	Neg	14.7	341896
-spneumo_pangenome_k32	1	na	prophasm	17	na	na	na	na	na	0.39	50292	Pos	14.7	341896
 spneumo_pangenome_k32	1	bwa	prophasm	19	na	7551412	1000000	23483360	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	3.24	34708	0	13.86	353824
 spneumo_pangenome_k32	1	bwa	prophasm	19	na	7551412	1000000	23483360	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	4.18	34708	Neg	13.86	353824
 spneumo_pangenome_k32	1	bwa	prophasm	19	na	7551412	1000000	23483360	bwa.spneumo_pangenome_k32.S_prophasm.k_19.d_na	3.32	34708	Pos	13.86	353824
@@ -4811,9 +4409,6 @@ spneumo_pangenome_k32	1	sbwt	none	19	0	7551412	1000000	10961064	sbwt.spneumo_pan
 spneumo_pangenome_k32	1	sbwt	none	19	1	7551412	1000000	7177240	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.3800000000000001	36144	0	6.72	117360
 spneumo_pangenome_k32	1	sbwt	none	19	1	7551412	1000000	7177240	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	0.91	36144	Neg	6.72	117360
 spneumo_pangenome_k32	1	sbwt	none	19	1	7551412	1000000	7177240	sbwt.spneumo_pangenome_k32.S_none.k_19.d_1	1.37	36144	Pos	6.72	117360
-spneumo_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.38	50084	0	14.7	353824
-spneumo_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.18	50084	Neg	14.7	353824
-spneumo_pangenome_k32	1	na	prophasm	19	na	na	na	na	na	0.44	50084	Pos	14.7	353824
 spneumo_pangenome_k32	1	bwa	prophasm	21	na	7910060	1000000	24090199	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	3.38	34436	0	14.84	365032
 spneumo_pangenome_k32	1	bwa	prophasm	21	na	7910060	1000000	24090199	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	4.66	34436	Neg	14.84	365032
 spneumo_pangenome_k32	1	bwa	prophasm	21	na	7910060	1000000	24090199	bwa.spneumo_pangenome_k32.S_prophasm.k_21.d_na	3.1399999999999997	34436	Pos	14.84	365032
@@ -4844,9 +4439,6 @@ spneumo_pangenome_k32	1	sbwt	none	21	0	7910060	1000000	11432024	sbwt.spneumo_pan
 spneumo_pangenome_k32	1	sbwt	none	21	1	7910060	1000000	7393384	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.51	36408	0	6.74	113260
 spneumo_pangenome_k32	1	sbwt	none	21	1	7910060	1000000	7393384	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	0.9500000000000001	36408	Neg	6.74	113260
 spneumo_pangenome_k32	1	sbwt	none	21	1	7910060	1000000	7393384	sbwt.spneumo_pangenome_k32.S_none.k_21.d_1	1.6300000000000001	36408	Pos	6.74	113260
-spneumo_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.43	50100	0	14.86	365032
-spneumo_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.24	50100	Neg	14.86	365032
-spneumo_pangenome_k32	1	na	prophasm	21	na	na	na	na	na	0.47000000000000003	50100	Pos	14.86	365032
 spneumo_pangenome_k32	1	bwa	prophasm	23	na	8260593	1000000	25619294	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	3.34	35952	0	16.78	375988
 spneumo_pangenome_k32	1	bwa	prophasm	23	na	8260593	1000000	25619294	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	5.16	35952	Neg	16.78	375988
 spneumo_pangenome_k32	1	bwa	prophasm	23	na	8260593	1000000	25619294	bwa.spneumo_pangenome_k32.S_prophasm.k_23.d_na	3.34	35952	Pos	16.78	375988
@@ -4877,9 +4469,6 @@ spneumo_pangenome_k32	1	sbwt	none	23	0	8260593	1000000	11892416	sbwt.spneumo_pan
 spneumo_pangenome_k32	1	sbwt	none	23	1	8260593	1000000	7601584	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.77	36672	0	7	113260
 spneumo_pangenome_k32	1	sbwt	none	23	1	8260593	1000000	7601584	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	0.9500000000000001	36672	Neg	7	113260
 spneumo_pangenome_k32	1	sbwt	none	23	1	8260593	1000000	7601584	sbwt.spneumo_pangenome_k32.S_none.k_23.d_1	1.69	36672	Pos	7	113260
-spneumo_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.51	49444	0	17.58	375988
-spneumo_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.2	49444	Neg	17.58	375988
-spneumo_pangenome_k32	1	na	prophasm	23	na	na	na	na	na	0.5900000000000001	49444	Pos	17.58	375988
 spneumo_pangenome_k32	1	bwa	prophasm	31	na	9627755	1000000	29900020	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	4.57	39300	0	19.41	418536
 spneumo_pangenome_k32	1	bwa	prophasm	31	na	9627755	1000000	29900020	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	8.23	39300	Neg	19.41	418536
 spneumo_pangenome_k32	1	bwa	prophasm	31	na	9627755	1000000	29900020	bwa.spneumo_pangenome_k32.S_prophasm.k_31.d_na	4.449999999999999	39300	Pos	19.41	418536
@@ -4910,6 +4499,3 @@ spneumo_pangenome_k32	1	sbwt	none	31	0	9627755	1000000	13688360	sbwt.spneumo_pan
 spneumo_pangenome_k32	1	sbwt	none	31	1	9627755	1000000	8468064	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	2.15	37484	0	8.65	193852
 spneumo_pangenome_k32	1	sbwt	none	31	1	9627755	1000000	8468064	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	1.1300000000000001	37484	Neg	8.65	193852
 spneumo_pangenome_k32	1	sbwt	none	31	1	9627755	1000000	8468064	sbwt.spneumo_pangenome_k32.S_none.k_31.d_1	2.15	37484	Pos	8.65	193852
-spneumo_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.64	54248	0	19.75	418536
-spneumo_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.26	55400	Neg	19.75	418536
-spneumo_pangenome_k32	1	na	prophasm	31	na	na	na	na	na	0.63	54248	Pos	19.75	418536
