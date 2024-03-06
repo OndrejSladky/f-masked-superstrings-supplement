@@ -137,7 +137,7 @@ df.cbl_stats <- df.size_stats %>%
 #show(df.cbl_stats)
 
 df.stats <- df.fmsi_stats %>%
-    bind_rows(df.prophex_stats)%>%
+    #bind_rows(df.prophex_stats)%>%
     bind_rows(df.bwa_stats)%>%
     bind_rows(df.sbwt_stats)%>%
     bind_rows(df.cbl_stats)%>%
