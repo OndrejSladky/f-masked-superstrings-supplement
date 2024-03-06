@@ -106,7 +106,7 @@ The data for the figure were taken from [experiments/02_set_operations/results-r
 
 ### Additional plots
 
-Additional plots for the experiment with constructing indexes and evaluating membership queries are available in TODO
+Additional plots for experimental evaluation of membership queries are available in [figures/fig-exp_01_query_memtime/](figures/fig-exp_01_query_memtime/)
 
 ## Contact
 
