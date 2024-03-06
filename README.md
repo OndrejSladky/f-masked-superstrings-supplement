@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Here we provide supplementary materials for the paper *Function-Assigned Masked Superstrings as a Versatile and Compact Data Type for $k$-Mer Sets*, including the data sets used and experimental pipelines.
+Here we provide supplementary materials for the paper *Function-Assigned Masked Superstrings as a Versatile and Compact Data Type for k-Mer Sets*, including the data sets used and experimental pipelines.
 
 ### Citation
 
