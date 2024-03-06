@@ -49,6 +49,9 @@ Specifically we have used the global and local (with $d_{max}=1$) greedy algorit
 * *C. briggsae* (`NC_013489.2`) - downloaded from [NCBI](https://www.ncbi.nlm.nih.gov)
   - [data/C.briggsae.fna.xz](data/C.briggsae.fna.xz)
 
+For generating negative membership queries to these datasets, we used a 2MB prefix of the FASTA file for chromosome 1 of *H. sapiens* genome (`GRCh38.p14 Primary Assembly`, `NC_000001.11`), downloaded from [NCBI](https://www.ncbi.nlm.nih.gov); see  [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz)
+
+
 ### Reproducing expeimental results
 
 After cloning this repository, run the following to download all the dependencies.
@@ -56,12 +59,27 @@ After cloning this repository, run the following to download all the dependencie
 ```bash 
 git submodule update --init
 ```
+After that, CBL, SBWT, BWA, FMSI, KmerCamel, and ProphAsm (the submodules) need to be compiled, as described in each of these repositories.
+(We note that CBL need to be compiled for each value of *k* separately.
 
 #### Experimental evaluation of indexing 
 
 Running the experiments on membership queries besides standard Linux programs requires [Snakemake](https://snakemake.readthedocs.io/en/stable/).
 
-TODO: code to rerun the experiments.
+First, the datasets evaluated need to be subsampled using script `run_subsampling.sh`, which gets dataset name (without extension .fa.xz) as a parameter. One can specify desired subsampling rates and values of *k* inside `run_subsampling.sh`. This creates compressed FASTA files with subsampled datasets in data/subsampled/. For example, to subsampled the *S. pneumoniae* pan-genome, run the following
+```bash
+cd scripts
+./run_subsampling.sh spneumo_pangenome_k32
+```
+Furthermore, for generating negative queries, it is required to decompress [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz) into experiments/01_build_index_query_subsampled. Then run the experiment using
+```bash
+cd experiments/01_build_index_query_subsampled
+make
+```
+Notes:
+- Since the resulting TSV tables are already in the repository, one needs to (re)move them to run the experiments.
+- The number of cores provided to Snakemake can be changed in the Makefile (currently we use 4).
+- The evaluated values of *k*, subsampling rates *r*, and datasets can all be changed in the [Snakefile](experiments/01_build_index_query_subsampled/Snakefile).
 
 #### Experimental evaluation of set operations
 
@@ -80,11 +98,11 @@ The input files can possibly be changed in `run_experiments.py` (variables `file
 
 ### Fig. 1 - Comparison on membership queries
 
-The data 
+The data for the figure were taken from the [experiments/01_build_index_query_subsampled/99_results/exp_01_build_index_results.tsv](experiments/01_build_index_query_subsampled/99_results/exp_01_build_index_results.tsv)
 
 ### Fig. 2 - Experiment on set operations
 
-The data for the figure were taken from the [this CSV table](experiments/02_set_operations/results-roundworms.csv), computed on *C. elegans* and *C. briggsae* genomes.
+The data for the figure were taken from [experiments/02_set_operations/results-roundworms.csv](experiments/02_set_operations/results-roundworms.csv), computed on *C. elegans* and *C. briggsae* genomes.
 
 ### Additional plots
 
