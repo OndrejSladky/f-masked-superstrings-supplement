@@ -38,11 +38,12 @@ df.fmsi_stats <- df.fmsi_stats0 %>%
 
 # second for ProPhex -----------------------------------------------------------
 
-# df.prophasm_memtime <- read_tsv("prophasm_memtime.kamenac.tsv") %>%
-#     mutate(S_time_s = `user(s)`+`sys(s)`) %>%
-#     mutate(S_mem_kb = `max_RAM(kb)`) %>%
-#     select(genome, rate, S_alg, k, d, S_time_s, S_mem_kb)
-# #print(df.prophasm_memtime)
+df.prophasm_memtime <- read_tsv("prophasm_memtime.kamenac.tsv") %>%
+    mutate(S_time_s = `user(s)`+`sys(s)`) %>%
+    mutate(S_mem_kb = `max_RAM(kb)`) %>%
+    select(genome, rate, S_alg, k, d, S_time_s, S_mem_kb)
+#print(df.prophasm_memtime)
+
 # df.prophex_memtime <- read_tsv("prophex_memtime.kamenac.tsv") %>%
 #     mutate(I_time_s = `user(s)`+`sys(s)`) %>%
 #     mutate(I_mem_kb = `max_RAM(kb)`) %>%
