@@ -44,9 +44,9 @@ Specifically we have used the global and local (with $d_{max}=1$) greedy algorit
     22,423,416 bp, #kmers: 11,701,570 32-mers)
   - The resulting file:
     [data/sars-cov-2_pangenome_k32.fa.xz](data/sars-cov-2_pangenome_k32.fa.xz)
-* *C. elegans* (`NC_003279.8`) - downloaded from [NCBI]([https://gisaid.org/](https://www.ncbi.nlm.nih.gov)
+* *C. elegans* (`NC_003279.8`) - downloaded from [NCBI](https://www.ncbi.nlm.nih.gov)
   - [data/C.elegans.fna.xz](data/C.elegans.fna.xz)
-* *C. briggsae* (`NC_013489.2`) - downloaded from [NCBI]([https://gisaid.org/](https://www.ncbi.nlm.nih.gov)
+* *C. briggsae* (`NC_013489.2`) - downloaded from [NCBI](https://www.ncbi.nlm.nih.gov)
   - [data/C.briggsae.fna.xz](data/C.briggsae.fna.xz)
 
 ### Reproducing expeimental results
