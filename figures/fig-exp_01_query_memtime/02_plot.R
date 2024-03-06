@@ -110,7 +110,7 @@ for (g in c("SARS-CoV-2",  "S.Pneumoniae", "E.Coli")) { # setup with legend
                 theme(plot.margin = margin(0.1, 0.25, 0, 0, "cm")) #, legend.position = "none") # for hiding the legend
 
             ggsave(
-                paste("query_RAM_bits_per_kmer_vs_query_ms.g_", g, ".r_", rr, ".k_", kk, "-woLegend.pdf", sep=""),
+                paste("query_RAM_bits_per_kmer_vs_query_ms.g_", g, ".r_", rr, ".k_", kk, ".pdf", sep=""),
                 height = h,
                 width = w,
                 unit = u
