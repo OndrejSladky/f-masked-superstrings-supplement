@@ -7,7 +7,23 @@ Here we provide supplementary materials for the paper *Function-Assigned Masked 
 
 ### Citation
 
-TODO
+> Ondřej Sladký, Pavel Veselý, and Karel Břinda: Function-Assigned Masked Superstrings as a Versatile and Compact Data Type for *k*-Mer Sets.
+> *bioRxiv* 2024.03.06.583483, 2024. [https://doi.org/10.1101/2024.03.06.583483](https://doi.org/10.1101/2024.03.06.583483)
+
+```
+@article {sladky2024-f-masked-superstrings,
+	author = {Ond{\v r}ej Sladk{\'y} and Pavel Vesel{\'y} and Karel B{\v r}inda},
+	title = {Function-Assigned Masked Superstrings as a Versatile and Compact Data Type for 𝑘-Mer Sets},
+	elocation-id = {2024.03.06.583483},
+	year = {2024},
+	doi = {10.1101/2024.03.06.583483},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2024/03/11/2024.03.06.583483},
+	eprint = {https://www.biorxiv.org/content/early/2024/03/11/2024.03.06.583483.full.pdf},
+	journal = {bioRxiv}
+}
+
+```
 
 ## Methods
 
