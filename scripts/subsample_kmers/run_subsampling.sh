@@ -28,7 +28,7 @@ function subsample {
 export -f subsample
 
 s=""
-for kk in {9..23..2}
+for kk in $(seq 9 2 23)
 do
     ## the first rate is effectively just one, randomly chosen k-mer
 	for rr in "0.001" "0.01" "0.1" "0.2" "0.3" "0.4" "0.5" "0.6" "0.7" "0.8" "0.9" # PV: omitting very small rates: "0.000000001" "0.0001"  "0.05" 
