@@ -45,7 +45,7 @@ Specifically we have used the global and local (with $d_{max}=1$) greedy algorit
 
 * *E. coli* pan-genome, obtained as the union of the genomes from the [661k collection](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001421), downloaded from [Phylogenetically compressed 661k collection](https://zenodo.org/records/4602622)
   - *k*-mers were collected and stored in the form of unitigs with $k = 32$ (BCALM 2, version v2.2.3, git commit e57cc46)
-  - not provided in this repository due to file size
+  - not provided in this repository due to file size (ask [@PavelVesely](https://github.com/PavelVesely) if you wish to get this dataset)
 * *S. pneumoniae* pan-genome - 616 genomes, as provided in [RASE DB *S.
   pneumoniae*](https://github.com/c2-d2/rase-db-spneumoniae-sparc/)
   - *k*-mers were collected and stored in the form of simplitigs (ProphAsm
