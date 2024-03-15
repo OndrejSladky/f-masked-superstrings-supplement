@@ -34,24 +34,14 @@ NUM_QUERIES = 1000000
 SUBSAMPLED_DIR = "../../data/subsampled"
 
 D_VALS = range(1, 6) # only for local; not used now
-K_VALS = list(range(19, 25, 2)) # NOTE: removing small k so that negative queries can be generated at all
+K_VALS = list(range(15, 25, 2)) # NOTE: removing small k so that negative queries can be generated at all
 K_VALS.append(31)
-R_VALS = ["0.001", "0.5", "1.0"] #"0.000000001", "0.0001", "0.001", "0.01", "0.05", 
+R_VALS = ["0.001", "0.01", "0.1", "0.5", "1.0"] #"0.000000001", "0.0001", "0.001", "0.01", "0.05", 
 R_VALS_LARGE = ["0.01", "1.0"] # currently for E.coli
 CAMEL_ALGS = ["global", "local"] #, "local", "globalAC", "localAC"] #"streaming", 
 #M_ALGS = ["default", "zeros", "ones", "runs"] # masks not optimized now
-GENOMES_SUBSAMPLED = ["spneumo_pangenome_k32"] 
+GENOMES_SUBSAMPLED = ["spneumo_pangenome_k32"] # "escherichia_coli.k32", "sars-cov-2_pangenome_k32"
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# TODO:
-# - !!! for large datasets: compress the masked superstring output by Camel or ProphAsm
-# - either increase precision in time output, or run more queries (processing 100000 queries by SBWT or ProPhex takes 10s of miliseconds in some cases)
-# - consider mask optimization? It probably won't make any difference, right?
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 if config["testing"]:
     D_VALS = [1]
@@ -115,8 +105,8 @@ rule aggregate_data:
         f"99_results/bwa_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/sbwt_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/sbwt_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
-        #f"99_results/cbl_memtime.{HOSTNAME}{testing_suffix}.tsv",
-        #f"99_results/cbl_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/cbl_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/cbl_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/size_stats.{HOSTNAME}{testing_suffix}.tsv",
     output:
         "99_results/exp_01_build_index_results.tsv",
@@ -140,7 +130,7 @@ rule aggregate_size_stats:
         #[f"80_size_stats/{HOSTNAME}/prophex.{p}.stats.tsv" for p in prefs_Pro_comp], # PROPHEX REMOVED FOR NOW
         [f"80_size_stats/{HOSTNAME}/bwa.{p}.stats.tsv" for p in prefs_Pro_comp],
         [f"80_size_stats/{HOSTNAME}/sbwt.{p}.stats.tsv" for p in prefs_SBWT_comp],
-        #[f"80_size_stats/{HOSTNAME}/cbl.{p}.stats.tsv" for p in prefs_CBL_comp],
+        [f"80_size_stats/{HOSTNAME}/cbl.{p}.stats.tsv" for p in prefs_CBL_comp],
     params:
         tsv=f"99_results/size_stats.{HOSTNAME}{testing_suffix}.tsv.tmp",
     priority: 50

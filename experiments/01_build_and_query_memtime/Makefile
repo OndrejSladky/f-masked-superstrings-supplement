@@ -10,7 +10,7 @@ h=$(shell hostname)
 $(info Hostname $h)
 
 all: #build_programs
-	snakemake -p -j 30 --rerun-incomplete --scheduler greedy --keep-going
+	snakemake -p -j 4 --rerun-incomplete --scheduler greedy --keep-going
 
 build_programs:
 	$(MAKE) -C ../../kmercamel
