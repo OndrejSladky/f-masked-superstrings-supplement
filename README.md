@@ -65,7 +65,7 @@ Specifically we have used the global and local (with $d_{max}=1$) greedy algorit
 * *C. briggsae* (`NC_013489.2`) - downloaded from [NCBI](https://www.ncbi.nlm.nih.gov)
   - [data/C.briggsae.fna.xz](data/C.briggsae.fna.xz)
 
-For generating negative membership queries to these datasets, we used a 2MB prefix of the FASTA file for chromosome 1 of *H. sapiens* genome (`GRCh38.p14 Primary Assembly`, `NC_000001.11`), downloaded from [NCBI](https://www.ncbi.nlm.nih.gov); see  [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz)
+For generating negative membership queries to these datasets, we used a 2MB prefix of the FASTA file for chromosome 1 of *H. sapiens* genome (`GRCh38.p14 Primary Assembly`, `NC_000001.11`), downloaded from [NCBI](https://www.ncbi.nlm.nih.gov); see  [data/GRCh38.p14.chromosome1.prefix2M.fasta.xz](data/GRCh38.p14.chromosome1.prefix2M.fasta.xz)
 
 
 ### Reproducing expeimental results
@@ -87,7 +87,7 @@ First, the datasets evaluated need to be subsampled using script `run_subsamplin
 cd scripts
 ./run_subsampling.sh spneumo_pangenome_k32
 ```
-Furthermore, for generating negative queries, it is required to decompress [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz) into experiments/01_build_and_query_memtime. Then run the experiment using
+Furthermore, for generating negative queries, it is required to decompress [data/GRCh38.p14.chromosome1.prefix2M.fasta.xz](data/GRCh38.p14.chromosome1.prefix2M.fasta.xz) into experiments/01_build_and_query_memtime. Then run the experiment using
 ```bash
 cd experiments/01_build_and_query_memtime
 make
