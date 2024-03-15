@@ -402,7 +402,7 @@ rule compute_queries_wHeaderAndRCs:
 
 rule compute_queries_neg_noHeader:
     input:
-        fa=f"GRCh38.p14.chromosome1.fasta",
+        fa=f"GRCh38.p14.chromosome1.prefix2M.fasta",
         faExcl=f"{SUBSAMPLED_DIR}/" + "{g}_subsampled_k{k}_r1.0.fa.xz",
     output:
         q="42_query_fastas/{g}.k_{k}-queries-neg-noHeader.fa",
@@ -416,7 +416,7 @@ rule compute_queries_neg_noHeader:
 
 rule compute_queries_neg_wHeader:
     input:
-        fa=f"GRCh38.p14.chromosome1.fasta",
+        fa=f"GRCh38.p14.chromosome1.prefix2M.fasta",
         faExcl=f"{SUBSAMPLED_DIR}/" + "{g}_subsampled_k{k}_r1.0.fa.xz",
     output:
         q="42_query_fastas/{g}.k_{k}-queries-neg-wHeader.fa",
@@ -430,7 +430,7 @@ rule compute_queries_neg_wHeader:
 
 rule compute_queries_neg_wHeaderAndRCs:
     input:
-        fa=f"GRCh38.p14.chromosome1.fasta",
+        fa=f"GRCh38.p14.chromosome1.prefix2M.fasta",
         faExcl=f"{SUBSAMPLED_DIR}/" + "{g}_subsampled_k{k}_r1.0.fa.xz",
     output:
         q="42_query_fastas/{g}.k_{k}-queries-neg-wHeader-wRCs.fa",
