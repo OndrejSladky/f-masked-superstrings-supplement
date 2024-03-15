@@ -87,15 +87,15 @@ First, the datasets evaluated need to be subsampled using script `run_subsamplin
 cd scripts
 ./run_subsampling.sh spneumo_pangenome_k32
 ```
-Furthermore, for generating negative queries, it is required to decompress [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz) into experiments/01_build_index_query_subsampled. Then run the experiment using
+Furthermore, for generating negative queries, it is required to decompress [data/GRCh38.p14.chromosome1.fasta.xz](data/GRCh38.p14.chromosome1.fasta.xz) into experiments/01_build_and_query_memtime. Then run the experiment using
 ```bash
-cd experiments/01_build_index_query_subsampled
+cd experiments/01_build_and_query_memtime
 make
 ```
 Notes:
 - Since the resulting TSV tables are already in the repository, one needs to (re)move them to run the experiments.
 - The number of cores provided to Snakemake can be changed in the Makefile (currently we use 4).
-- The evaluated values of *k*, subsampling rates *r*, and datasets can all be changed in the [Snakefile](experiments/01_build_index_query_subsampled/Snakefile).
+- The evaluated values of *k*, subsampling rates *r*, and datasets can all be changed in the [Snakefile](experiments/01_build_and_query_memtime/Snakefile).
 
 #### Experimental evaluation of set operations
 
@@ -114,7 +114,7 @@ The input files can possibly be changed in `run_experiments.py` (variables `file
 
 ### Fig. 1 - Comparison on membership queries
 
-The data for the figure were taken from the [experiments/01_build_index_query_subsampled/99_results/exp_01_build_index_results.tsv](experiments/01_build_index_query_subsampled/99_results/exp_01_build_index_results.tsv)
+The data for the figure were taken from the [experiments/01_build_and_query_memtime/99_results/exp_01_build_index_results.tsv](experiments/01_build_and_query_memtime/99_results/exp_01_build_index_results.tsv)
 
 ### Fig. 2 - Experiment on set operations
 
