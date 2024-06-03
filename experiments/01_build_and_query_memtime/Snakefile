@@ -13,17 +13,22 @@ print(HOSTNAME)
 
 CAMEL = "../../kmercamel/kmercamel"
 FMSI = "../../fmsi/fmsi"
+FMSIv02 = "../../FMSIv0.2/fmsi"
 PROPHASM = "../../prophasm/prophasm"
 PROPHEX = "../../prophex/prophex"
 BWA = "../../bwa/bwa"
 SBWT = "../../SBWT/build/bin/sbwt"
 # SBWT variant: not with Elias-Fano "WARNING: This program was compiled for a CPU without support for the BMI2 instruction set. The performance of the Elias-Fano variants will be very bad."
 SBWT_VARIANT = "plain-matrix"  # choosing the default variant now as it achieves the best query times in SBWT paper; for index size: "rrr-subsetwt" has nearly as small index as "mef-concat", but the latter produces a warning on kamenac
+SBWT_VARIANT_MEM = "rrr-split"  # one of the most memory efficient variant that has the best query time among the most memory-efficient variants (according to the SBWT paper)
 SBWT_TMP_DIR = "sbwt-tmp/" #/tmp/ -- PV: note: not on servers as they have limited root dist
 SBWT_RAM = "10" # SBWT -m param.: "RAM budget in gigabytes (not strictly enforced). Must be at least 2. (default: 2)"
 CBL_PREF = "../../CBL/target.k_" # NOTE: CBL is compiled for every k separately
 CBL_SUFF = "/release/examples/cbl"
 BWA_PARAM_W = 999999
+SSHASH = "../../sshash/build/sshash"
+SSHASH_SEED = 42 #88 # default 1 didn't work on covid; let's hope 42 is indeed the right answer; well, it's actually two snowmen (88)
+SSHASH_L = 11 # SSHash parameter "that controls the space/time trade-off of the dictionary"; default is 6, but that doesn't work for all datasets
 NUM_THREADS = 1 # NOTE: using only 1 thread for prophex and SBWT, even though they can use more threads (for query or index building, resp., but not both)
 GET_QUERIES = "../../scripts/get_queries.py"
 
@@ -36,12 +41,23 @@ SUBSAMPLED_DIR = "../../data/subsampled"
 D_VALS = range(1, 6) # only for local; not used now
 K_VALS = list(range(15, 25, 2)) # NOTE: removing small k so that negative queries can be generated at all
 K_VALS.append(31)
-R_VALS = ["0.001", "0.01", "0.1", "0.5", "1.0"] #"0.000000001", "0.0001", "0.001", "0.01", "0.05", 
-R_VALS_LARGE = ["0.01", "1.0"] # currently for E.coli
+R_VALS = ["0.01", "0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7", "0.8", "0.9", "1.0"] #"0.000000001", "0.0001", "0.001", "0.01", "0.05", 
+R_VALS_LARGE = ["0.01", "0.1", "1.0"] # currently for E.coli
 CAMEL_ALGS = ["global", "local"] #, "local", "globalAC", "localAC"] #"streaming", 
 #M_ALGS = ["default", "zeros", "ones", "runs"] # masks not optimized now
-GENOMES_SUBSAMPLED = ["spneumo_pangenome_k32"] # "escherichia_coli.k32", "sars-cov-2_pangenome_k32"
+GENOMES_SUBSAMPLED = ["spneumoniae", "escherichia_coli.k32", "spneumo_pangenome_k32", "sars-cov-2_pangenome_k32"] # file {g}.fa.xz, which contains the non-subsampled dataset, assumed to be in the same dir as this Snakefile 
 
+
+
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# TODO:
+# - (for large datasets: compress the masked superstring output by Camel or ProphAsm (takes a lot of disk space))
+# - (consider mask optimization? It probably won't make any difference)
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 if config["testing"]:
     D_VALS = [1]
@@ -76,6 +92,7 @@ for g in GENOMES_SUBSAMPLED:
             prefs_CBL_comp.add(f"{g}.r_{r}.S_none.k_{k}.d_na")
             prefs_SBWT_comp.add(f"{g}.r_{r}.S_none.k_{k}.d_0")
             prefs_SBWT_comp.add(f"{g}.r_{r}.S_none.k_{k}.d_1") # two variants of SBWT
+            prefs_SBWT_comp.add(f"{g}.r_{r}.S_none.k_{k}.d_2") # two variants of SBWT
 prefs_MS_comp = sorted(list(prefs_MS_comp))
 prefs_Pro_comp = sorted(list(prefs_Pro_comp))
 prefs_SBWT_comp = sorted(list(prefs_SBWT_comp))
@@ -83,7 +100,7 @@ prefs_CBL_comp = sorted(list(prefs_CBL_comp))
 
 
 print(f"Prefs for MS: {prefs_MS_comp}")
-print(f"Prefs for Pro(Asm/Ex) and BWA: {prefs_Pro_comp}")
+print(f"Prefs for Pro(Asm/Ex) and BWA and SSHash: {prefs_Pro_comp}")
 print(f"Prefs for SBWT: {prefs_SBWT_comp}")
 print(f"Prefs for CBL: {prefs_CBL_comp}")
 
@@ -91,13 +108,16 @@ print(f"Prefs for CBL: {prefs_CBL_comp}")
 
 rule all:
     input:
-        "99_results/exp_01_build_index_results.tsv",
+        f"99_results/exp_01_build_index_results.{HOSTNAME}.tsv", # FIXME: missing {testing_suffix}
+        f"00_hw_info/{HOSTNAME}.txt",
 
 rule aggregate_data:
     input:
         f"99_results/camel_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/fmsi_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/fmsi_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/FMSIv02_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/FMSIv02_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/prophasm_memtime.{HOSTNAME}{testing_suffix}.tsv",
         #f"99_results/prophex_memtime.{HOSTNAME}{testing_suffix}.tsv", # PROPHEX REMOVED FOR NOW
         #f"99_results/prophex_query_memtime.{HOSTNAME}{testing_suffix}.tsv", # PROPHEX REMOVED FOR NOW
@@ -107,9 +127,11 @@ rule aggregate_data:
         f"99_results/sbwt_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/cbl_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/cbl_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/sshash_memtime.{HOSTNAME}{testing_suffix}.tsv",
+        f"99_results/sshash_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
         f"99_results/size_stats.{HOSTNAME}{testing_suffix}.tsv",
     output:
-        "99_results/exp_01_build_index_results.tsv",
+        f"99_results/exp_01_build_index_results.{HOSTNAME}.tsv",
     shell:
         """
         cd 99_results/
@@ -127,10 +149,12 @@ rule aggregate_size_stats:
         tsv=f"99_results/size_stats.{HOSTNAME}{testing_suffix}.tsv",
     input:
         [f"80_size_stats/{HOSTNAME}/fmsi.{p}.stats.tsv" for p in prefs_MS_comp],
+        [f"80_size_stats/{HOSTNAME}/FMSIv02.{p}.stats.tsv" for p in prefs_MS_comp],
         #[f"80_size_stats/{HOSTNAME}/prophex.{p}.stats.tsv" for p in prefs_Pro_comp], # PROPHEX REMOVED FOR NOW
         [f"80_size_stats/{HOSTNAME}/bwa.{p}.stats.tsv" for p in prefs_Pro_comp],
         [f"80_size_stats/{HOSTNAME}/sbwt.{p}.stats.tsv" for p in prefs_SBWT_comp],
         [f"80_size_stats/{HOSTNAME}/cbl.{p}.stats.tsv" for p in prefs_CBL_comp],
+        [f"80_size_stats/{HOSTNAME}/sshash.{p}.stats.tsv" for p in prefs_Pro_comp],
     params:
         tsv=f"99_results/size_stats.{HOSTNAME}{testing_suffix}.tsv.tmp",
     priority: 50
@@ -139,7 +163,7 @@ rule aggregate_size_stats:
         cat {input}\\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
         
@@ -156,7 +180,7 @@ rule aggregate_camel_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -173,7 +197,7 @@ rule aggregate_fmsi_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -192,7 +216,43 @@ rule aggregate_fmsi_query_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
+            > {output.tsv}
+        """
+
+rule aggregate_FMSIv02_memtime_stats:
+    output:
+        tsv=f"99_results/FMSIv02_memtime.{HOSTNAME}{testing_suffix}.tsv",
+    input:
+        [f"31_FMSIv02_memtime/{HOSTNAME}/{p}.t_index.tsv" for p in prefs_MS_comp],
+    params:
+        tsv=f"99_results/FMSIv02_memtime.{HOSTNAME}{testing_suffix}.tsv.tmp",
+    priority: 50
+    shell:
+        """
+        cat {input} \\
+            | awk '!seen[$0]++' \\
+            | tee {params.tsv} \\
+            | python3 sort_output_tsv.py \\
+            > {output.tsv}
+        """
+
+rule aggregate_FMSIv02_query_memtime_stats:
+    output:
+        tsv=f"99_results/FMSIv02_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
+    input:
+        [f"32_FMSIv02_query_memtime/{HOSTNAME}/{p}.t_0.tsv" for p in prefs_MS_comp],
+        [f"32_FMSIv02_query_memtime/{HOSTNAME}/{p}.t_Pos.tsv" for p in prefs_MS_comp],
+        [f"32_FMSIv02_query_memtime/{HOSTNAME}/{p}.t_Neg.tsv" for p in prefs_MS_comp],
+    params:
+        tsv=f"99_results/FMSIv02_query_memtime.{HOSTNAME}{testing_suffix}.tsv.tmp",
+    priority: 50
+    shell:
+        """
+        cat {input} \\
+            | awk '!seen[$0]++' \\
+            | tee {params.tsv} \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -209,7 +269,7 @@ rule aggregate_prophasm_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -226,7 +286,7 @@ rule aggregate_prophex_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -245,7 +305,7 @@ rule aggregate_prophex_query_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -262,7 +322,7 @@ rule aggregate_bwa_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -281,7 +341,43 @@ rule aggregate_bwa_query_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
+            > {output.tsv}
+        """
+
+rule aggregate_sshash_memtime_stats:
+    output:
+        tsv=f"99_results/sshash_memtime.{HOSTNAME}{testing_suffix}.tsv",
+    input:
+        [f"26_sshash_memtime/{HOSTNAME}/{p}.t_index.tsv" for p in prefs_Pro_comp],
+    params:
+        tsv=f"99_results/sshash_memtime.{HOSTNAME}{testing_suffix}.tsv.tmp",
+    priority: 50
+    shell:
+        """
+        cat {input} \\
+            | awk '!seen[$0]++' \\
+            | tee {params.tsv} \\
+            | python3 sort_output_tsv.py \\
+            > {output.tsv}
+        """
+
+rule aggregate_sshash_query_memtime_stats:
+    output:
+        tsv=f"99_results/sshash_query_memtime.{HOSTNAME}{testing_suffix}.tsv",
+    input:
+        [f"27_sshash_query_memtime/{HOSTNAME}/{p}.t_0.tsv" for p in prefs_Pro_comp],
+        [f"27_sshash_query_memtime/{HOSTNAME}/{p}.t_Pos.tsv" for p in prefs_Pro_comp],
+        [f"27_sshash_query_memtime/{HOSTNAME}/{p}.t_Neg.tsv" for p in prefs_Pro_comp],
+    params:
+        tsv=f"99_results/sshash_query_memtime.{HOSTNAME}{testing_suffix}.tsv.tmp",
+    priority: 50
+    shell:
+        """
+        cat {input} \\
+            | awk '!seen[$0]++' \\
+            | tee {params.tsv} \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -298,7 +394,7 @@ rule aggregate_cbl_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -317,7 +413,7 @@ rule aggregate_cbl_query_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -334,7 +430,7 @@ rule aggregate_sbwt_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -353,7 +449,7 @@ rule aggregate_sbwt_query_memtime_stats:
         cat {input} \\
             | awk '!seen[$0]++' \\
             | tee {params.tsv} \\
-            | ./sort_output_tsv.py \\
+            | python3 sort_output_tsv.py \\
             > {output.tsv}
         """
 
@@ -470,7 +566,7 @@ rule count_kmers:
 
 
 #####################################################################################################
-# RUN CAMEL + FMS-index
+# RUN CAMEL + FMS-index + FMSIv0.2
 #####################################################################################################
 
 # TODO: Once Camel can read from the standard input (passed by -), xzcat should be
@@ -481,6 +577,7 @@ rule run_kmer_camel:
         hw=f"00_hw_info/{HOSTNAME}.txt",
     output:
         fa="01_MS_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa",
+        #fa2="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa", # only symlink now #TODO: uncomment -- now commented out b/c I'd need recompute it...
         log0=f"02_camel_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_{S}.k_{k}.d_{d}.t_superstring.log",
     wildcard_constraints:
         S='|'.join(CAMEL_ALGS),
@@ -493,6 +590,7 @@ rule run_kmer_camel:
             "{params.camel} -c -k {wildcards.k} {params.d_param} -p <(xzcat {input.fa}) -a {wildcards.S}" \\
             > {output.fa}
         """
+        #ln -s {output.fa} {output.fa2} #TODO: uncomment -- now commented out b/c I'd need recompute it...
 
 rule run_fmsi:
     input:
@@ -610,6 +708,136 @@ rule make_fmsi_stats:
         ) > {output.stats}
         """
 
+        
+
+rule run_FMSIv02:
+    input:
+        fa="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa",
+    output:
+        ac="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac",
+        ac_gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac_gt",
+        gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.gt",
+        mask="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.mask",
+        misc="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.misc",
+        log0=f"31_FMSIv02_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_{S}.k_{k}.d_{d}.t_index.log",
+    wildcard_constraints:
+        S='|'.join(CAMEL_ALGS),
+    params:
+        fmsi=FMSIv02,
+    priority: 150,
+    shell:
+        """
+        ../../scripts/benchmark.py --log "{output.log0}" \\
+            "{params.fmsi} index -p {input.fa}" # -k {wildcards.k}  -- doesn't work now, but FMSI can infer k from MS, so it's fine
+        """
+
+rule run_FMSIv02_query:
+    input:
+        fa="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa",
+        ac="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac",
+        ac_gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac_gt",
+        gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.gt",
+        mask="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.mask",
+        misc="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.misc",
+        q0="42_query_fastas/{g}.r_1.0.k_{k}-queries-noHeader.fa",
+        qPos="42_query_fastas/{g}.r_{r}.k_{k}-queries-noHeader.fa",
+        qNeg="42_query_fastas/{g}.k_{k}-queries-neg-noHeader.fa",
+    output:
+        log0=f"32_FMSIv02_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_{S}.k_{k}.d_{d}.t_0.log",
+        logPos=f"32_FMSIv02_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_{S}.k_{k}.d_{d}.t_Pos.log",
+        logNeg=f"32_FMSIv02_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_{S}.k_{k}.d_{d}.t_Neg.log",
+    wildcard_constraints:
+        S='|'.join(CAMEL_ALGS),
+    params:
+        fmsi=FMSIv02,
+    shell:
+        """
+        ../../scripts/benchmark.py --log "{output.log0}" \\
+            "{params.fmsi} query -k {wildcards.k} -p {input.fa} -q {input.q0} >/dev/null 2>/dev/null" 
+        ../../scripts/benchmark.py --log "{output.logPos}" \\
+            "{params.fmsi} query -k {wildcards.k} -p {input.fa} -q {input.qPos} >/dev/null 2>/dev/null" 
+        ../../scripts/benchmark.py --log "{output.logNeg}" \\
+            "{params.fmsi} query -k {wildcards.k} -p {input.fa} -q {input.qNeg} >/dev/null 2>/dev/null" 
+        """
+
+rule make_FMSIv02_stats:
+    input:
+        ac="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac",
+        ac_gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac_gt",
+        gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.gt",
+        mask="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.mask",
+        misc="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.misc",
+        kmerCnt="80_size_stats/{g}.r_{r}.k_{k}.kmerCount",
+    output:
+        stats=f"80_size_stats/{HOSTNAME}/" + "FMSIv02.{g}.r_{r}.S_{S}.k_{k}.d_{d}.stats.tsv"
+    params:
+        pref="FMSIv02.{g}.S_{S}.k_{k}.d_{d}",
+        num_queries=NUM_QUERIES,
+    priority: 50
+    shell:
+        """
+        (
+        #1
+        printf '%s\\t%s\\t%s\\t%s\\t%s\\t%s' genome rate I_alg S_alg k d
+        printf '\\t'
+
+        #2
+        printf '%s\\t%s\\t%s' kmer_count num_queries index_bytes
+        printf '\\t'
+
+        #3
+        #printf '%s\\t%s' build_time_s build_mem_kb
+        #printf '\\t'
+
+        #4
+        #printf '%s\\t%s' query_time_s query_mem_kb
+        #printf '\\t'
+
+        # final
+        printf '%s' pref
+        printf '\\n'
+
+
+        ##################################
+
+        #1
+        printf '%s\\t%s\\t%s\\t%s\\t%s\\t%s' \\
+            {wildcards.g} \\
+            {wildcards.r} \\
+            "FMSIv02" \\
+            {wildcards.S} \\
+            {wildcards.k} \\
+            {wildcards.d} 
+        printf '\\t'
+
+        #2
+        printf '%d\\t%d\\t%d' \\
+            $(cat {input.kmerCnt} | xargs echo) \\
+            {params.num_queries} \\
+            $(cat {input.ac} {input.ac_gt} {input.gt} {input.mask} {input.misc} | wc -c)
+        printf '\\t'
+        ac="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac",
+        ac_gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.ac_gt",
+        gt="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.gt",
+        mask="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.mask",
+        misc="30_FMSIv02_index/{g}.r_{r}.S_{S}.k_{k}.d_{d}.fa.fmsi.misc",
+
+        #3
+        #printf '%s\\t%s' \\
+        #printf '\\t'
+
+        #4
+        #printf '%s\\t%s' query_time_s query_mem_kb
+        #printf '\\t'
+
+        #final
+        printf '%s' \\
+            {params.pref}
+        printf '\\n'
+
+        ) > {output.stats}
+        """
+
 
 #####################################################################################################
 # RUN PROPHASM + PROPHEX or BWA
@@ -631,7 +859,7 @@ rule run_prophasm:
         """
         #xz -0 {params.tmpoutput}
 
-
+# NOTE: The copy is needed because of how BWA and ProPhex work
 rule cp_prophasm:
     input:
         fa="05_prophasm_prophex_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.fa",
@@ -810,26 +1038,149 @@ rule make_prophex_BWA_stats:
         ) > {output.stats}
         """
 
+#####################################################################################################
+# RUN SSHash on ProphAsm output
+#####################################################################################################
+
+def GetMinimizerLen4SSHash(wildcards): # TODO: check that this is reasonable choice
+    return int(wildcards.k)//2 + 1
+
+rule run_sshash:
+    input:
+        fa="05_prophasm_prophex_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.fa",
+    output:
+        index="25_sshash_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.sshash",
+        log0=f"26_sshash_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_prophasm.k_{k}.d_na.t_index.log",
+    params:
+        sshash=SSHASH,
+        tmpinput="25_sshash_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.fa",
+        minimizerLen=lambda wildcards: GetMinimizerLen4SSHash(wildcards),
+        seed=SSHASH_SEED,
+        l=SSHASH_L,
+    shell:
+        """
+        seqtk seq {input.fa} >{params.tmpinput}
+        ../../scripts/benchmark.py --log "{output.log0}" \\
+            "{params.sshash} build -i {params.tmpinput} -k {wildcards.k} -m {params.minimizerLen} -o {output.index} -s {params.seed} -l {params.l}"
+        rm {params.tmpinput}
+        """
+
+rule run_sshash_query:
+    input:
+        index="25_sshash_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.sshash",
+        q0="42_query_fastas/{g}.r_1.0.k_{k}-queries-wHeader.fa",
+        qPos="42_query_fastas/{g}.r_{r}.k_{k}-queries-wHeader.fa",
+        qNeg="42_query_fastas/{g}.k_{k}-queries-neg-wHeader.fa",
+    output:
+        log0=f"27_sshash_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_prophasm.k_{k}.d_na.t_0.log",
+        logPos=f"27_sshash_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_prophasm.k_{k}.d_na.t_Pos.log",
+        logNeg=f"27_sshash_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_prophasm.k_{k}.d_na.t_Neg.log",
+    params:
+        sshash=SSHASH,
+    shell:
+        """
+        ../../scripts/benchmark.py --log "{output.log0}" \\
+            "{params.sshash} query -i {input.index} -q {input.q0}"
+        ../../scripts/benchmark.py --log "{output.logPos}" \\
+            "{params.sshash} query -i {input.index} -q {input.qPos}"
+        ../../scripts/benchmark.py --log "{output.logNeg}" \\
+            "{params.sshash} query -i {input.index} -q {input.qNeg}"
+        """
+
+rule make_sshash_stats:
+    input:
+        index="25_sshash_index/{g}.r_{r}.S_prophasm.k_{k}.d_na.sshash",
+        kmerCnt="80_size_stats/{g}.r_{r}.k_{k}.kmerCount",
+    output:
+        stats=f"80_size_stats/{HOSTNAME}/" + "sshash.{g}.r_{r}.S_{S}.k_{k}.d_{d}.stats.tsv",
+    params:
+        pref="sshash.{g}.S_{S}.k_{k}.d_{d}",
+        num_queries=NUM_QUERIES,
+    priority: 50
+    shell:
+        """
+        (
+        #1
+        printf '%s\\t%s\\t%s\\t%s\\t%s\\t%s' genome rate I_alg S_alg k d
+        printf '\\t'
+
+        #2
+        printf '%s\\t%s\\t%s' kmer_count num_queries index_bytes
+        printf '\\t'
+
+        #3
+        #printf '%s\\t%s' build_time_s build_mem_kb
+        #printf '\\t'
+
+        #4
+        #printf '%s\\t%s' query_time_s query_mem_kb
+        #printf '\\t'
+
+        # final
+        printf '%s' pref
+        printf '\\n'
+
+
+        ##################################
+
+        #1
+        printf '%s\\t%s\\t%s\\t%s\\t%s\\t%s' \\
+            {wildcards.g} \\
+            {wildcards.r} \\
+            SSHash \\
+            {wildcards.S} \\
+            {wildcards.k} \\
+            {wildcards.d} 
+        printf '\\t'
+
+        #2
+        printf '%d\\t%d\\t%d' \\
+            $(cat {input.kmerCnt} | xargs echo) \\
+            {params.num_queries} \\
+            $(cat {input.index} | wc -c)
+        printf '\\t'
+
+        #3
+        #printf '%s\\t%s' \\
+        #printf '\\t'
+
+        #4
+        #printf '%s\\t%s' query_time_s query_mem_kb
+        #printf '\\t'
+
+        #final
+        printf '%s' \\
+            {params.pref}
+        printf '\\n'
+
+        ) > {output.stats}
+        """
+
 
 #####################################################################################################
 # RUN SBWT
 #####################################################################################################
 
 # Two variants
-# - d=0: with param. --add-reverse-complements, which handles reverse complements (RCs)
-# - d=1: without that param. but we query each k-mer and then its RC separately
+# - d=0: SBWT_VARIANT with param. --add-reverse-complements, which handles reverse complements (RCs)
+# - d=1: SBWT_VARIANT without that param. but we query each k-mer and then its RC separately
+# - d=2: SBWT_VARIANT_MEM param. --add-reverse-complements; this is supposed to be more memory efficient than the default variant but slower
 # Both need the same input file (uncompressed), so both are handled by this rule (can also separate jobs for both runs)
+# TODO: rewrite in a more generic way (based on param. d, determine the params for SBWT)
 rule build_sbwt:
     input:
         fa=f"{SUBSAMPLED_DIR}/" + "{g}_subsampled_k{k}_r{r}.fa.xz",
     output:
         sbwt="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_0.fa.sbwt",
         sbwt_noRCs="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_1.fa.sbwt",
+        sbwt_mem="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_2.fa.sbwt",
         log0=f"11_sbwt_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_0.t_index.log",
         log0_noRCs=f"11_sbwt_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_1.t_index.log",
+        log0_mem=f"11_sbwt_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_2.t_index.log",
     params:
         sbwt=SBWT,
         sbwtVariant=SBWT_VARIANT,
+        sbwtVariantMem=SBWT_VARIANT_MEM,
         threads=NUM_THREADS,
         memory=SBWT_RAM,
         tmpinput="10_sbwt_index/{g}_subsampled_k{k}_r{r}.fa",
@@ -839,10 +1190,13 @@ rule build_sbwt:
         mkdir -p {params.tmpdir}
         xzcat {input.fa} >{params.tmpinput}
         ../../scripts/benchmark.py --log "{output.log0}" \\
-            "{params.sbwt} build -k {wildcards.k} -t {params.threads} -m {params.memory} -d {params.tmpdir} -i {params.tmpinput} -o {output.sbwt} --add-reverse-complements --variant {params.sbwtVariant}"
+            "{params.sbwt} build -k {wildcards.k} -t {params.threads} -m {params.memory} -d {params.tmpdir} -i {params.tmpinput} -o {output.sbwt} --add-reverse-complements --variant {params.sbwtVariant} --no-streaming-support"
         rm -f {params.tmpdir}*
         ../../scripts/benchmark.py --log "{output.log0_noRCs}" \\
-            "{params.sbwt} build -k {wildcards.k} -t {params.threads} -m {params.memory} -d {params.tmpdir} -i {params.tmpinput} -o {output.sbwt_noRCs} --variant {params.sbwtVariant}"
+            "{params.sbwt} build -k {wildcards.k} -t {params.threads} -m {params.memory} -d {params.tmpdir} -i {params.tmpinput} -o {output.sbwt_noRCs} --variant {params.sbwtVariant} --no-streaming-support"
+        rm -f {params.tmpdir}*
+        ../../scripts/benchmark.py --log "{output.log0_mem}" \\
+            "{params.sbwt} build -k {wildcards.k} -t {params.threads} -m {params.memory} -d {params.tmpdir} -i {params.tmpinput} -o {output.sbwt_mem} --add-reverse-complements --variant {params.sbwtVariantMem} --no-streaming-support"
         rm -rf {params.tmpdir}
         rm -f {params.tmpinput}
         """
@@ -851,6 +1205,7 @@ rule run_sbwt_query:
     input:
         sbwt="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_0.fa.sbwt",
         sbwt_noRCs="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_1.fa.sbwt",
+        sbwt_mem="10_sbwt_index/{g}.r_{r}.S_none.k_{k}.d_2.fa.sbwt",
         q0="42_query_fastas/{g}.r_1.0.k_{k}-queries-wHeader.fa",
         q0_wRCs="42_query_fastas/{g}.r_1.0.k_{k}-queries-wHeader-wRCs.fa",
         qPos="42_query_fastas/{g}.r_{r}.k_{k}-queries-wHeader.fa",
@@ -860,24 +1215,35 @@ rule run_sbwt_query:
     output:
         log0=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_0.t_0.log",
         log0_noRCs=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_1.t_0.log",
+        log0_mem=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_2.t_0.log",
         logPos=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_0.t_Pos.log",
         logPos_noRCs=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_1.t_Pos.log",
+        logPos_mem=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_2.t_Pos.log",
         logNeg=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_0.t_Neg.log",
         logNeg_noRCs=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_1.t_Neg.log",
+        logNeg_mem=f"12_sbwt_query_memtime/{HOSTNAME}/" + "{g}.r_{r}.S_none.k_{k}.d_2.t_Neg.log",
     params:
         sbwt=SBWT,
     shell:
         """
         ../../scripts/benchmark.py --log "{output.log0}" \\
             "{params.sbwt} search -i {input.sbwt} -q {input.q0} -o /dev/null"
+        ../../scripts/benchmark.py --log "{output.log0_mem}" \\
+            "{params.sbwt} search -i {input.sbwt_mem} -q {input.q0} -o /dev/null"
         ../../scripts/benchmark.py --log "{output.log0_noRCs}" \\
             "{params.sbwt} search -i {input.sbwt_noRCs} -q {input.q0_wRCs} -o /dev/null"
+        
         ../../scripts/benchmark.py --log "{output.logPos}" \\
             "{params.sbwt} search -i {input.sbwt} -q {input.qPos} -o /dev/null"
+        ../../scripts/benchmark.py --log "{output.logPos_mem}" \\
+            "{params.sbwt} search -i {input.sbwt_mem} -q {input.qPos} -o /dev/null"
         ../../scripts/benchmark.py --log "{output.logPos_noRCs}" \\
             "{params.sbwt} search -i {input.sbwt_noRCs} -q {input.qPos_wRCs} -o /dev/null"
+        
         ../../scripts/benchmark.py --log "{output.logNeg}" \\
             "{params.sbwt} search -i {input.sbwt} -q {input.qNeg} -o /dev/null"
+        ../../scripts/benchmark.py --log "{output.logNeg_mem}" \\
+            "{params.sbwt} search -i {input.sbwt_mem} -q {input.qNeg} -o /dev/null"
         ../../scripts/benchmark.py --log "{output.logNeg_noRCs}" \\
             "{params.sbwt} search -i {input.sbwt_noRCs} -q {input.qNeg_wRCs} -o /dev/null"
         """

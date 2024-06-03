@@ -10,9 +10,9 @@ h=$(shell hostname)
 $(info Hostname $h)
 
 all: #build_programs
-	snakemake -p -j 4 --rerun-incomplete --scheduler greedy --keep-going
+	snakemake -p -j 6 --rerun-incomplete --scheduler greedy --keep-going --rerun-triggers mtime
 
-build_programs:
+build_programs: #TODO: update
 	$(MAKE) -C ../../kmercamel
 	$(MAKE) -C ../../prophasm
 	$(MAKE) -C ../../prophex
