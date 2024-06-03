@@ -16,3 +16,6 @@
 [submodule "CBL"]
 	path = CBL
 	url = git@github.com:imartayan/CBL.git
+[submodule "sshash"]
+	path = sshash
+	url = https://github.com/jermp/sshash
