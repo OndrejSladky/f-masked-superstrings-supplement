@@ -19,3 +19,6 @@
 [submodule "sshash"]
 	path = sshash
 	url = https://github.com/jermp/sshash
+[submodule "FMSIv0.2"]
+	path = FMSIv0.2
+	url = git@github.com:OndrejSladky/fmsi.git
