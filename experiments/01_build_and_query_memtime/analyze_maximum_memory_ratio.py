@@ -2,7 +2,7 @@
 
 data = {}
 
-for line in open('exp_01_build_index_results.kamenac.tsv'):
+for line in open('99_results/exp_01_build_index_results.kamenac.tsv'):
     if 'num_queries' in line:
         continue
     s = line.strip().split('\t')

@@ -68,7 +68,7 @@ Specifically we have used the global and local (with $d_{max}=1$) greedy algorit
 For generating negative membership queries to these datasets, we used a 2MB prefix of the FASTA file for chromosome 1 of *H. sapiens* genome (`GRCh38.p14 Primary Assembly`, `NC_000001.11`), downloaded from [NCBI](https://www.ncbi.nlm.nih.gov); see  [data/GRCh38.p14.chromosome1.prefix2M.fasta.xz](data/GRCh38.p14.chromosome1.prefix2M.fasta.xz)
 
 
-### Reproducing expeimental results
+### Reproducing experimental results
 
 After cloning this repository, run the following to download all the dependencies.
 
@@ -96,6 +96,12 @@ Notes:
 - Since the resulting TSV tables are already in the repository, one needs to (re)move them to run the experiments.
 - The number of cores provided to Snakemake can be changed in the Makefile (currently we use 4).
 - The evaluated values of *k*, subsampling rates *r*, and datasets can all be changed in the [Snakefile](experiments/01_build_and_query_memtime/Snakefile).
+
+#### Maximum memory ratio
+
+In the article we claim that FMSI achieved 1.4-4.5 memory saving compared to SSHash, SBWT, BWA, and CBL on the evaluated datasets.
+
+To reproduce this, run `python3 experiments/01_build_and_query_memtime/analyze_maximum_memory_ratio.py`, which displays minimum, maximum and median values of the ratio across the data for the different algorithms.
 
 #### Experimental evaluation of set operations
 
