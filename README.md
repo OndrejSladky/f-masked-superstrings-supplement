@@ -1,7 +1,6 @@
-# Towards Efficient k-Mer Set Operations via Function-Assigned Masked Superstrings - supplementary materials
+# Towards Efficient *k*-Mer Set Operations via Function-Assigned Masked Superstrings - supplementary materials
 
-Here we provide supplementary materials for the paper *Towards Efficient k-Mer Set Operations via1
-Function-Assigned Masked Superstrings*, including the data sets used and experimental pipelines.
+Here we provide supplementary materials for the paper *Towards Efficient k-Mer Set Operations via Function-Assigned Masked Superstrings*, including the data sets used and experimental pipelines.
 
 ### Citation
 
@@ -34,7 +33,7 @@ masked superstrings such as normalization, export and merging, which can be used
 
 ### Used $f$-masked superstrings computed by KmerCamel🐫
 To compute the $f$-masked superstrings used for representing the $k$-mer sets, we used [KmerCamel🐫](tps://github.com/OndrejSladky/kmercamel)  (see also the [masked superstrings paper](https://doi.org/10.1101/2023.02.01.526717)).
-Specifically we have used the global and local (with $d_{max}=1$) greedy algorithms.
+Specifically we have used the (default) global greedy algorithm .
 
 ## Experimental evaluation
 
@@ -68,7 +67,7 @@ cd experiments/set_operations
 python3 run_experiments.py
 ```
 
-The input files can possibly be changed in `run_experiments.py` (variables `file1` and `file2` on lines 7 and 8, resp.). The values of *k* tested can be changed in line 123, and the datasets are specified on line 9.
+The input files can possibly be changed in `run_experiments.py` (variables `file1` and `file2` on lines 9 and 10, resp.). The values of *k* tested can be changed in line 123.
 
 To evaluate the performance of CBL on the datasets, go to directory `experiments/set_operations` and run `./run_cbl.sh C.briggsae.fna C.elegans.fna <k>`, which generates log files from `/usr/bin/time` on Linux (or `gtime` on the darwin platform)
 
