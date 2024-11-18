@@ -64,19 +64,19 @@ decompress [data/C.elegans.fna.xz](data/C.elegans.fna.xz) and [data/C.briggsae.f
 and run the following (it requires to have Jellyfish 2 (v2.2.10) installed)
 
 ```bash
-cd experiments/02_set_operations
+cd experiments/set_operations
 python3 run_experiments.py
 ```
 
 The input files can possibly be changed in `run_experiments.py` (variables `file1` and `file2` on lines 7 and 8, resp.). The values of *k* tested can be changed in line 123, and the datasets are specified on line 9.
 
-To evaluate the performance of CBL on the datasets, go to directory `experiments/02_set_operations` and run `./run_cbl.sh C.briggsae.fna C.elegans.fna <k>`, which generates log files from `/usr/bin/time` on Linux (or `gtime` on the darwin platform)
+To evaluate the performance of CBL on the datasets, go to directory `experiments/set_operations` and run `./run_cbl.sh C.briggsae.fna C.elegans.fna <k>`, which generates log files from `/usr/bin/time` on Linux (or `gtime` on the darwin platform)
 
 ## Figures
 
 ### Fig. 1 - Experiment on set operations
 
-The data for the figure were taken from [experiments/02_set_operations/results-roundworms.csv](experiments/02_set_operations/results-roundworms.csv), computed on *C. elegans* and *C. briggsae* genomes.
+The data for the figure were taken from [experiments/set_operations/results-roundworms.csv](experiments/set_operations/results-roundworms.csv), computed on *C. elegans* and *C. briggsae* genomes.
 
 ## Contact
 
