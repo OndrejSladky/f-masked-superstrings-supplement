@@ -1,24 +1,12 @@
 [submodule "kmercamel"]
 	path = kmercamel
 	url = git@github.com:OndrejSladky/kmercamel.git
-[submodule "prophasm"]
-	path = prophasm
-	url = git@github.com:prophyle/prophasm.git
-[submodule "SBWT"]
-	path = SBWT
-	url = git@github.com:algbio/SBWT.git
-[submodule "bwa"]
-	path = bwa
-	url = git@github.com:lh3/bwa.git
 [submodule "fmsi"]
 	path = fmsi
 	url = git@github.com:OndrejSladky/fmsi.git
 [submodule "CBL"]
 	path = CBL
 	url = git@github.com:imartayan/CBL.git
-[submodule "sshash"]
-	path = sshash
-	url = https://github.com/jermp/sshash
 [submodule "FMSIv0.2"]
 	path = FMSIv0.2
 	url = git@github.com:OndrejSladky/fmsi.git
