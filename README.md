@@ -69,7 +69,7 @@ python3 run_experiments.py
 
 The input files can possibly be changed in `run_experiments.py` (variables `file1` and `file2` on lines 9 and 10, resp.). The values of *k* tested can be changed in line 123.
 
-To evaluate the performance of CBL on the datasets, go to directory `experiments/set_operations` and run `./run_cbl.sh C.briggsae.fna C.elegans.fna <k>`, which generates log files from `/usr/bin/time` on Linux (or `gtime` on the darwin platform)
+To evaluate the performance of CBL on the datasets, go to directory `experiments/set_operations` and run `./run_cbl.sh C.briggsae.fna C.elegans.fna <k>`, which generates log files into director CBL-logs/ from `/usr/bin/time` on Linux (or `gtime` on the darwin platform)
 
 ## Figures
 
