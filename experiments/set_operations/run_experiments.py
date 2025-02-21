@@ -121,7 +121,6 @@ with open("results-roundworms.csv", "w") as output:
 
     K_VALS = list(range(17, 23, 2))
     K_VALS.append(31)
-    K_VALS = [15]
     for k in K_VALS:
         print(f"Running k={k}")
         kmers = count_kmers(file1, file2, k)
