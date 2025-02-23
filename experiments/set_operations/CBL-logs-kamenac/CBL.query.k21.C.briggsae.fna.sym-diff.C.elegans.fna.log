@@ -1,0 +1,3 @@
+# Benchmarking command: ../../CBL/target.k_21/release/examples/cbl query C.briggsae.fna.sym-diff.C.elegans.fna.cbl query.21.fa
+real(s)	sys(s)	user(s)	percent_CPU	max_RAM(kb)	FS_inputs	FS_outputs	elapsed_time_alt(s)
+6.05	0.71	5.33	99%	1330480	0	0	6.056723

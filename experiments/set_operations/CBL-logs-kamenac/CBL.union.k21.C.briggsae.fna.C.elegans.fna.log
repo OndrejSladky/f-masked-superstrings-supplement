@@ -1,0 +1,3 @@
+# Benchmarking command: ../../CBL/target.k_21/release/examples/cbl merge -o C.briggsae.fna.union.C.elegans.fna.cbl C.briggsae.fna.cbl C.elegans.fna.cbl
+real(s)	sys(s)	user(s)	percent_CPU	max_RAM(kb)	FS_inputs	FS_outputs	elapsed_time_alt(s)
+22.01	3.02	18.50	97%	2493448	72	1637040	22.023972
